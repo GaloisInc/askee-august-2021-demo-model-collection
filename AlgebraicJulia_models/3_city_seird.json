@@ -1,7 +1,7 @@
 {
   "junctions": [
     {
-      "value_type": "T:Integer",
+      "value_type": "Integer",
       "name": "S_1",
       "uid": "J:S_1",
       "metadata": null,
@@ -10,7 +10,7 @@
       "syntax": "Junction"
     },
     {
-      "value_type": "T:Integer",
+      "value_type": "Integer",
       "name": "E_1",
       "uid": "J:E_1",
       "metadata": null,
@@ -19,7 +19,7 @@
       "syntax": "Junction"
     },
     {
-      "value_type": "T:Integer",
+      "value_type": "Integer",
       "name": "I_1",
       "uid": "J:I_1",
       "metadata": null,
@@ -28,7 +28,7 @@
       "syntax": "Junction"
     },
     {
-      "value_type": "T:Integer",
+      "value_type": "Integer",
       "name": "R_1",
       "uid": "J:R_1",
       "metadata": null,
@@ -37,7 +37,7 @@
       "syntax": "Junction"
     },
     {
-      "value_type": "T:Integer",
+      "value_type": "Integer",
       "name": "D_1",
       "uid": "J:D_1",
       "metadata": null,
@@ -46,7 +46,7 @@
       "syntax": "Junction"
     },
     {
-      "value_type": "T:Integer",
+      "value_type": "Integer",
       "name": "S_2",
       "uid": "J:S_2",
       "metadata": null,
@@ -55,7 +55,7 @@
       "syntax": "Junction"
     },
     {
-      "value_type": "T:Integer",
+      "value_type": "Integer",
       "name": "E_2",
       "uid": "J:E_2",
       "metadata": null,
@@ -64,7 +64,7 @@
       "syntax": "Junction"
     },
     {
-      "value_type": "T:Integer",
+      "value_type": "Integer",
       "name": "I_2",
       "uid": "J:I_2",
       "metadata": null,
@@ -73,7 +73,7 @@
       "syntax": "Junction"
     },
     {
-      "value_type": "T:Integer",
+      "value_type": "Integer",
       "name": "R_2",
       "uid": "J:R_2",
       "metadata": null,
@@ -82,7 +82,7 @@
       "syntax": "Junction"
     },
     {
-      "value_type": "T:Integer",
+      "value_type": "Integer",
       "name": "D_2",
       "uid": "J:D_2",
       "metadata": null,
@@ -91,7 +91,7 @@
       "syntax": "Junction"
     },
     {
-      "value_type": "T:Integer",
+      "value_type": "Integer",
       "name": "S_3",
       "uid": "J:S_3",
       "metadata": null,
@@ -100,7 +100,7 @@
       "syntax": "Junction"
     },
     {
-      "value_type": "T:Integer",
+      "value_type": "Integer",
       "name": "E_3",
       "uid": "J:E_3",
       "metadata": null,
@@ -109,7 +109,7 @@
       "syntax": "Junction"
     },
     {
-      "value_type": "T:Integer",
+      "value_type": "Integer",
       "name": "I_3",
       "uid": "J:I_3",
       "metadata": null,
@@ -118,7 +118,7 @@
       "syntax": "Junction"
     },
     {
-      "value_type": "T:Integer",
+      "value_type": "Integer",
       "name": "R_3",
       "uid": "J:R_3",
       "metadata": null,
@@ -127,7 +127,7 @@
       "syntax": "Junction"
     },
     {
-      "value_type": "T:Integer",
+      "value_type": "Integer",
       "name": "D_3",
       "uid": "J:D_3",
       "metadata": null,
@@ -136,7 +136,7 @@
       "syntax": "Junction"
     },
     {
-      "value_type": "T:Float",
+      "value_type": "Float",
       "name": "inf_1",
       "uid": "J:inf_1",
       "metadata": null,
@@ -145,7 +145,7 @@
       "syntax": "Junction"
     },
     {
-      "value_type": "T:Float",
+      "value_type": "Float",
       "name": "rec_1",
       "uid": "J:rec_1",
       "metadata": null,
@@ -154,7 +154,7 @@
       "syntax": "Junction"
     },
     {
-      "value_type": "T:Float",
+      "value_type": "Float",
       "name": "exp_1",
       "uid": "J:exp_1",
       "metadata": null,
@@ -163,7 +163,7 @@
       "syntax": "Junction"
     },
     {
-      "value_type": "T:Float",
+      "value_type": "Float",
       "name": "death_1",
       "uid": "J:death_1",
       "metadata": null,
@@ -172,7 +172,7 @@
       "syntax": "Junction"
     },
     {
-      "value_type": "T:Float",
+      "value_type": "Float",
       "name": "inf_2",
       "uid": "J:inf_2",
       "metadata": null,
@@ -181,7 +181,7 @@
       "syntax": "Junction"
     },
     {
-      "value_type": "T:Float",
+      "value_type": "Float",
       "name": "rec_2",
       "uid": "J:rec_2",
       "metadata": null,
@@ -190,7 +190,7 @@
       "syntax": "Junction"
     },
     {
-      "value_type": "T:Float",
+      "value_type": "Float",
       "name": "exp_2",
       "uid": "J:exp_2",
       "metadata": null,
@@ -199,7 +199,7 @@
       "syntax": "Junction"
     },
     {
-      "value_type": "T:Float",
+      "value_type": "Float",
       "name": "death_2",
       "uid": "J:death_2",
       "metadata": null,
@@ -208,7 +208,7 @@
       "syntax": "Junction"
     },
     {
-      "value_type": "T:Float",
+      "value_type": "Float",
       "name": "inf_3",
       "uid": "J:inf_3",
       "metadata": null,
@@ -217,7 +217,7 @@
       "syntax": "Junction"
     },
     {
-      "value_type": "T:Float",
+      "value_type": "Float",
       "name": "rec_3",
       "uid": "J:rec_3",
       "metadata": null,
@@ -226,7 +226,7 @@
       "syntax": "Junction"
     },
     {
-      "value_type": "T:Float",
+      "value_type": "Float",
       "name": "exp_3",
       "uid": "J:exp_3",
       "metadata": null,
@@ -235,7 +235,7 @@
       "syntax": "Junction"
     },
     {
-      "value_type": "T:Float",
+      "value_type": "Float",
       "name": "death_3",
       "uid": "J:death_3",
       "metadata": null,
@@ -244,7 +244,7 @@
       "syntax": "Junction"
     },
     {
-      "value_type": "T:Float",
+      "value_type": "Float",
       "name": "diff_S_1→2",
       "uid": "J:diff_S_1→2",
       "metadata": null,
@@ -253,7 +253,7 @@
       "syntax": "Junction"
     },
     {
-      "value_type": "T:Float",
+      "value_type": "Float",
       "name": "diff_E_1→2",
       "uid": "J:diff_E_1→2",
       "metadata": null,
@@ -262,7 +262,7 @@
       "syntax": "Junction"
     },
     {
-      "value_type": "T:Float",
+      "value_type": "Float",
       "name": "diff_I_1→2",
       "uid": "J:diff_I_1→2",
       "metadata": null,
@@ -271,7 +271,7 @@
       "syntax": "Junction"
     },
     {
-      "value_type": "T:Float",
+      "value_type": "Float",
       "name": "diff_R_1→2",
       "uid": "J:diff_R_1→2",
       "metadata": null,
@@ -280,7 +280,7 @@
       "syntax": "Junction"
     },
     {
-      "value_type": "T:Float",
+      "value_type": "Float",
       "name": "diff_S_2→1",
       "uid": "J:diff_S_2→1",
       "metadata": null,
@@ -289,7 +289,7 @@
       "syntax": "Junction"
     },
     {
-      "value_type": "T:Float",
+      "value_type": "Float",
       "name": "diff_E_2→1",
       "uid": "J:diff_E_2→1",
       "metadata": null,
@@ -298,7 +298,7 @@
       "syntax": "Junction"
     },
     {
-      "value_type": "T:Float",
+      "value_type": "Float",
       "name": "diff_I_2→1",
       "uid": "J:diff_I_2→1",
       "metadata": null,
@@ -307,7 +307,7 @@
       "syntax": "Junction"
     },
     {
-      "value_type": "T:Float",
+      "value_type": "Float",
       "name": "diff_R_2→1",
       "uid": "J:diff_R_2→1",
       "metadata": null,
@@ -316,7 +316,7 @@
       "syntax": "Junction"
     },
     {
-      "value_type": "T:Float",
+      "value_type": "Float",
       "name": "diff_S_2→3",
       "uid": "J:diff_S_2→3",
       "metadata": null,
@@ -325,7 +325,7 @@
       "syntax": "Junction"
     },
     {
-      "value_type": "T:Float",
+      "value_type": "Float",
       "name": "diff_E_2→3",
       "uid": "J:diff_E_2→3",
       "metadata": null,
@@ -334,7 +334,7 @@
       "syntax": "Junction"
     },
     {
-      "value_type": "T:Float",
+      "value_type": "Float",
       "name": "diff_I_2→3",
       "uid": "J:diff_I_2→3",
       "metadata": null,
@@ -343,7 +343,7 @@
       "syntax": "Junction"
     },
     {
-      "value_type": "T:Float",
+      "value_type": "Float",
       "name": "diff_R_2→3",
       "uid": "J:diff_R_2→3",
       "metadata": null,
@@ -352,7 +352,7 @@
       "syntax": "Junction"
     },
     {
-      "value_type": "T:Float",
+      "value_type": "Float",
       "name": "diff_S_3→2",
       "uid": "J:diff_S_3→2",
       "metadata": null,
@@ -361,7 +361,7 @@
       "syntax": "Junction"
     },
     {
-      "value_type": "T:Float",
+      "value_type": "Float",
       "name": "diff_E_3→2",
       "uid": "J:diff_E_3→2",
       "metadata": null,
@@ -370,7 +370,7 @@
       "syntax": "Junction"
     },
     {
-      "value_type": "T:Float",
+      "value_type": "Float",
       "name": "diff_I_3→2",
       "uid": "J:diff_I_3→2",
       "metadata": null,
@@ -379,7 +379,7 @@
       "syntax": "Junction"
     },
     {
-      "value_type": "T:Float",
+      "value_type": "Float",
       "name": "diff_R_3→2",
       "uid": "J:diff_R_3→2",
       "metadata": null,
