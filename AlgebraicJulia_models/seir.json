@@ -37,7 +37,7 @@
       "syntax": "Junction"
     },
     {
-      "value_type": "Real",
+      "value_type": "Float",
       "name": "inf",
       "uid": "J:inf",
       "metadata": null,
@@ -46,7 +46,7 @@
       "syntax": "Junction"
     },
     {
-      "value_type": "Real",
+      "value_type": "Float",
       "name": "rec",
       "uid": "J:rec",
       "metadata": null,
@@ -55,7 +55,7 @@
       "syntax": "Junction"
     },
     {
-      "value_type": "Real",
+      "value_type": "Float",
       "name": "exp",
       "uid": "J:exp",
       "metadata": null,
@@ -191,7 +191,35 @@
     }
   ],
   "ports": null,
-  "metadata": null,
+  "metadata": {
+    "provenance": {
+      "method": "FromPNC_baas@gt",
+      "timestamp": "2021-07-07T12:55:057440_UTC-0000",
+      "metadata_type": "Provenance"
+    },
+    "variables": [
+      "J:S",
+      "J:E",
+      "J:I",
+      "J:R",
+      "J:inf",
+      "J:rec",
+      "J:exp"
+    ],
+    "parameters": [
+      "J:inf",
+      "J:rec",
+      "J:exp"
+    ],
+    "uid": "SimpleSEIR_PNC_model_interface",
+    "metadata_type": "ModelInterface",
+    "initial_conditions": [
+      "J:S",
+      "J:E",
+      "J:I",
+      "J:R"
+    ]
+  },
   "type": "PetriNetClassic",
   "syntax": "Gromet"
 }

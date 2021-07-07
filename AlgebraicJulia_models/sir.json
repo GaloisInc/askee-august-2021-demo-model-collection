@@ -28,18 +28,9 @@
       "syntax": "Junction"
     },
     {
-      "value_type": "Integer",
-      "name": "D",
-      "uid": "J:D",
-      "metadata": null,
-      "value": null,
-      "type": "State",
-      "syntax": "Junction"
-    },
-    {
       "value_type": "Float",
-      "name": "inf",
-      "uid": "J:inf",
+      "name": "beta",
+      "uid": "J:beta",
       "metadata": null,
       "value": null,
       "type": "Rate",
@@ -47,42 +38,22 @@
     },
     {
       "value_type": "Float",
-      "name": "rec",
-      "uid": "J:rec",
-      "metadata": null,
-      "value": null,
-      "type": "Rate",
-      "syntax": "Junction"
-    },
-    {
-      "value_type": "Float",
-      "name": "death",
-      "uid": "J:death",
+      "name": "gamma",
+      "uid": "J:gamma",
       "metadata": null,
       "value": null,
       "type": "Rate",
       "syntax": "Junction"
     }
   ],
-  "root": "B:SimpleSIRD",
+  "root": "B:SimpleSIR",
   "wires": [
     {
       "value_type": null,
       "name": null,
-      "uid": "W:I.inf",
-      "src": "J:I",
-      "tgt": "J:inf",
-      "metadata": null,
-      "value": null,
-      "type": null,
-      "syntax": "Wire"
-    },
-    {
-      "value_type": null,
-      "name": null,
-      "uid": "W:S.inf",
+      "uid": "W:S.beta",
       "src": "J:S",
-      "tgt": "J:inf",
+      "tgt": "J:beta",
       "metadata": null,
       "value": null,
       "type": null,
@@ -91,9 +62,9 @@
     {
       "value_type": null,
       "name": null,
-      "uid": "W:I.rec",
+      "uid": "W:I.beta",
       "src": "J:I",
-      "tgt": "J:rec",
+      "tgt": "J:beta",
       "metadata": null,
       "value": null,
       "type": null,
@@ -102,9 +73,9 @@
     {
       "value_type": null,
       "name": null,
-      "uid": "W:I.death",
+      "uid": "W:I.gamma",
       "src": "J:I",
-      "tgt": "J:death",
+      "tgt": "J:gamma",
       "metadata": null,
       "value": null,
       "type": null,
@@ -113,8 +84,8 @@
     {
       "value_type": null,
       "name": null,
-      "uid": "W:inf.I",
-      "src": "J:inf",
+      "uid": "W:beta.I",
+      "src": "J:beta",
       "tgt": "J:I",
       "metadata": null,
       "value": null,
@@ -124,8 +95,8 @@
     {
       "value_type": null,
       "name": null,
-      "uid": "W:inf.I_0",
-      "src": "J:inf",
+      "uid": "W:beta.I_0",
+      "src": "J:beta",
       "tgt": "J:I",
       "metadata": null,
       "value": null,
@@ -135,20 +106,9 @@
     {
       "value_type": null,
       "name": null,
-      "uid": "W:rec.R",
-      "src": "J:rec",
+      "uid": "W:gamma.R",
+      "src": "J:gamma",
       "tgt": "J:R",
-      "metadata": null,
-      "value": null,
-      "type": null,
-      "syntax": "Wire"
-    },
-    {
-      "value_type": null,
-      "name": null,
-      "uid": "W:death.D",
-      "src": "J:death",
-      "tgt": "J:D",
       "metadata": null,
       "value": null,
       "type": null,
@@ -156,37 +116,33 @@
     }
   ],
   "types": null,
-  "name": "SimpleSIRD",
+  "name": "SimpleSIR",
   "variables": null,
   "literals": null,
-  "uid": "SimpleSIRDPetriNetClassic",
+  "uid": "SimpleSIRPetriNetClassic",
   "boxes": [
     {
       "junctions": [
         "J:S",
         "J:I",
         "J:R",
-        "J:D",
-        "J:inf",
-        "J:rec",
-        "J:death"
+        "J:beta",
+        "J:gamma"
       ],
       "syntax": "Relation",
-      "name": "SimpleSIRD",
-      "uid": "B:SimpleSIRD",
+      "name": "SimpleSIR",
+      "uid": "B:SimpleSIR",
       "ports": null,
       "boxes": null,
       "metadata": null,
       "type": null,
       "wires": [
-        "W:I.inf",
-        "W:S.inf",
-        "W:I.rec",
-        "W:I.death",
-        "W:inf.I",
-        "W:inf.I_0",
-        "W:rec.R",
-        "W:death.D"
+        "W:S.beta",
+        "W:I.beta",
+        "W:I.gamma",
+        "W:beta.I",
+        "W:beta.I_0",
+        "W:gamma.R"
       ]
     }
   ],
@@ -194,30 +150,26 @@
   "metadata": {
     "provenance": {
       "method": "FromPNC_baas@gt",
-      "timestamp": "2021-07-07T12:55:057410_UTC-0000",
+      "timestamp": "2021-07-07T12:55:050670_UTC-0000",
       "metadata_type": "Provenance"
     },
     "variables": [
       "J:S",
       "J:I",
       "J:R",
-      "J:D",
-      "J:inf",
-      "J:rec",
-      "J:death"
+      "J:beta",
+      "J:gamma"
     ],
     "parameters": [
-      "J:inf",
-      "J:rec",
-      "J:death"
+      "J:beta",
+      "J:gamma"
     ],
-    "uid": "SimpleSIRD_PNC_model_interface",
+    "uid": "SimpleSIR_PNC_model_interface",
     "metadata_type": "ModelInterface",
     "initial_conditions": [
       "J:S",
       "J:I",
-      "J:R",
-      "J:D"
+      "J:R"
     ]
   },
   "type": "PetriNetClassic",
