@@ -147,31 +147,33 @@
     }
   ],
   "ports": null,
-  "metadata": {
-    "provenance": {
-      "method": "FromPNC_baas@gt",
-      "timestamp": "2021-07-07T12:55:050670_UTC-0000",
-      "metadata_type": "Provenance"
-    },
-    "variables": [
-      "J:S",
-      "J:I",
-      "J:R",
-      "J:beta",
-      "J:gamma"
-    ],
-    "parameters": [
-      "J:beta",
-      "J:gamma"
-    ],
-    "uid": "SimpleSIR_PNC_model_interface",
-    "metadata_type": "ModelInterface",
-    "initial_conditions": [
-      "J:S",
-      "J:I",
-      "J:R"
-    ]
-  },
+  "metadata": [
+    {
+      "provenance": {
+        "method": "FromPNC_baas@gt",
+        "timestamp": "2021-07-07T15:27:478290_UTC-0000",
+        "metadata_type": "Provenance"
+      },
+      "variables": [
+        "J:S",
+        "J:I",
+        "J:R",
+        "J:beta",
+        "J:gamma"
+      ],
+      "parameters": [
+        "J:beta",
+        "J:gamma"
+      ],
+      "uid": "SimpleSIR_PNC_model_interface",
+      "metadata_type": "ModelInterface",
+      "initial_conditions": [
+        "J:S",
+        "J:I",
+        "J:R"
+      ]
+    }
+  ],
   "type": "PetriNetClassic",
   "syntax": "Gromet"
 }

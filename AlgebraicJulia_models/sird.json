@@ -191,35 +191,37 @@
     }
   ],
   "ports": null,
-  "metadata": {
-    "provenance": {
-      "method": "FromPNC_baas@gt",
-      "timestamp": "2021-07-07T12:55:057410_UTC-0000",
-      "metadata_type": "Provenance"
-    },
-    "variables": [
-      "J:S",
-      "J:I",
-      "J:R",
-      "J:D",
-      "J:inf",
-      "J:rec",
-      "J:death"
-    ],
-    "parameters": [
-      "J:inf",
-      "J:rec",
-      "J:death"
-    ],
-    "uid": "SimpleSIRD_PNC_model_interface",
-    "metadata_type": "ModelInterface",
-    "initial_conditions": [
-      "J:S",
-      "J:I",
-      "J:R",
-      "J:D"
-    ]
-  },
+  "metadata": [
+    {
+      "provenance": {
+        "method": "FromPNC_baas@gt",
+        "timestamp": "2021-07-07T15:27:484320_UTC-0000",
+        "metadata_type": "Provenance"
+      },
+      "variables": [
+        "J:S",
+        "J:I",
+        "J:R",
+        "J:D",
+        "J:inf",
+        "J:rec",
+        "J:death"
+      ],
+      "parameters": [
+        "J:inf",
+        "J:rec",
+        "J:death"
+      ],
+      "uid": "SimpleSIRD_PNC_model_interface",
+      "metadata_type": "ModelInterface",
+      "initial_conditions": [
+        "J:S",
+        "J:I",
+        "J:R",
+        "J:D"
+      ]
+    }
+  ],
   "type": "PetriNetClassic",
   "syntax": "Gromet"
 }
