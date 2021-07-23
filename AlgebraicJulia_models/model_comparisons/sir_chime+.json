@@ -1,0 +1,21 @@
+{
+  "apex": "SimpleSIR_PetriNetClassic",
+  "legs": {
+    "SimpleChime+PetriNetClassic": [
+      {
+        "J:gamma": "J:rec_u",
+        "J:I": "J:I_U",
+        "J:R": "J:R",
+        "J:S": "J:S",
+        "J:beta": "J:inf_uu"
+      },
+      {
+        "J:gamma": "J:rec_v",
+        "J:I": "J:I_V",
+        "J:R": "J:R",
+        "J:S": "J:V",
+        "J:beta": "J:inf_vv"
+      }
+    ]
+  }
+}
