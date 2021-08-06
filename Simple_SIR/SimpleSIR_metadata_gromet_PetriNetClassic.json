@@ -3,6 +3,17 @@
   "type": "PetriNetClassic",
   "name": "SimpleSIR_metadata",
   "metadata": [
+  	{
+  		"metadata_type": "ModelDescription",
+  		"uid": "simple_sir_model_description",
+  		"provenance": {
+  			"metadata_type": "Provenance",
+        "method": "Manual_claytonm@az",
+        "timestamp": "2021-06-23T09:38:34:684350_MST-0700"
+  		},
+  		"name": "The SIR Model without vital dynamics",
+  		"description": "The Simple SIR model is a simplified implementation of a compartmental model for modeling infectious disease. The population is assigned to compartments with labels – for example, S, I, or R, (Susceptible, Infectious, or Recovered). This model is implemented using simple ordinary differential equations, representing deterministic dynamics."
+  	},
     {
       "metadata_type": "ModelInterface",
       "uid": "simple_sir_PNC_model_interface",
