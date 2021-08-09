@@ -2,9 +2,19 @@
   "junctions": [
     {
       "value_type": "Float",
-      "name": "S",
+      "name": "Susceptible",
       "uid": "J:S",
-      "metadata": null,
+      "metadata": [
+        {
+        "uid": "S_md",
+        "metadata_type": "JunctionDescription",
+        "description": "Susceptible population",
+        "provenance": {
+          "metadata_type": "Provenance",
+          "method": "Manual_abaas@gt",
+          "timestamp": "2021-08-09T18:24:47_UTC+00:00"
+         }
+        }],
       "value": {
         "type": "Float",
         "syntax": "Literal",
@@ -19,9 +29,19 @@
     },
     {
       "value_type": "Float",
-      "name": "I",
+      "name": "Infected",
       "uid": "J:I",
-      "metadata": null,
+      "metadata": [
+        {
+        "uid": "I_md",
+        "metadata_type": "JunctionDescription",
+        "description": "Infected population",
+        "provenance": {
+          "metadata_type": "Provenance",
+          "method": "Manual_abaas@gt",
+          "timestamp": "2021-08-09T18:24:47_UTC+00:00"
+         }
+        }],
       "value": {
         "type": "Float",
         "syntax": "Literal",
@@ -36,9 +56,19 @@
     },
     {
       "value_type": "Float",
-      "name": "R",
+      "name": "Recovered",
       "uid": "J:R",
-      "metadata": null,
+      "metadata": [
+        {
+        "uid": "R_md",
+        "metadata_type": "JunctionDescription",
+        "description": "Recovered population",
+        "provenance": {
+          "metadata_type": "Provenance",
+          "method": "Manual_abaas@gt",
+          "timestamp": "2021-08-09T18:24:47_UTC+00:00"
+         }
+        }],
       "value": {
         "type": "Float",
         "syntax": "Literal",
@@ -53,9 +83,19 @@
     },
     {
       "value_type": "Float",
-      "name": "D",
+      "name": "Dead",
       "uid": "J:D",
-      "metadata": null,
+      "metadata": [
+        {
+        "uid": "D_md",
+        "metadata_type": "JunctionDescription",
+        "description": "Dead population",
+        "provenance": {
+          "metadata_type": "Provenance",
+          "method": "Manual_abaas@gt",
+          "timestamp": "2021-08-09T18:24:47_UTC+00:00"
+         }
+        }],
       "value": {
         "type": "Float",
         "syntax": "Literal",
@@ -70,9 +110,19 @@
     },
     {
       "value_type": "Float",
-      "name": "inf",
+      "name": "Infection",
       "uid": "J:inf",
-      "metadata": null,
+      "metadata": [
+        {
+        "uid": "inf_md",
+        "metadata_type": "JunctionDescription",
+        "description": "Infection process",
+        "provenance": {
+          "metadata_type": "Provenance",
+          "method": "Manual_abaas@gt",
+          "timestamp": "2021-08-09T18:24:47_UTC+00:00"
+         }
+        }],
       "value": {
         "type": "Float",
         "syntax": "Literal",
@@ -87,9 +137,19 @@
     },
     {
       "value_type": "Float",
-      "name": "rec",
+      "name": "Recovery",
       "uid": "J:rec",
-      "metadata": null,
+      "metadata": [
+        {
+        "uid": "rec_md",
+        "metadata_type": "JunctionDescription",
+        "description": "Recovery process",
+        "provenance": {
+          "metadata_type": "Provenance",
+          "method": "Manual_abaas@gt",
+          "timestamp": "2021-08-09T18:24:47_UTC+00:00"
+         }
+        }],
       "value": {
         "type": "Float",
         "syntax": "Literal",
@@ -104,9 +164,19 @@
     },
     {
       "value_type": "Float",
-      "name": "death",
+      "name": "Death",
       "uid": "J:death",
-      "metadata": null,
+      "metadata": [
+        {
+        "uid": "death_md",
+        "metadata_type": "JunctionDescription",
+        "description": "Death process",
+        "provenance": {
+          "metadata_type": "Provenance",
+          "method": "Manual_abaas@gt",
+          "timestamp": "2021-08-09T18:24:47_UTC+00:00"
+         }
+        }],
       "value": {
         "type": "Float",
         "syntax": "Literal",
