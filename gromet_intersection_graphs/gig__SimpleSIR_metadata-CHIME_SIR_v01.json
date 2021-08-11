@@ -1,0 +1,151 @@
+{
+  "uid": "GIG.Simple_SIR>CHIME_SIR_v01",
+  "gromet_ids": {
+    "g1_name": "SimpleSIR_metadata",
+    "g1_uid": "SimpleSIR_FN",
+    "g2_name": "CHIME_SIR_v01",
+    "g2_uid": "CHIME_SIR"
+  },
+  "common_nodes": [
+    {
+      "uid": "S_in",
+      "type": "input",
+      "g1_variable": [
+        "S"
+      ],
+      "g2_variable": [
+        "V:sir.s_in"
+      ]
+    },
+    {
+      "uid": "I_in",
+      "type": "input",
+      "g1_variable": [
+        "I"
+      ],
+      "g2_variable": [
+        "V:sir.i_in"
+      ]
+    },
+    {
+      "uid": "R_in",
+      "type": "input",
+      "g1_variable": [
+        "R"
+      ],
+      "g2_variable": [
+        "V:sir.r_in"
+      ]
+    },
+    {
+      "uid": "beta",
+      "type": "input",
+      "g1_variable": [
+        "beta"
+      ],
+      "g2_variable": [
+        "V:sir.beta"
+      ]
+    },
+    {
+      "uid": "gamma",
+      "type": "input",
+      "g1_variable": [
+        "gamma"
+      ],
+      "g2_variable": [
+        "V:sir.gamma"
+      ]
+    },
+    {
+      "uid": "S_out",
+      "type": "output",
+      "g1_variable": [
+        "S_2"
+      ],
+      "g2_variable": [
+        "V:sir.s_out"
+      ]
+    },
+    {
+      "uid": "I_out",
+      "type": "output",
+      "g1_variable": [
+        "I_2"
+      ],
+      "g2_variable": [
+        "V:sir.i_out"
+      ]
+    },
+    {
+      "uid": "R_out",
+      "type": "output",
+      "g1_variable": [
+        "R_2"
+      ],
+      "g2_variable": [
+        "V:sir.r_out"
+      ]
+    }
+  ],
+  "oap_nodes": [
+    {
+      "uid": "OAP_1",
+      "g1_variables": [
+        "infected",
+        "recovered",
+        "dt"
+      ],
+      "g2_variables": [
+        "V:sir.n",
+        "V:sir.s_n",
+        "V:sir.i_n",
+        "V:sir.r_n",
+        "V:sir.scale"
+      ]
+    }
+  ],
+  "noap_nodes": null,
+  "edges": [
+    {
+      "type": "no_overlap",
+      "src": "S_in",
+      "dst": "OAP_1"
+    },
+    {
+      "type": "no_overlap",
+      "src": "I_in",
+      "dst": "OAP_1"
+    },
+    {
+      "type": "no_overlap",
+      "src": "R_in",
+      "dst": "OAP_1"
+    },
+    {
+      "type": "no_overlap",
+      "src": "beta",
+      "dst": "OAP_1"
+    },
+    {
+      "type": "no_overlap",
+      "src": "gamma",
+      "dst": "OAP_1"
+    },
+    {
+      "type": "no_overlap",
+      "src": "OAP_1",
+      "dst": "S_out"
+    },
+    {
+      "type": "no_overlap",
+      "src": "OAP_1",
+      "dst": "I_out"
+    },
+    {
+      "type": "no_overlap",
+      "src": "OAP_1",
+      "dst": "R_out"
+    }
+  ]
+}
