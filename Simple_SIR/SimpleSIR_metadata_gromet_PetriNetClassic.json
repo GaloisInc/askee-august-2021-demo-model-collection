@@ -50,7 +50,15 @@
       "type": "State",
       "name": "S",
       "metadata": null,
-      "value": null,
+      "value": {
+        "type": "Integer",
+        "syntax": "Literal",
+        "value": {
+          "syntax": "Val",
+          "val": "997"
+        },
+        "metadata": null
+      },
       "value_type": "Integer",
       "uid": "J:S"
     },
@@ -59,7 +67,15 @@
       "type": "State",
       "name": "I",
       "metadata": null,
-      "value": null,
+      "value": {
+        "type": "Integer",
+        "syntax": "Literal",
+        "value": {
+          "syntax": "Val",
+          "val": "3"
+        },
+        "metadata": null
+      },
       "value_type": "Integer",
       "uid": "J:I"
     },
@@ -68,7 +84,15 @@
       "type": "State",
       "name": "R",
       "metadata": null,
-      "value": null,
+      "value": {
+        "type": "Integer",
+        "syntax": "Literal",
+        "value": {
+          "syntax": "Val",
+          "val": "0"
+        },
+        "metadata": null
+      },
       "value_type": "Integer",
       "uid": "J:R"
     },
@@ -77,7 +101,15 @@
       "type": "Rate",
       "name": "beta",
       "metadata": null,
-      "value": null,
+      "value": {
+        "type": "Real",
+        "syntax": "Literal",
+        "value": {
+          "syntax": "Val",
+          "val": "0.0004"
+        },
+        "metadata": null
+      },
       "value_type": "Real",
       "uid": "J:beta"
     },
@@ -86,7 +118,15 @@
       "type": "Rate",
       "name": "gamma",
       "metadata": null,
-      "value": null,
+      "value": {
+        "type": "Real",
+        "syntax": "Literal",
+        "value": {
+          "syntax": "Val",
+          "val": "0.04"
+        },
+        "metadata": null
+      },
       "value_type": "Real",
       "uid": "J:gamma"
     }
