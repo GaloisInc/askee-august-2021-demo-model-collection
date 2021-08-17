@@ -1,0 +1,5614 @@
+{
+  "syntax": "Gromet",
+  "type": "PetriNetClassic",
+  "name": "covid19_inflammasome",
+  "metadata": [
+    {
+      "metadata_type": "ModelInterface",
+      "uid": "covid19_inflammasome_model_interface",
+      "provenance": {
+        "metadata_type": "Provenance",
+        "method": "from_emmaa_model",
+        "timestamp": "2021-08-17T17:47:36:028879_MST-0700"
+      },
+      "variables": [
+        "J:dioxygen()",
+        "J:water(activity='inactive')",
+        "J:biliverdin(activity='inactive')",
+        "J:carbon_monoxide(activity='inactive')",
+        "J:NADP___(activity='inactive')",
+        "J:iron_2__(activity='inactive')",
+        "J:hyaluronic_acid()",
+        "J:NLRP3(activity='inactive')",
+        "J:SUGT1(activity='inactive')",
+        "J:NADPH()",
+        "J:reactive_oxygen_species(activity='inactive')",
+        "J:TXN(activity='inactive')",
+        "J:calcium_2__(activity='inactive')",
+        "J:heme()",
+        "J:pattern_recognition_receptor_signaling_pathway()",
+        "J:TRAF3(activity='inactive')",
+        "J:NFKB1(activity='inactive')",
+        "J:TXNIP(activity='inactive')",
+        "J:CASP1(activity='inactive')",
+        "J:IL18(activity='inactive')",
+        "J:IL1B(activity='inactive')",
+        "J:PYCARD(activity='inactive')",
+        "J:HMOX1()",
+        "J:p3a()",
+        "J:E()",
+        "J:Orf9b()",
+        "J:Pralnacasan()",
+        "J:parthenolide()",
+        "J:IKBKB(activity='inactive')",
+        "J:_E__3_tosylacrylonitrile()",
+        "J:Proteasome()",
+        "J:water(activity='active')",
+        "J:biliverdin(activity='active')",
+        "J:carbon_monoxide(activity='active')",
+        "J:NADP___(activity='active')",
+        "J:iron_2__(activity='active')",
+        "J:NLRP3(activity='active')",
+        "J:SUGT1(activity='active')",
+        "J:TRAF3(activity='active')",
+        "J:calcium_2__(activity='active')",
+        "J:NFKB1(activity='active')",
+        "J:PYCARD(activity='active')",
+        "J:CASP1(activity='active')",
+        "J:IL18(activity='active')",
+        "J:IL1B(activity='active')",
+        "J:kf_dw_act_1:1",
+        "J:kf_db_act_1:1",
+        "J:kf_dc_act_1:1",
+        "J:kf_dn_act_1:1",
+        "J:kf_di_act_1:1",
+        "J:kf_hn_act_1:1",
+        "J:kf_hs_act_1:1",
+        "J:kf_nw_act_1:1",
+        "J:kf_nb_act_1:1",
+        "J:kf_nc_act_1:1",
+        "J:kf_nn_act_1:1",
+        "J:kf_ni_act_1:1",
+        "J:kf_hw_act_1:1",
+        "J:kf_hb_act_1:1",
+        "J:kf_hc_act_1:1",
+        "J:kf_hn_act_2:1",
+        "J:kf_hi_act_1:1",
+        "J:kf_pn_act_1:1",
+        "J:kf_ps_act_1:1",
+        "J:kf_hw_act_2:1",
+        "J:kf_hb_act_2:1",
+        "J:kf_hc_act_2:1",
+        "J:kf_hn_act_3:1",
+        "J:kf_hi_act_2:1",
+        "J:kf_3t_act_1:1",
+        "J:kf_ec_act_1:1",
+        "J:kf_ot_deg_1:1",
+        "J:kf_cn_act_1:1",
+        "J:kf_cs_act_1:1",
+        "J:kf_tn_act_1:1",
+        "J:kf_np_act_1:1",
+        "J:kf_sn_act_1:1",
+        "J:kf_ot_deg_1:2",
+        "J:kf_pn_act_2:1",
+        "J:kf__n_act_1:1",
+        "J:kf_pt_act_1:1",
+        "J:kf_pc_act_1:1",
+        "J:kf_ni_act_2:1",
+        "J:kf_ni_act_3:1",
+        "J:kf_ci_act_1:1",
+        "J:kf_ci_act_2:1",
+        "J:kf_pc_act_2:1",
+        "J:kf_pc_act_3:1",
+        "J:kf_pi_act_2:1"
+      ],
+      "parameters": [
+        "J:kf_dw_act_1:1",
+        "J:kf_db_act_1:1",
+        "J:kf_dc_act_1:1",
+        "J:kf_dn_act_1:1",
+        "J:kf_di_act_1:1",
+        "J:kf_hn_act_1:1",
+        "J:kf_hs_act_1:1",
+        "J:kf_nw_act_1:1",
+        "J:kf_nb_act_1:1",
+        "J:kf_nc_act_1:1",
+        "J:kf_nn_act_1:1",
+        "J:kf_ni_act_1:1",
+        "J:kf_hw_act_1:1",
+        "J:kf_hb_act_1:1",
+        "J:kf_hc_act_1:1",
+        "J:kf_hn_act_2:1",
+        "J:kf_hi_act_1:1",
+        "J:kf_pn_act_1:1",
+        "J:kf_ps_act_1:1",
+        "J:kf_hw_act_2:1",
+        "J:kf_hb_act_2:1",
+        "J:kf_hc_act_2:1",
+        "J:kf_hn_act_3:1",
+        "J:kf_hi_act_2:1",
+        "J:kf_3t_act_1:1",
+        "J:kf_ec_act_1:1",
+        "J:kf_ot_deg_1:1",
+        "J:kf_cn_act_1:1",
+        "J:kf_cs_act_1:1",
+        "J:kf_tn_act_1:1",
+        "J:kf_np_act_1:1",
+        "J:kf_sn_act_1:1",
+        "J:kf_ot_deg_1:2",
+        "J:kf_pn_act_2:1",
+        "J:kf__n_act_1:1",
+        "J:kf_pt_act_1:1",
+        "J:kf_pc_act_1:1",
+        "J:kf_ni_act_2:1",
+        "J:kf_ni_act_3:1",
+        "J:kf_ci_act_1:1",
+        "J:kf_ci_act_2:1",
+        "J:kf_pc_act_2:1",
+        "J:kf_pc_act_3:1",
+        "J:kf_pi_act_2:1"
+      ],
+      "initial_conditions": [
+        "J:dioxygen()",
+        "J:water(activity='inactive')",
+        "J:biliverdin(activity='inactive')",
+        "J:carbon_monoxide(activity='inactive')",
+        "J:NADP___(activity='inactive')",
+        "J:iron_2__(activity='inactive')",
+        "J:hyaluronic_acid()",
+        "J:NLRP3(activity='inactive')",
+        "J:SUGT1(activity='inactive')",
+        "J:NADPH()",
+        "J:reactive_oxygen_species(activity='inactive')",
+        "J:TXN(activity='inactive')",
+        "J:calcium_2__(activity='inactive')",
+        "J:heme()",
+        "J:pattern_recognition_receptor_signaling_pathway()",
+        "J:TRAF3(activity='inactive')",
+        "J:NFKB1(activity='inactive')",
+        "J:TXNIP(activity='inactive')",
+        "J:CASP1(activity='inactive')",
+        "J:IL18(activity='inactive')",
+        "J:IL1B(activity='inactive')",
+        "J:PYCARD(activity='inactive')",
+        "J:HMOX1()",
+        "J:p3a()",
+        "J:E()",
+        "J:Orf9b()",
+        "J:Pralnacasan()",
+        "J:parthenolide()",
+        "J:IKBKB(activity='inactive')",
+        "J:_E__3_tosylacrylonitrile()",
+        "J:Proteasome()",
+        "J:water(activity='active')",
+        "J:biliverdin(activity='active')",
+        "J:carbon_monoxide(activity='active')",
+        "J:NADP___(activity='active')",
+        "J:iron_2__(activity='active')",
+        "J:NLRP3(activity='active')",
+        "J:SUGT1(activity='active')",
+        "J:TRAF3(activity='active')",
+        "J:calcium_2__(activity='active')",
+        "J:NFKB1(activity='active')",
+        "J:PYCARD(activity='active')",
+        "J:CASP1(activity='active')",
+        "J:IL18(activity='active')",
+        "J:IL1B(activity='active')"
+      ]
+    }
+  ],
+  "uid": "covid19_inflammasome_pnc",
+  "root": "covid19_inflammasome",
+  "types": null,
+  "literals": null,
+  "junctions": [
+    {
+      "syntax": "Junction",
+      "type": "State",
+      "name": "dioxygen()",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "dioxygen()_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:023163_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "dioxygen",
+              "db_refs": {
+                "HMDB": "HMDB0001377",
+                "CHEBI": "CHEBI:15379",
+                "PUBCHEM": "977",
+                "CHEMBL": "CHEMBL1234886",
+                "CAS": "7782-44-7",
+                "MESH": "D010100",
+                "DRUGBANK": "DB09140"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 10
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:dioxygen()"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
+      "name": "water(activity='inactive')",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "water(activity='inactive')_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:023274_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "water",
+              "db_refs": {
+                "PUBCHEM": "962",
+                "DRUGBANK": "DB09145",
+                "HMDB": "HMDB0002111",
+                "CHEBI": "CHEBI:15377",
+                "MESH": "D014867",
+                "CHEMBL": "CHEMBL1098659"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 10000.0
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:water(activity='inactive')"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
+      "name": "biliverdin(activity='inactive')",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "biliverdin(activity='inactive')_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:023322_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "biliverdin",
+              "db_refs": {
+                "CHEBI": "CHEBI:17033",
+                "DRUGBANK": "DB02073",
+                "CAS": "114-25-0",
+                "MESH": "D001664",
+                "CHEMBL": "CHEMBL455477",
+                "HMDB": "HMDB0001008",
+                "PUBCHEM": "5280353"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 10000.0
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:biliverdin(activity='inactive')"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
+      "name": "carbon_monoxide(activity='inactive')",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "carbon_monoxide(activity='inactive')_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:023363_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "carbon_monoxide",
+              "db_refs": {
+                "CHEBI": "CHEBI:17245",
+                "CAS": "630-08-0",
+                "HMDB": "HMDB0001361",
+                "CHEMBL": "CHEMBL1231840",
+                "PUBCHEM": "281",
+                "DRUGBANK": "DB11588"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 10000.0
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:carbon_monoxide(activity='inactive')"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
+      "name": "NADP___(activity='inactive')",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "NADP___(activity='inactive')_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:023401_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "NADP___",
+              "db_refs": {
+                "PUBCHEM": "5886",
+                "CHEBI": "CHEBI:18009",
+                "HMDB": "HMDB0000217"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 10000.0
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:NADP___(activity='inactive')"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
+      "name": "iron_2__(activity='inactive')",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "iron_2__(activity='inactive')_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:023437_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "iron_2__",
+              "db_refs": {
+                "CHEBI": "CHEBI:29033",
+                "DRUGBANK": "DB14510",
+                "CAS": "15438-31-0",
+                "HMDB": "HMDB0000692",
+                "PUBCHEM": "27284"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 10000.0
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:iron_2__(activity='inactive')"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
+      "name": "hyaluronic_acid()",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "hyaluronic_acid()_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:023472_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "hyaluronic_acid",
+              "db_refs": {
+                "CHEBI": "CHEBI:16336",
+                "CAS": "9004-61-9",
+                "HMDB": "HMDB0002061"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 10
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:hyaluronic_acid()"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
+      "name": "NLRP3(activity='inactive')",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "NLRP3(activity='inactive')_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:023507_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "NLRP3",
+              "db_refs": {
+                "UP": "Q96P20",
+                "HGNC": "16400",
+                "MESH": "C453881",
+                "REFSEQ_PROT": "NM_004895",
+                "ENSEMBL": "ENSG00000162711",
+                "EGID": "114548"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 10000.0
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:NLRP3(activity='inactive')"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
+      "name": "SUGT1(activity='inactive')",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "SUGT1(activity='inactive')_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:023542_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "SUGT1",
+              "db_refs": {
+                "UP": "Q9Y2Z0",
+                "MESH": "C490164",
+                "HGNC": "16987",
+                "EGID": "10910"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 10000.0
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:SUGT1(activity='inactive')"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
+      "name": "NADPH()",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "NADPH()_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:023576_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "NADPH",
+              "db_refs": {
+                "CHEBI": "CHEBI:16474",
+                "CAS": "53-57-6",
+                "CHEMBL": "CHEMBL407009",
+                "PUBCHEM": "5884",
+                "DRUGBANK": "DB02338",
+                "HMDB": "HMDB0000221"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 10
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:NADPH()"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
+      "name": "reactive_oxygen_species(activity='inactive')",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "reactive_oxygen_species(activity='inactive')_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:023611_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "reactive_oxygen_species",
+              "db_refs": {
+                "CHEBI": "CHEBI:26523",
+                "MESH": "D017382"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 10000.0
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:reactive_oxygen_species(activity='inactive')"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
+      "name": "TXN(activity='inactive')",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "TXN(activity='inactive')_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:023649_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "TXN",
+              "db_refs": {
+                "EGID": "7295",
+                "UP": "P10599",
+                "HGNC": "12435",
+                "ENSEMBL": "ENSG00000136810",
+                "REFSEQ_PROT": "NM_001244938",
+                "MESH": "C491203"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 10000.0
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:TXN(activity='inactive')"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
+      "name": "calcium_2__(activity='inactive')",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "calcium_2__(activity='inactive')_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:023683_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "calcium_2__",
+              "db_refs": {
+                "CHEBI": "CHEBI:29108",
+                "CAS": "14127-61-8",
+                "PUBCHEM": "271",
+                "HMDB": "HMDB0000464"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 10000.0
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:calcium_2__(activity='inactive')"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
+      "name": "heme()",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "heme()_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:023717_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "heme",
+              "db_refs": {
+                "CHEBI": "CHEBI:30413",
+                "DRUGBANK": "DB03014"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 10
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:heme()"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
+      "name": "pattern_recognition_receptor_signaling_pathway()",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "pattern_recognition_receptor_signaling_pathway()_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:023766_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "pattern_recognition_receptor_signaling_pathway",
+              "db_refs": {
+                "GO": "GO:0002221"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 10
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:pattern_recognition_receptor_signaling_pathway()"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
+      "name": "TRAF3(activity='inactive')",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "TRAF3(activity='inactive')_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:023805_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "TRAF3",
+              "db_refs": {
+                "UP": "Q13114",
+                "TAXONOMY": "694009",
+                "HGNC": "12033",
+                "EGID": "7187",
+                "MESH": "C090656",
+                "ENSEMBL": "ENSG00000131323",
+                "REFSEQ_PROT": "NM_145725"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 10000.0
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:TRAF3(activity='inactive')"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
+      "name": "NFKB1(activity='inactive')",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "NFKB1(activity='inactive')_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:023841_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "NFKB1",
+              "db_refs": {
+                "EGID": "4790",
+                "UP": "P19838",
+                "HGNC": "7794",
+                "MESH": "C489548"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 10000.0
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:NFKB1(activity='inactive')"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
+      "name": "TXNIP(activity='inactive')",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "TXNIP(activity='inactive')_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:023876_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "TXNIP",
+              "db_refs": {
+                "UP": "Q9H3M7",
+                "HGNC": "16952",
+                "EGID": "10628",
+                "MESH": "C486715"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 10000.0
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:TXNIP(activity='inactive')"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
+      "name": "CASP1(activity='inactive')",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "CASP1(activity='inactive')_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:023910_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "CASP1",
+              "db_refs": {
+                "UP": "P29466",
+                "HGNC": "1499",
+                "EGID": "834",
+                "MESH": "D020170",
+                "ENSEMBL": "ENSG00000137752",
+                "REFSEQ_PROT": "NM_033292"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 10000.0
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:CASP1(activity='inactive')"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
+      "name": "IL18(activity='inactive')",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "IL18(activity='inactive')_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:023944_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "IL18",
+              "db_refs": {
+                "EGID": "3606",
+                "UP": "Q14116",
+                "MESH": "D020382",
+                "HGNC": "5986"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 10000.0
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:IL18(activity='inactive')"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
+      "name": "IL1B(activity='inactive')",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "IL1B(activity='inactive')_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:023980_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "IL1B",
+              "db_refs": {
+                "UP": "P01584",
+                "HGNC": "5992",
+                "MESH": "D053583"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 10000.0
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:IL1B(activity='inactive')"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
+      "name": "PYCARD(activity='inactive')",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "PYCARD(activity='inactive')_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:024018_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "PYCARD",
+              "db_refs": {
+                "HGNC": "16608",
+                "UP": "Q9ULZ3",
+                "MESH": "C402202",
+                "EGID": "29108"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 10000.0
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:PYCARD(activity='inactive')"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
+      "name": "HMOX1()",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "HMOX1()_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:024065_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "HMOX1",
+              "db_refs": {
+                "ENSEMBL": "ENSG00000100292",
+                "HGNC": "5013",
+                "REFSEQ_PROT": "NM_002133",
+                "UP": "P09601",
+                "EGID": "3162",
+                "MESH": "C496541"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 10
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:HMOX1()"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
+      "name": "p3a()",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "p3a()_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:024108_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "p3a",
+              "db_refs": {
+                "UP": "P59632",
+                "EGID": "1489669",
+                "TAXONOMY": "694009"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 10
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:p3a()"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
+      "name": "E()",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "E()_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:024146_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "E",
+              "db_refs": {
+                "UP": "P59637",
+                "EGID": "1489671"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 10
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:E()"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
+      "name": "Orf9b()",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "Orf9b()_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:024182_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "Orf9b",
+              "db_refs": {
+                "UP": "P0DTD2"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 10000.0
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:Orf9b()"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
+      "name": "Pralnacasan()",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "Pralnacasan()_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:024216_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "Pralnacasan",
+              "db_refs": {}
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 0
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:Pralnacasan()"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
+      "name": "parthenolide()",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "parthenolide()_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:024250_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "parthenolide",
+              "db_refs": {
+                "CHEBI": "CHEBI:7939"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 0
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:parthenolide()"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
+      "name": "IKBKB(activity='inactive')",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "IKBKB(activity='inactive')_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:024289_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "IKBKB",
+              "db_refs": {
+                "HGNC": "5960"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 10000.0
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:IKBKB(activity='inactive')"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
+      "name": "_E__3_tosylacrylonitrile()",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "_E__3_tosylacrylonitrile()_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:024324_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "_E__3_tosylacrylonitrile",
+              "db_refs": {
+                "CHEBI": "CHEBI:85928"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 0
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:_E__3_tosylacrylonitrile()"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
+      "name": "Proteasome()",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "Proteasome()_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:024358_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "Proteasome",
+              "db_refs": {
+                "FPLX": "Proteasome"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 10000.0
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:Proteasome()"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
+      "name": "water(activity='active')",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "water(activity='active')_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:024430_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "water",
+              "db_refs": {
+                "PUBCHEM": "962",
+                "DRUGBANK": "DB09145",
+                "HMDB": "HMDB0002111",
+                "CHEBI": "CHEBI:15377",
+                "MESH": "D014867",
+                "CHEMBL": "CHEMBL1098659"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 0
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:water(activity='active')"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
+      "name": "biliverdin(activity='active')",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "biliverdin(activity='active')_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:024468_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "biliverdin",
+              "db_refs": {
+                "CHEBI": "CHEBI:17033",
+                "DRUGBANK": "DB02073",
+                "CAS": "114-25-0",
+                "MESH": "D001664",
+                "CHEMBL": "CHEMBL455477",
+                "HMDB": "HMDB0001008",
+                "PUBCHEM": "5280353"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 0
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:biliverdin(activity='active')"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
+      "name": "carbon_monoxide(activity='active')",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "carbon_monoxide(activity='active')_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:024506_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "carbon_monoxide",
+              "db_refs": {
+                "CHEBI": "CHEBI:17245",
+                "CAS": "630-08-0",
+                "HMDB": "HMDB0001361",
+                "CHEMBL": "CHEMBL1231840",
+                "PUBCHEM": "281",
+                "DRUGBANK": "DB11588"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 0
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:carbon_monoxide(activity='active')"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
+      "name": "NADP___(activity='active')",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "NADP___(activity='active')_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:024543_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "NADP___",
+              "db_refs": {
+                "PUBCHEM": "5886",
+                "CHEBI": "CHEBI:18009",
+                "HMDB": "HMDB0000217"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 0
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:NADP___(activity='active')"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
+      "name": "iron_2__(activity='active')",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "iron_2__(activity='active')_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:024579_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "iron_2__",
+              "db_refs": {
+                "CHEBI": "CHEBI:29033",
+                "DRUGBANK": "DB14510",
+                "CAS": "15438-31-0",
+                "HMDB": "HMDB0000692",
+                "PUBCHEM": "27284"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 0
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:iron_2__(activity='active')"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
+      "name": "NLRP3(activity='active')",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "NLRP3(activity='active')_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:024614_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "NLRP3",
+              "db_refs": {
+                "UP": "Q96P20",
+                "HGNC": "16400",
+                "MESH": "C453881",
+                "REFSEQ_PROT": "NM_004895",
+                "ENSEMBL": "ENSG00000162711",
+                "EGID": "114548"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 0
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:NLRP3(activity='active')"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
+      "name": "SUGT1(activity='active')",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "SUGT1(activity='active')_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:024654_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "SUGT1",
+              "db_refs": {
+                "UP": "Q9Y2Z0",
+                "MESH": "C490164",
+                "HGNC": "16987",
+                "EGID": "10910"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 0
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:SUGT1(activity='active')"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
+      "name": "TRAF3(activity='active')",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "TRAF3(activity='active')_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:024691_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "TRAF3",
+              "db_refs": {
+                "UP": "Q13114",
+                "TAXONOMY": "694009",
+                "HGNC": "12033",
+                "EGID": "7187",
+                "MESH": "C090656",
+                "ENSEMBL": "ENSG00000131323",
+                "REFSEQ_PROT": "NM_145725"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 0
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:TRAF3(activity='active')"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
+      "name": "calcium_2__(activity='active')",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "calcium_2__(activity='active')_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:024734_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "calcium_2__",
+              "db_refs": {
+                "CHEBI": "CHEBI:29108",
+                "CAS": "14127-61-8",
+                "PUBCHEM": "271",
+                "HMDB": "HMDB0000464"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 0
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:calcium_2__(activity='active')"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
+      "name": "NFKB1(activity='active')",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "NFKB1(activity='active')_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:024771_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "NFKB1",
+              "db_refs": {
+                "EGID": "4790",
+                "UP": "P19838",
+                "HGNC": "7794",
+                "MESH": "C489548"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 0
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:NFKB1(activity='active')"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
+      "name": "PYCARD(activity='active')",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "PYCARD(activity='active')_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:024810_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "PYCARD",
+              "db_refs": {
+                "HGNC": "16608",
+                "UP": "Q9ULZ3",
+                "MESH": "C402202",
+                "EGID": "29108"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 0
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:PYCARD(activity='active')"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
+      "name": "CASP1(activity='active')",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "CASP1(activity='active')_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:024848_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "CASP1",
+              "db_refs": {
+                "UP": "P29466",
+                "HGNC": "1499",
+                "EGID": "834",
+                "MESH": "D020170",
+                "ENSEMBL": "ENSG00000137752",
+                "REFSEQ_PROT": "NM_033292"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 0
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:CASP1(activity='active')"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
+      "name": "IL18(activity='active')",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "IL18(activity='active')_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:024891_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "IL18",
+              "db_refs": {
+                "EGID": "3606",
+                "UP": "Q14116",
+                "MESH": "D020382",
+                "HGNC": "5986"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 0
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:IL18(activity='active')"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
+      "name": "IL1B(activity='active')",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "IL1B(activity='active')_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:024928_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "IL1B",
+              "db_refs": {
+                "UP": "P01584",
+                "HGNC": "5992",
+                "MESH": "D053583"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 0
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:IL1B(activity='active')"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf_dw_act_1",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_dw_act_1:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:024997_MST-0700"
+          },
+          "indra_stmt_hash": -33791666966162263,
+          "reaction_rule": "dioxygen_activates_water_activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_dw_act_1:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf_db_act_1",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_db_act_1:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:025086_MST-0700"
+          },
+          "indra_stmt_hash": -23254141572933850,
+          "reaction_rule": "dioxygen_activates_biliverdin_activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_db_act_1:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf_dc_act_1",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_dc_act_1:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:025147_MST-0700"
+          },
+          "indra_stmt_hash": -19358276560732315,
+          "reaction_rule": "dioxygen_activates_carbon_monoxide_activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_dc_act_1:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf_dn_act_1",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_dn_act_1:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:025213_MST-0700"
+          },
+          "indra_stmt_hash": -20462194123865485,
+          "reaction_rule": "dioxygen_activates_NADP____activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_dn_act_1:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf_di_act_1",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_di_act_1:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:025275_MST-0700"
+          },
+          "indra_stmt_hash": -9172999005745561,
+          "reaction_rule": "dioxygen_activates_iron_2___activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_di_act_1:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf_hn_act_1",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_hn_act_1:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:025408_MST-0700"
+          },
+          "indra_stmt_hash": -20108495150093595,
+          "reaction_rule": "hyaluronic_acid_activates_NLRP3_activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_hn_act_1:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf_hs_act_1",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_hs_act_1:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:025478_MST-0700"
+          },
+          "indra_stmt_hash": 8423295275635649,
+          "reaction_rule": "hyaluronic_acid_activates_SUGT1_activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_hs_act_1:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf_nw_act_1",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_nw_act_1:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:025543_MST-0700"
+          },
+          "indra_stmt_hash": -33615998528389900,
+          "reaction_rule": "NADPH_activates_water_activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_nw_act_1:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf_nb_act_1",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_nb_act_1:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:025602_MST-0700"
+          },
+          "indra_stmt_hash": 27449522310373503,
+          "reaction_rule": "NADPH_activates_biliverdin_activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_nb_act_1:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf_nc_act_1",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_nc_act_1:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:025665_MST-0700"
+          },
+          "indra_stmt_hash": -27109350041880053,
+          "reaction_rule": "NADPH_activates_carbon_monoxide_activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_nc_act_1:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf_nn_act_1",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_nn_act_1:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:025729_MST-0700"
+          },
+          "indra_stmt_hash": -28402272758547468,
+          "reaction_rule": "NADPH_activates_NADP____activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_nn_act_1:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf_ni_act_1",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_ni_act_1:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:025792_MST-0700"
+          },
+          "indra_stmt_hash": -2549998563827919,
+          "reaction_rule": "NADPH_activates_iron_2___activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_ni_act_1:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf_hw_act_1",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_hw_act_1:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:025856_MST-0700"
+          },
+          "indra_stmt_hash": -18389485349912460,
+          "reaction_rule": "heme_activates_water_activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_hw_act_1:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf_hb_act_1",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_hb_act_1:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:025925_MST-0700"
+          },
+          "indra_stmt_hash": -34850584861702653,
+          "reaction_rule": "heme_activates_biliverdin_activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_hb_act_1:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf_hc_act_1",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_hc_act_1:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:025992_MST-0700"
+          },
+          "indra_stmt_hash": -20247715615526404,
+          "reaction_rule": "heme_activates_carbon_monoxide_activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_hc_act_1:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf_hn_act_2",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_hn_act_2:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:026054_MST-0700"
+          },
+          "indra_stmt_hash": -26807453749483019,
+          "reaction_rule": "heme_activates_NADP____activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_hn_act_2:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf_hi_act_1",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_hi_act_1:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:026117_MST-0700"
+          },
+          "indra_stmt_hash": -14335330989363216,
+          "reaction_rule": "heme_activates_iron_2___activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_hi_act_1:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf_pn_act_1",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_pn_act_1:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:026183_MST-0700"
+          },
+          "indra_stmt_hash": -7900295090152057,
+          "reaction_rule": "pattern_recognition_receptor_signaling_pathway_activates_NLRP3_activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_pn_act_1:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf_ps_act_1",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_ps_act_1:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:026248_MST-0700"
+          },
+          "indra_stmt_hash": -33026345100004448,
+          "reaction_rule": "pattern_recognition_receptor_signaling_pathway_activates_SUGT1_activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_ps_act_1:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf_hw_act_2",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_hw_act_2:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:026316_MST-0700"
+          },
+          "indra_stmt_hash": 9482328515580424,
+          "reaction_rule": "HMOX1_activates_water_activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_hw_act_2:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf_hb_act_2",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_hb_act_2:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:026386_MST-0700"
+          },
+          "indra_stmt_hash": 4165033709137679,
+          "reaction_rule": "HMOX1_activates_biliverdin_activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_hb_act_2:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf_hc_act_2",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_hc_act_2:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:026454_MST-0700"
+          },
+          "indra_stmt_hash": 20810695862211085,
+          "reaction_rule": "HMOX1_activates_carbon_monoxide_activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_hc_act_2:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf_hn_act_3",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_hn_act_3:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:026524_MST-0700"
+          },
+          "indra_stmt_hash": -32006360760956236,
+          "reaction_rule": "HMOX1_activates_NADP____activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_hn_act_3:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf_hi_act_2",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_hi_act_2:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:026596_MST-0700"
+          },
+          "indra_stmt_hash": -4429435735465789,
+          "reaction_rule": "HMOX1_activates_iron_2___activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_hi_act_2:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf_3t_act_1",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_3t_act_1:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:026670_MST-0700"
+          },
+          "indra_stmt_hash": 7825810811169163,
+          "reaction_rule": "p3a_activates_TRAF3_activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_3t_act_1:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf_ec_act_1",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_ec_act_1:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:026741_MST-0700"
+          },
+          "indra_stmt_hash": -24735111122940356,
+          "reaction_rule": "E_activates_calcium_2___activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_ec_act_1:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf_ot_deg_1",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_ot_deg_1:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:026810_MST-0700"
+          },
+          "indra_stmt_hash": 3979344232136451,
+          "reaction_rule": "Orf9b_degrades_TRAF3",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 2e-09
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_ot_deg_1:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf_cn_act_1",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_cn_act_1:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:026873_MST-0700"
+          },
+          "indra_stmt_hash": -6899295879885749,
+          "reaction_rule": "calcium_2___act_activates_NLRP3_activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_cn_act_1:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf_cs_act_1",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_cs_act_1:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:026942_MST-0700"
+          },
+          "indra_stmt_hash": -11523416584483539,
+          "reaction_rule": "calcium_2___act_activates_SUGT1_activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_cs_act_1:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf_tn_act_1",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_tn_act_1:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:027006_MST-0700"
+          },
+          "indra_stmt_hash": 18750495497402700,
+          "reaction_rule": "TRAF3_act_activates_NFKB1_activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_tn_act_1:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf_np_act_1",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_np_act_1:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:027072_MST-0700"
+          },
+          "indra_stmt_hash": 17602490124120765,
+          "reaction_rule": "NLRP3_act_activates_PYCARD_activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_np_act_1:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf_sn_act_1",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_sn_act_1:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:027137_MST-0700"
+          },
+          "indra_stmt_hash": 1380654838385392,
+          "reaction_rule": "SUGT1_act_activates_NLRP3_activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_sn_act_1:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf_ot_deg_1",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_ot_deg_1:2_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:027209_MST-0700"
+          },
+          "indra_stmt_hash": 3979344232136451,
+          "reaction_rule": "Orf9b_degrades_TRAF3",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 2e-09
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_ot_deg_1:2"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf_pn_act_2",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_pn_act_2:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:027277_MST-0700"
+          },
+          "indra_stmt_hash": 21689955333705851,
+          "reaction_rule": "parthenolide_deactivates_NLRP3_activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_pn_act_2:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf__n_act_1",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf__n_act_1:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:027347_MST-0700"
+          },
+          "indra_stmt_hash": -19046700989119558,
+          "reaction_rule": "_E__3_tosylacrylonitrile_deactivates_NLRP3_activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf__n_act_1:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf_pt_act_1",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_pt_act_1:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:027413_MST-0700"
+          },
+          "indra_stmt_hash": 3726856741857303,
+          "reaction_rule": "PYCARD_act_activates_TRAF3_activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_pt_act_1:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf_pc_act_1",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_pc_act_1:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:027483_MST-0700"
+          },
+          "indra_stmt_hash": -13187163498274087,
+          "reaction_rule": "PYCARD_act_activates_CASP1_activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_pc_act_1:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf_ni_act_2",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_ni_act_2:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:027553_MST-0700"
+          },
+          "indra_stmt_hash": -11050218521189594,
+          "reaction_rule": "NFKB1_act_activates_IL18_activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_ni_act_2:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf_ni_act_3",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_ni_act_3:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:027622_MST-0700"
+          },
+          "indra_stmt_hash": 21288829100978592,
+          "reaction_rule": "NFKB1_act_activates_IL1B_activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_ni_act_3:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf_ci_act_1",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_ci_act_1:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:027684_MST-0700"
+          },
+          "indra_stmt_hash": -10468666881688478,
+          "reaction_rule": "CASP1_act_activates_IL18_activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_ci_act_1:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf_ci_act_2",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_ci_act_2:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:027752_MST-0700"
+          },
+          "indra_stmt_hash": 23836089500517478,
+          "reaction_rule": "CASP1_act_activates_IL1B_activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_ci_act_2:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf_pc_act_2",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_pc_act_2:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:027849_MST-0700"
+          },
+          "indra_stmt_hash": -6092028988306676,
+          "reaction_rule": "Pralnacasan_deactivates_CASP1_activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_pc_act_2:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf_pc_act_3",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_pc_act_3:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:027986_MST-0700"
+          },
+          "indra_stmt_hash": -691138474812308,
+          "reaction_rule": "parthenolide_deactivates_CASP1_activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_pc_act_3:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf_pi_act_2",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_pi_act_2:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-17T17:47:36:028073_MST-0700"
+          },
+          "indra_stmt_hash": -16803551771535351,
+          "reaction_rule": "Proteasome_deactivates_IL18_activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_pi_act_2:1"
+    }
+  ],
+  "ports": null,
+  "wires": [
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:dioxygen()_kf_dw_act_1:1:w1",
+      "src": "J:dioxygen()",
+      "tgt": "J:kf_dw_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:water(activity='inactive')_kf_dw_act_1:1:w1",
+      "src": "J:water(activity='inactive')",
+      "tgt": "J:kf_dw_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_dw_act_1:1_dioxygen():w1",
+      "src": "J:kf_dw_act_1:1",
+      "tgt": "J:dioxygen()"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_dw_act_1:1_water(activity='active'):w1",
+      "src": "J:kf_dw_act_1:1",
+      "tgt": "J:water(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:dioxygen()_kf_db_act_1:1:w1",
+      "src": "J:dioxygen()",
+      "tgt": "J:kf_db_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:biliverdin(activity='inactive')_kf_db_act_1:1:w1",
+      "src": "J:biliverdin(activity='inactive')",
+      "tgt": "J:kf_db_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_db_act_1:1_dioxygen():w1",
+      "src": "J:kf_db_act_1:1",
+      "tgt": "J:dioxygen()"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_db_act_1:1_biliverdin(activity='active'):w1",
+      "src": "J:kf_db_act_1:1",
+      "tgt": "J:biliverdin(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:dioxygen()_kf_dc_act_1:1:w1",
+      "src": "J:dioxygen()",
+      "tgt": "J:kf_dc_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:carbon_monoxide(activity='inactive')_kf_dc_act_1:1:w1",
+      "src": "J:carbon_monoxide(activity='inactive')",
+      "tgt": "J:kf_dc_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_dc_act_1:1_dioxygen():w1",
+      "src": "J:kf_dc_act_1:1",
+      "tgt": "J:dioxygen()"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_dc_act_1:1_carbon_monoxide(activity='active'):w1",
+      "src": "J:kf_dc_act_1:1",
+      "tgt": "J:carbon_monoxide(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:dioxygen()_kf_dn_act_1:1:w1",
+      "src": "J:dioxygen()",
+      "tgt": "J:kf_dn_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:NADP___(activity='inactive')_kf_dn_act_1:1:w1",
+      "src": "J:NADP___(activity='inactive')",
+      "tgt": "J:kf_dn_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_dn_act_1:1_dioxygen():w1",
+      "src": "J:kf_dn_act_1:1",
+      "tgt": "J:dioxygen()"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_dn_act_1:1_NADP___(activity='active'):w1",
+      "src": "J:kf_dn_act_1:1",
+      "tgt": "J:NADP___(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:dioxygen()_kf_di_act_1:1:w1",
+      "src": "J:dioxygen()",
+      "tgt": "J:kf_di_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:iron_2__(activity='inactive')_kf_di_act_1:1:w1",
+      "src": "J:iron_2__(activity='inactive')",
+      "tgt": "J:kf_di_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_di_act_1:1_dioxygen():w1",
+      "src": "J:kf_di_act_1:1",
+      "tgt": "J:dioxygen()"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_di_act_1:1_iron_2__(activity='active'):w1",
+      "src": "J:kf_di_act_1:1",
+      "tgt": "J:iron_2__(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:hyaluronic_acid()_kf_hn_act_1:1:w1",
+      "src": "J:hyaluronic_acid()",
+      "tgt": "J:kf_hn_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:NLRP3(activity='inactive')_kf_hn_act_1:1:w1",
+      "src": "J:NLRP3(activity='inactive')",
+      "tgt": "J:kf_hn_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_hn_act_1:1_hyaluronic_acid():w1",
+      "src": "J:kf_hn_act_1:1",
+      "tgt": "J:hyaluronic_acid()"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_hn_act_1:1_NLRP3(activity='active'):w1",
+      "src": "J:kf_hn_act_1:1",
+      "tgt": "J:NLRP3(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:hyaluronic_acid()_kf_hs_act_1:1:w1",
+      "src": "J:hyaluronic_acid()",
+      "tgt": "J:kf_hs_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:SUGT1(activity='inactive')_kf_hs_act_1:1:w1",
+      "src": "J:SUGT1(activity='inactive')",
+      "tgt": "J:kf_hs_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_hs_act_1:1_hyaluronic_acid():w1",
+      "src": "J:kf_hs_act_1:1",
+      "tgt": "J:hyaluronic_acid()"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_hs_act_1:1_SUGT1(activity='active'):w1",
+      "src": "J:kf_hs_act_1:1",
+      "tgt": "J:SUGT1(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:water(activity='inactive')_kf_nw_act_1:1:w1",
+      "src": "J:water(activity='inactive')",
+      "tgt": "J:kf_nw_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:NADPH()_kf_nw_act_1:1:w1",
+      "src": "J:NADPH()",
+      "tgt": "J:kf_nw_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_nw_act_1:1_NADPH():w1",
+      "src": "J:kf_nw_act_1:1",
+      "tgt": "J:NADPH()"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_nw_act_1:1_water(activity='active'):w1",
+      "src": "J:kf_nw_act_1:1",
+      "tgt": "J:water(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:biliverdin(activity='inactive')_kf_nb_act_1:1:w1",
+      "src": "J:biliverdin(activity='inactive')",
+      "tgt": "J:kf_nb_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:NADPH()_kf_nb_act_1:1:w1",
+      "src": "J:NADPH()",
+      "tgt": "J:kf_nb_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_nb_act_1:1_NADPH():w1",
+      "src": "J:kf_nb_act_1:1",
+      "tgt": "J:NADPH()"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_nb_act_1:1_biliverdin(activity='active'):w1",
+      "src": "J:kf_nb_act_1:1",
+      "tgt": "J:biliverdin(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:carbon_monoxide(activity='inactive')_kf_nc_act_1:1:w1",
+      "src": "J:carbon_monoxide(activity='inactive')",
+      "tgt": "J:kf_nc_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:NADPH()_kf_nc_act_1:1:w1",
+      "src": "J:NADPH()",
+      "tgt": "J:kf_nc_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_nc_act_1:1_NADPH():w1",
+      "src": "J:kf_nc_act_1:1",
+      "tgt": "J:NADPH()"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_nc_act_1:1_carbon_monoxide(activity='active'):w1",
+      "src": "J:kf_nc_act_1:1",
+      "tgt": "J:carbon_monoxide(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:NADP___(activity='inactive')_kf_nn_act_1:1:w1",
+      "src": "J:NADP___(activity='inactive')",
+      "tgt": "J:kf_nn_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:NADPH()_kf_nn_act_1:1:w1",
+      "src": "J:NADPH()",
+      "tgt": "J:kf_nn_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_nn_act_1:1_NADPH():w1",
+      "src": "J:kf_nn_act_1:1",
+      "tgt": "J:NADPH()"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_nn_act_1:1_NADP___(activity='active'):w1",
+      "src": "J:kf_nn_act_1:1",
+      "tgt": "J:NADP___(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:iron_2__(activity='inactive')_kf_ni_act_1:1:w1",
+      "src": "J:iron_2__(activity='inactive')",
+      "tgt": "J:kf_ni_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:NADPH()_kf_ni_act_1:1:w1",
+      "src": "J:NADPH()",
+      "tgt": "J:kf_ni_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_ni_act_1:1_NADPH():w1",
+      "src": "J:kf_ni_act_1:1",
+      "tgt": "J:NADPH()"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_ni_act_1:1_iron_2__(activity='active'):w1",
+      "src": "J:kf_ni_act_1:1",
+      "tgt": "J:iron_2__(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:water(activity='inactive')_kf_hw_act_1:1:w1",
+      "src": "J:water(activity='inactive')",
+      "tgt": "J:kf_hw_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:heme()_kf_hw_act_1:1:w1",
+      "src": "J:heme()",
+      "tgt": "J:kf_hw_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_hw_act_1:1_heme():w1",
+      "src": "J:kf_hw_act_1:1",
+      "tgt": "J:heme()"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_hw_act_1:1_water(activity='active'):w1",
+      "src": "J:kf_hw_act_1:1",
+      "tgt": "J:water(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:biliverdin(activity='inactive')_kf_hb_act_1:1:w1",
+      "src": "J:biliverdin(activity='inactive')",
+      "tgt": "J:kf_hb_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:heme()_kf_hb_act_1:1:w1",
+      "src": "J:heme()",
+      "tgt": "J:kf_hb_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_hb_act_1:1_heme():w1",
+      "src": "J:kf_hb_act_1:1",
+      "tgt": "J:heme()"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_hb_act_1:1_biliverdin(activity='active'):w1",
+      "src": "J:kf_hb_act_1:1",
+      "tgt": "J:biliverdin(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:carbon_monoxide(activity='inactive')_kf_hc_act_1:1:w1",
+      "src": "J:carbon_monoxide(activity='inactive')",
+      "tgt": "J:kf_hc_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:heme()_kf_hc_act_1:1:w1",
+      "src": "J:heme()",
+      "tgt": "J:kf_hc_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_hc_act_1:1_heme():w1",
+      "src": "J:kf_hc_act_1:1",
+      "tgt": "J:heme()"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_hc_act_1:1_carbon_monoxide(activity='active'):w1",
+      "src": "J:kf_hc_act_1:1",
+      "tgt": "J:carbon_monoxide(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:NADP___(activity='inactive')_kf_hn_act_2:1:w1",
+      "src": "J:NADP___(activity='inactive')",
+      "tgt": "J:kf_hn_act_2:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:heme()_kf_hn_act_2:1:w1",
+      "src": "J:heme()",
+      "tgt": "J:kf_hn_act_2:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_hn_act_2:1_heme():w1",
+      "src": "J:kf_hn_act_2:1",
+      "tgt": "J:heme()"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_hn_act_2:1_NADP___(activity='active'):w1",
+      "src": "J:kf_hn_act_2:1",
+      "tgt": "J:NADP___(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:iron_2__(activity='inactive')_kf_hi_act_1:1:w1",
+      "src": "J:iron_2__(activity='inactive')",
+      "tgt": "J:kf_hi_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:heme()_kf_hi_act_1:1:w1",
+      "src": "J:heme()",
+      "tgt": "J:kf_hi_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_hi_act_1:1_heme():w1",
+      "src": "J:kf_hi_act_1:1",
+      "tgt": "J:heme()"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_hi_act_1:1_iron_2__(activity='active'):w1",
+      "src": "J:kf_hi_act_1:1",
+      "tgt": "J:iron_2__(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:NLRP3(activity='inactive')_kf_pn_act_1:1:w1",
+      "src": "J:NLRP3(activity='inactive')",
+      "tgt": "J:kf_pn_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:pattern_recognition_receptor_signaling_pathway()_kf_pn_act_1:1:w1",
+      "src": "J:pattern_recognition_receptor_signaling_pathway()",
+      "tgt": "J:kf_pn_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_pn_act_1:1_pattern_recognition_receptor_signaling_pathway():w1",
+      "src": "J:kf_pn_act_1:1",
+      "tgt": "J:pattern_recognition_receptor_signaling_pathway()"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_pn_act_1:1_NLRP3(activity='active'):w1",
+      "src": "J:kf_pn_act_1:1",
+      "tgt": "J:NLRP3(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:SUGT1(activity='inactive')_kf_ps_act_1:1:w1",
+      "src": "J:SUGT1(activity='inactive')",
+      "tgt": "J:kf_ps_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:pattern_recognition_receptor_signaling_pathway()_kf_ps_act_1:1:w1",
+      "src": "J:pattern_recognition_receptor_signaling_pathway()",
+      "tgt": "J:kf_ps_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_ps_act_1:1_pattern_recognition_receptor_signaling_pathway():w1",
+      "src": "J:kf_ps_act_1:1",
+      "tgt": "J:pattern_recognition_receptor_signaling_pathway()"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_ps_act_1:1_SUGT1(activity='active'):w1",
+      "src": "J:kf_ps_act_1:1",
+      "tgt": "J:SUGT1(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:water(activity='inactive')_kf_hw_act_2:1:w1",
+      "src": "J:water(activity='inactive')",
+      "tgt": "J:kf_hw_act_2:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:HMOX1()_kf_hw_act_2:1:w1",
+      "src": "J:HMOX1()",
+      "tgt": "J:kf_hw_act_2:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_hw_act_2:1_HMOX1():w1",
+      "src": "J:kf_hw_act_2:1",
+      "tgt": "J:HMOX1()"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_hw_act_2:1_water(activity='active'):w1",
+      "src": "J:kf_hw_act_2:1",
+      "tgt": "J:water(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:biliverdin(activity='inactive')_kf_hb_act_2:1:w1",
+      "src": "J:biliverdin(activity='inactive')",
+      "tgt": "J:kf_hb_act_2:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:HMOX1()_kf_hb_act_2:1:w1",
+      "src": "J:HMOX1()",
+      "tgt": "J:kf_hb_act_2:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_hb_act_2:1_HMOX1():w1",
+      "src": "J:kf_hb_act_2:1",
+      "tgt": "J:HMOX1()"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_hb_act_2:1_biliverdin(activity='active'):w1",
+      "src": "J:kf_hb_act_2:1",
+      "tgt": "J:biliverdin(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:carbon_monoxide(activity='inactive')_kf_hc_act_2:1:w1",
+      "src": "J:carbon_monoxide(activity='inactive')",
+      "tgt": "J:kf_hc_act_2:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:HMOX1()_kf_hc_act_2:1:w1",
+      "src": "J:HMOX1()",
+      "tgt": "J:kf_hc_act_2:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_hc_act_2:1_HMOX1():w1",
+      "src": "J:kf_hc_act_2:1",
+      "tgt": "J:HMOX1()"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_hc_act_2:1_carbon_monoxide(activity='active'):w1",
+      "src": "J:kf_hc_act_2:1",
+      "tgt": "J:carbon_monoxide(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:NADP___(activity='inactive')_kf_hn_act_3:1:w1",
+      "src": "J:NADP___(activity='inactive')",
+      "tgt": "J:kf_hn_act_3:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:HMOX1()_kf_hn_act_3:1:w1",
+      "src": "J:HMOX1()",
+      "tgt": "J:kf_hn_act_3:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_hn_act_3:1_HMOX1():w1",
+      "src": "J:kf_hn_act_3:1",
+      "tgt": "J:HMOX1()"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_hn_act_3:1_NADP___(activity='active'):w1",
+      "src": "J:kf_hn_act_3:1",
+      "tgt": "J:NADP___(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:iron_2__(activity='inactive')_kf_hi_act_2:1:w1",
+      "src": "J:iron_2__(activity='inactive')",
+      "tgt": "J:kf_hi_act_2:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:HMOX1()_kf_hi_act_2:1:w1",
+      "src": "J:HMOX1()",
+      "tgt": "J:kf_hi_act_2:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_hi_act_2:1_HMOX1():w1",
+      "src": "J:kf_hi_act_2:1",
+      "tgt": "J:HMOX1()"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_hi_act_2:1_iron_2__(activity='active'):w1",
+      "src": "J:kf_hi_act_2:1",
+      "tgt": "J:iron_2__(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:TRAF3(activity='inactive')_kf_3t_act_1:1:w1",
+      "src": "J:TRAF3(activity='inactive')",
+      "tgt": "J:kf_3t_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:p3a()_kf_3t_act_1:1:w1",
+      "src": "J:p3a()",
+      "tgt": "J:kf_3t_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_3t_act_1:1_p3a():w1",
+      "src": "J:kf_3t_act_1:1",
+      "tgt": "J:p3a()"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_3t_act_1:1_TRAF3(activity='active'):w1",
+      "src": "J:kf_3t_act_1:1",
+      "tgt": "J:TRAF3(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:calcium_2__(activity='inactive')_kf_ec_act_1:1:w1",
+      "src": "J:calcium_2__(activity='inactive')",
+      "tgt": "J:kf_ec_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:E()_kf_ec_act_1:1:w1",
+      "src": "J:E()",
+      "tgt": "J:kf_ec_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_ec_act_1:1_E():w1",
+      "src": "J:kf_ec_act_1:1",
+      "tgt": "J:E()"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_ec_act_1:1_calcium_2__(activity='active'):w1",
+      "src": "J:kf_ec_act_1:1",
+      "tgt": "J:calcium_2__(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:TRAF3(activity='inactive')_kf_ot_deg_1:1:w1",
+      "src": "J:TRAF3(activity='inactive')",
+      "tgt": "J:kf_ot_deg_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:Orf9b()_kf_ot_deg_1:1:w1",
+      "src": "J:Orf9b()",
+      "tgt": "J:kf_ot_deg_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_ot_deg_1:1_Orf9b():w1",
+      "src": "J:kf_ot_deg_1:1",
+      "tgt": "J:Orf9b()"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:NLRP3(activity='inactive')_kf_cn_act_1:1:w1",
+      "src": "J:NLRP3(activity='inactive')",
+      "tgt": "J:kf_cn_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:calcium_2__(activity='active')_kf_cn_act_1:1:w1",
+      "src": "J:calcium_2__(activity='active')",
+      "tgt": "J:kf_cn_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_cn_act_1:1_NLRP3(activity='active'):w1",
+      "src": "J:kf_cn_act_1:1",
+      "tgt": "J:NLRP3(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_cn_act_1:1_calcium_2__(activity='active'):w1",
+      "src": "J:kf_cn_act_1:1",
+      "tgt": "J:calcium_2__(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:SUGT1(activity='inactive')_kf_cs_act_1:1:w1",
+      "src": "J:SUGT1(activity='inactive')",
+      "tgt": "J:kf_cs_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:calcium_2__(activity='active')_kf_cs_act_1:1:w1",
+      "src": "J:calcium_2__(activity='active')",
+      "tgt": "J:kf_cs_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_cs_act_1:1_SUGT1(activity='active'):w1",
+      "src": "J:kf_cs_act_1:1",
+      "tgt": "J:SUGT1(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_cs_act_1:1_calcium_2__(activity='active'):w1",
+      "src": "J:kf_cs_act_1:1",
+      "tgt": "J:calcium_2__(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:NFKB1(activity='inactive')_kf_tn_act_1:1:w1",
+      "src": "J:NFKB1(activity='inactive')",
+      "tgt": "J:kf_tn_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:TRAF3(activity='active')_kf_tn_act_1:1:w1",
+      "src": "J:TRAF3(activity='active')",
+      "tgt": "J:kf_tn_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_tn_act_1:1_TRAF3(activity='active'):w1",
+      "src": "J:kf_tn_act_1:1",
+      "tgt": "J:TRAF3(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_tn_act_1:1_NFKB1(activity='active'):w1",
+      "src": "J:kf_tn_act_1:1",
+      "tgt": "J:NFKB1(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:PYCARD(activity='inactive')_kf_np_act_1:1:w1",
+      "src": "J:PYCARD(activity='inactive')",
+      "tgt": "J:kf_np_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:NLRP3(activity='active')_kf_np_act_1:1:w1",
+      "src": "J:NLRP3(activity='active')",
+      "tgt": "J:kf_np_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_np_act_1:1_NLRP3(activity='active'):w1",
+      "src": "J:kf_np_act_1:1",
+      "tgt": "J:NLRP3(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_np_act_1:1_PYCARD(activity='active'):w1",
+      "src": "J:kf_np_act_1:1",
+      "tgt": "J:PYCARD(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:NLRP3(activity='inactive')_kf_sn_act_1:1:w1",
+      "src": "J:NLRP3(activity='inactive')",
+      "tgt": "J:kf_sn_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:SUGT1(activity='active')_kf_sn_act_1:1:w1",
+      "src": "J:SUGT1(activity='active')",
+      "tgt": "J:kf_sn_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_sn_act_1:1_NLRP3(activity='active'):w1",
+      "src": "J:kf_sn_act_1:1",
+      "tgt": "J:NLRP3(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_sn_act_1:1_SUGT1(activity='active'):w1",
+      "src": "J:kf_sn_act_1:1",
+      "tgt": "J:SUGT1(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:Orf9b()_kf_ot_deg_1:2:w1",
+      "src": "J:Orf9b()",
+      "tgt": "J:kf_ot_deg_1:2"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:TRAF3(activity='active')_kf_ot_deg_1:2:w1",
+      "src": "J:TRAF3(activity='active')",
+      "tgt": "J:kf_ot_deg_1:2"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_ot_deg_1:2_Orf9b():w1",
+      "src": "J:kf_ot_deg_1:2",
+      "tgt": "J:Orf9b()"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:parthenolide()_kf_pn_act_2:1:w1",
+      "src": "J:parthenolide()",
+      "tgt": "J:kf_pn_act_2:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:NLRP3(activity='active')_kf_pn_act_2:1:w1",
+      "src": "J:NLRP3(activity='active')",
+      "tgt": "J:kf_pn_act_2:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_pn_act_2:1_NLRP3(activity='inactive'):w1",
+      "src": "J:kf_pn_act_2:1",
+      "tgt": "J:NLRP3(activity='inactive')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_pn_act_2:1_parthenolide():w1",
+      "src": "J:kf_pn_act_2:1",
+      "tgt": "J:parthenolide()"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:_E__3_tosylacrylonitrile()_kf__n_act_1:1:w1",
+      "src": "J:_E__3_tosylacrylonitrile()",
+      "tgt": "J:kf__n_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:NLRP3(activity='active')_kf__n_act_1:1:w1",
+      "src": "J:NLRP3(activity='active')",
+      "tgt": "J:kf__n_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf__n_act_1:1_NLRP3(activity='inactive'):w1",
+      "src": "J:kf__n_act_1:1",
+      "tgt": "J:NLRP3(activity='inactive')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf__n_act_1:1__E__3_tosylacrylonitrile():w1",
+      "src": "J:kf__n_act_1:1",
+      "tgt": "J:_E__3_tosylacrylonitrile()"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:TRAF3(activity='inactive')_kf_pt_act_1:1:w1",
+      "src": "J:TRAF3(activity='inactive')",
+      "tgt": "J:kf_pt_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:PYCARD(activity='active')_kf_pt_act_1:1:w1",
+      "src": "J:PYCARD(activity='active')",
+      "tgt": "J:kf_pt_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_pt_act_1:1_TRAF3(activity='active'):w1",
+      "src": "J:kf_pt_act_1:1",
+      "tgt": "J:TRAF3(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_pt_act_1:1_PYCARD(activity='active'):w1",
+      "src": "J:kf_pt_act_1:1",
+      "tgt": "J:PYCARD(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:CASP1(activity='inactive')_kf_pc_act_1:1:w1",
+      "src": "J:CASP1(activity='inactive')",
+      "tgt": "J:kf_pc_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:PYCARD(activity='active')_kf_pc_act_1:1:w1",
+      "src": "J:PYCARD(activity='active')",
+      "tgt": "J:kf_pc_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_pc_act_1:1_PYCARD(activity='active'):w1",
+      "src": "J:kf_pc_act_1:1",
+      "tgt": "J:PYCARD(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_pc_act_1:1_CASP1(activity='active'):w1",
+      "src": "J:kf_pc_act_1:1",
+      "tgt": "J:CASP1(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:IL18(activity='inactive')_kf_ni_act_2:1:w1",
+      "src": "J:IL18(activity='inactive')",
+      "tgt": "J:kf_ni_act_2:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:NFKB1(activity='active')_kf_ni_act_2:1:w1",
+      "src": "J:NFKB1(activity='active')",
+      "tgt": "J:kf_ni_act_2:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_ni_act_2:1_NFKB1(activity='active'):w1",
+      "src": "J:kf_ni_act_2:1",
+      "tgt": "J:NFKB1(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_ni_act_2:1_IL18(activity='active'):w1",
+      "src": "J:kf_ni_act_2:1",
+      "tgt": "J:IL18(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:IL1B(activity='inactive')_kf_ni_act_3:1:w1",
+      "src": "J:IL1B(activity='inactive')",
+      "tgt": "J:kf_ni_act_3:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:NFKB1(activity='active')_kf_ni_act_3:1:w1",
+      "src": "J:NFKB1(activity='active')",
+      "tgt": "J:kf_ni_act_3:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_ni_act_3:1_NFKB1(activity='active'):w1",
+      "src": "J:kf_ni_act_3:1",
+      "tgt": "J:NFKB1(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_ni_act_3:1_IL1B(activity='active'):w1",
+      "src": "J:kf_ni_act_3:1",
+      "tgt": "J:IL1B(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:IL18(activity='inactive')_kf_ci_act_1:1:w1",
+      "src": "J:IL18(activity='inactive')",
+      "tgt": "J:kf_ci_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:CASP1(activity='active')_kf_ci_act_1:1:w1",
+      "src": "J:CASP1(activity='active')",
+      "tgt": "J:kf_ci_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_ci_act_1:1_CASP1(activity='active'):w1",
+      "src": "J:kf_ci_act_1:1",
+      "tgt": "J:CASP1(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_ci_act_1:1_IL18(activity='active'):w1",
+      "src": "J:kf_ci_act_1:1",
+      "tgt": "J:IL18(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:IL1B(activity='inactive')_kf_ci_act_2:1:w1",
+      "src": "J:IL1B(activity='inactive')",
+      "tgt": "J:kf_ci_act_2:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:CASP1(activity='active')_kf_ci_act_2:1:w1",
+      "src": "J:CASP1(activity='active')",
+      "tgt": "J:kf_ci_act_2:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_ci_act_2:1_CASP1(activity='active'):w1",
+      "src": "J:kf_ci_act_2:1",
+      "tgt": "J:CASP1(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_ci_act_2:1_IL1B(activity='active'):w1",
+      "src": "J:kf_ci_act_2:1",
+      "tgt": "J:IL1B(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:Pralnacasan()_kf_pc_act_2:1:w1",
+      "src": "J:Pralnacasan()",
+      "tgt": "J:kf_pc_act_2:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:CASP1(activity='active')_kf_pc_act_2:1:w1",
+      "src": "J:CASP1(activity='active')",
+      "tgt": "J:kf_pc_act_2:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_pc_act_2:1_CASP1(activity='inactive'):w1",
+      "src": "J:kf_pc_act_2:1",
+      "tgt": "J:CASP1(activity='inactive')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_pc_act_2:1_Pralnacasan():w1",
+      "src": "J:kf_pc_act_2:1",
+      "tgt": "J:Pralnacasan()"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:parthenolide()_kf_pc_act_3:1:w1",
+      "src": "J:parthenolide()",
+      "tgt": "J:kf_pc_act_3:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:CASP1(activity='active')_kf_pc_act_3:1:w1",
+      "src": "J:CASP1(activity='active')",
+      "tgt": "J:kf_pc_act_3:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_pc_act_3:1_CASP1(activity='inactive'):w1",
+      "src": "J:kf_pc_act_3:1",
+      "tgt": "J:CASP1(activity='inactive')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_pc_act_3:1_parthenolide():w1",
+      "src": "J:kf_pc_act_3:1",
+      "tgt": "J:parthenolide()"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:Proteasome()_kf_pi_act_2:1:w1",
+      "src": "J:Proteasome()",
+      "tgt": "J:kf_pi_act_2:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:IL18(activity='active')_kf_pi_act_2:1:w1",
+      "src": "J:IL18(activity='active')",
+      "tgt": "J:kf_pi_act_2:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_pi_act_2:1_IL18(activity='inactive'):w1",
+      "src": "J:kf_pi_act_2:1",
+      "tgt": "J:IL18(activity='inactive')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_pi_act_2:1_Proteasome():w1",
+      "src": "J:kf_pi_act_2:1",
+      "tgt": "J:Proteasome()"
+    }
+  ],
+  "boxes": [
+    {
+      "wires": [
+        "W:dioxygen()_kf_dw_act_1:1:w1",
+        "W:water(activity='inactive')_kf_dw_act_1:1:w1",
+        "W:kf_dw_act_1:1_dioxygen():w1",
+        "W:kf_dw_act_1:1_water(activity='active'):w1",
+        "W:dioxygen()_kf_db_act_1:1:w1",
+        "W:biliverdin(activity='inactive')_kf_db_act_1:1:w1",
+        "W:kf_db_act_1:1_dioxygen():w1",
+        "W:kf_db_act_1:1_biliverdin(activity='active'):w1",
+        "W:dioxygen()_kf_dc_act_1:1:w1",
+        "W:carbon_monoxide(activity='inactive')_kf_dc_act_1:1:w1",
+        "W:kf_dc_act_1:1_dioxygen():w1",
+        "W:kf_dc_act_1:1_carbon_monoxide(activity='active'):w1",
+        "W:dioxygen()_kf_dn_act_1:1:w1",
+        "W:NADP___(activity='inactive')_kf_dn_act_1:1:w1",
+        "W:kf_dn_act_1:1_dioxygen():w1",
+        "W:kf_dn_act_1:1_NADP___(activity='active'):w1",
+        "W:dioxygen()_kf_di_act_1:1:w1",
+        "W:iron_2__(activity='inactive')_kf_di_act_1:1:w1",
+        "W:kf_di_act_1:1_dioxygen():w1",
+        "W:kf_di_act_1:1_iron_2__(activity='active'):w1",
+        "W:hyaluronic_acid()_kf_hn_act_1:1:w1",
+        "W:NLRP3(activity='inactive')_kf_hn_act_1:1:w1",
+        "W:kf_hn_act_1:1_hyaluronic_acid():w1",
+        "W:kf_hn_act_1:1_NLRP3(activity='active'):w1",
+        "W:hyaluronic_acid()_kf_hs_act_1:1:w1",
+        "W:SUGT1(activity='inactive')_kf_hs_act_1:1:w1",
+        "W:kf_hs_act_1:1_hyaluronic_acid():w1",
+        "W:kf_hs_act_1:1_SUGT1(activity='active'):w1",
+        "W:water(activity='inactive')_kf_nw_act_1:1:w1",
+        "W:NADPH()_kf_nw_act_1:1:w1",
+        "W:kf_nw_act_1:1_NADPH():w1",
+        "W:kf_nw_act_1:1_water(activity='active'):w1",
+        "W:biliverdin(activity='inactive')_kf_nb_act_1:1:w1",
+        "W:NADPH()_kf_nb_act_1:1:w1",
+        "W:kf_nb_act_1:1_NADPH():w1",
+        "W:kf_nb_act_1:1_biliverdin(activity='active'):w1",
+        "W:carbon_monoxide(activity='inactive')_kf_nc_act_1:1:w1",
+        "W:NADPH()_kf_nc_act_1:1:w1",
+        "W:kf_nc_act_1:1_NADPH():w1",
+        "W:kf_nc_act_1:1_carbon_monoxide(activity='active'):w1",
+        "W:NADP___(activity='inactive')_kf_nn_act_1:1:w1",
+        "W:NADPH()_kf_nn_act_1:1:w1",
+        "W:kf_nn_act_1:1_NADPH():w1",
+        "W:kf_nn_act_1:1_NADP___(activity='active'):w1",
+        "W:iron_2__(activity='inactive')_kf_ni_act_1:1:w1",
+        "W:NADPH()_kf_ni_act_1:1:w1",
+        "W:kf_ni_act_1:1_NADPH():w1",
+        "W:kf_ni_act_1:1_iron_2__(activity='active'):w1",
+        "W:water(activity='inactive')_kf_hw_act_1:1:w1",
+        "W:heme()_kf_hw_act_1:1:w1",
+        "W:kf_hw_act_1:1_heme():w1",
+        "W:kf_hw_act_1:1_water(activity='active'):w1",
+        "W:biliverdin(activity='inactive')_kf_hb_act_1:1:w1",
+        "W:heme()_kf_hb_act_1:1:w1",
+        "W:kf_hb_act_1:1_heme():w1",
+        "W:kf_hb_act_1:1_biliverdin(activity='active'):w1",
+        "W:carbon_monoxide(activity='inactive')_kf_hc_act_1:1:w1",
+        "W:heme()_kf_hc_act_1:1:w1",
+        "W:kf_hc_act_1:1_heme():w1",
+        "W:kf_hc_act_1:1_carbon_monoxide(activity='active'):w1",
+        "W:NADP___(activity='inactive')_kf_hn_act_2:1:w1",
+        "W:heme()_kf_hn_act_2:1:w1",
+        "W:kf_hn_act_2:1_heme():w1",
+        "W:kf_hn_act_2:1_NADP___(activity='active'):w1",
+        "W:iron_2__(activity='inactive')_kf_hi_act_1:1:w1",
+        "W:heme()_kf_hi_act_1:1:w1",
+        "W:kf_hi_act_1:1_heme():w1",
+        "W:kf_hi_act_1:1_iron_2__(activity='active'):w1",
+        "W:NLRP3(activity='inactive')_kf_pn_act_1:1:w1",
+        "W:pattern_recognition_receptor_signaling_pathway()_kf_pn_act_1:1:w1",
+        "W:kf_pn_act_1:1_pattern_recognition_receptor_signaling_pathway():w1",
+        "W:kf_pn_act_1:1_NLRP3(activity='active'):w1",
+        "W:SUGT1(activity='inactive')_kf_ps_act_1:1:w1",
+        "W:pattern_recognition_receptor_signaling_pathway()_kf_ps_act_1:1:w1",
+        "W:kf_ps_act_1:1_pattern_recognition_receptor_signaling_pathway():w1",
+        "W:kf_ps_act_1:1_SUGT1(activity='active'):w1",
+        "W:water(activity='inactive')_kf_hw_act_2:1:w1",
+        "W:HMOX1()_kf_hw_act_2:1:w1",
+        "W:kf_hw_act_2:1_HMOX1():w1",
+        "W:kf_hw_act_2:1_water(activity='active'):w1",
+        "W:biliverdin(activity='inactive')_kf_hb_act_2:1:w1",
+        "W:HMOX1()_kf_hb_act_2:1:w1",
+        "W:kf_hb_act_2:1_HMOX1():w1",
+        "W:kf_hb_act_2:1_biliverdin(activity='active'):w1",
+        "W:carbon_monoxide(activity='inactive')_kf_hc_act_2:1:w1",
+        "W:HMOX1()_kf_hc_act_2:1:w1",
+        "W:kf_hc_act_2:1_HMOX1():w1",
+        "W:kf_hc_act_2:1_carbon_monoxide(activity='active'):w1",
+        "W:NADP___(activity='inactive')_kf_hn_act_3:1:w1",
+        "W:HMOX1()_kf_hn_act_3:1:w1",
+        "W:kf_hn_act_3:1_HMOX1():w1",
+        "W:kf_hn_act_3:1_NADP___(activity='active'):w1",
+        "W:iron_2__(activity='inactive')_kf_hi_act_2:1:w1",
+        "W:HMOX1()_kf_hi_act_2:1:w1",
+        "W:kf_hi_act_2:1_HMOX1():w1",
+        "W:kf_hi_act_2:1_iron_2__(activity='active'):w1",
+        "W:TRAF3(activity='inactive')_kf_3t_act_1:1:w1",
+        "W:p3a()_kf_3t_act_1:1:w1",
+        "W:kf_3t_act_1:1_p3a():w1",
+        "W:kf_3t_act_1:1_TRAF3(activity='active'):w1",
+        "W:calcium_2__(activity='inactive')_kf_ec_act_1:1:w1",
+        "W:E()_kf_ec_act_1:1:w1",
+        "W:kf_ec_act_1:1_E():w1",
+        "W:kf_ec_act_1:1_calcium_2__(activity='active'):w1",
+        "W:TRAF3(activity='inactive')_kf_ot_deg_1:1:w1",
+        "W:Orf9b()_kf_ot_deg_1:1:w1",
+        "W:kf_ot_deg_1:1_Orf9b():w1",
+        "W:NLRP3(activity='inactive')_kf_cn_act_1:1:w1",
+        "W:calcium_2__(activity='active')_kf_cn_act_1:1:w1",
+        "W:kf_cn_act_1:1_NLRP3(activity='active'):w1",
+        "W:kf_cn_act_1:1_calcium_2__(activity='active'):w1",
+        "W:SUGT1(activity='inactive')_kf_cs_act_1:1:w1",
+        "W:calcium_2__(activity='active')_kf_cs_act_1:1:w1",
+        "W:kf_cs_act_1:1_SUGT1(activity='active'):w1",
+        "W:kf_cs_act_1:1_calcium_2__(activity='active'):w1",
+        "W:NFKB1(activity='inactive')_kf_tn_act_1:1:w1",
+        "W:TRAF3(activity='active')_kf_tn_act_1:1:w1",
+        "W:kf_tn_act_1:1_TRAF3(activity='active'):w1",
+        "W:kf_tn_act_1:1_NFKB1(activity='active'):w1",
+        "W:PYCARD(activity='inactive')_kf_np_act_1:1:w1",
+        "W:NLRP3(activity='active')_kf_np_act_1:1:w1",
+        "W:kf_np_act_1:1_NLRP3(activity='active'):w1",
+        "W:kf_np_act_1:1_PYCARD(activity='active'):w1",
+        "W:NLRP3(activity='inactive')_kf_sn_act_1:1:w1",
+        "W:SUGT1(activity='active')_kf_sn_act_1:1:w1",
+        "W:kf_sn_act_1:1_NLRP3(activity='active'):w1",
+        "W:kf_sn_act_1:1_SUGT1(activity='active'):w1",
+        "W:Orf9b()_kf_ot_deg_1:2:w1",
+        "W:TRAF3(activity='active')_kf_ot_deg_1:2:w1",
+        "W:kf_ot_deg_1:2_Orf9b():w1",
+        "W:parthenolide()_kf_pn_act_2:1:w1",
+        "W:NLRP3(activity='active')_kf_pn_act_2:1:w1",
+        "W:kf_pn_act_2:1_NLRP3(activity='inactive'):w1",
+        "W:kf_pn_act_2:1_parthenolide():w1",
+        "W:_E__3_tosylacrylonitrile()_kf__n_act_1:1:w1",
+        "W:NLRP3(activity='active')_kf__n_act_1:1:w1",
+        "W:kf__n_act_1:1_NLRP3(activity='inactive'):w1",
+        "W:kf__n_act_1:1__E__3_tosylacrylonitrile():w1",
+        "W:TRAF3(activity='inactive')_kf_pt_act_1:1:w1",
+        "W:PYCARD(activity='active')_kf_pt_act_1:1:w1",
+        "W:kf_pt_act_1:1_TRAF3(activity='active'):w1",
+        "W:kf_pt_act_1:1_PYCARD(activity='active'):w1",
+        "W:CASP1(activity='inactive')_kf_pc_act_1:1:w1",
+        "W:PYCARD(activity='active')_kf_pc_act_1:1:w1",
+        "W:kf_pc_act_1:1_PYCARD(activity='active'):w1",
+        "W:kf_pc_act_1:1_CASP1(activity='active'):w1",
+        "W:IL18(activity='inactive')_kf_ni_act_2:1:w1",
+        "W:NFKB1(activity='active')_kf_ni_act_2:1:w1",
+        "W:kf_ni_act_2:1_NFKB1(activity='active'):w1",
+        "W:kf_ni_act_2:1_IL18(activity='active'):w1",
+        "W:IL1B(activity='inactive')_kf_ni_act_3:1:w1",
+        "W:NFKB1(activity='active')_kf_ni_act_3:1:w1",
+        "W:kf_ni_act_3:1_NFKB1(activity='active'):w1",
+        "W:kf_ni_act_3:1_IL1B(activity='active'):w1",
+        "W:IL18(activity='inactive')_kf_ci_act_1:1:w1",
+        "W:CASP1(activity='active')_kf_ci_act_1:1:w1",
+        "W:kf_ci_act_1:1_CASP1(activity='active'):w1",
+        "W:kf_ci_act_1:1_IL18(activity='active'):w1",
+        "W:IL1B(activity='inactive')_kf_ci_act_2:1:w1",
+        "W:CASP1(activity='active')_kf_ci_act_2:1:w1",
+        "W:kf_ci_act_2:1_CASP1(activity='active'):w1",
+        "W:kf_ci_act_2:1_IL1B(activity='active'):w1",
+        "W:Pralnacasan()_kf_pc_act_2:1:w1",
+        "W:CASP1(activity='active')_kf_pc_act_2:1:w1",
+        "W:kf_pc_act_2:1_CASP1(activity='inactive'):w1",
+        "W:kf_pc_act_2:1_Pralnacasan():w1",
+        "W:parthenolide()_kf_pc_act_3:1:w1",
+        "W:CASP1(activity='active')_kf_pc_act_3:1:w1",
+        "W:kf_pc_act_3:1_CASP1(activity='inactive'):w1",
+        "W:kf_pc_act_3:1_parthenolide():w1",
+        "W:Proteasome()_kf_pi_act_2:1:w1",
+        "W:IL18(activity='active')_kf_pi_act_2:1:w1",
+        "W:kf_pi_act_2:1_IL18(activity='inactive'):w1",
+        "W:kf_pi_act_2:1_Proteasome():w1"
+      ],
+      "boxes": null,
+      "junctions": [
+        "J:dioxygen()",
+        "J:water(activity='inactive')",
+        "J:biliverdin(activity='inactive')",
+        "J:carbon_monoxide(activity='inactive')",
+        "J:NADP___(activity='inactive')",
+        "J:iron_2__(activity='inactive')",
+        "J:hyaluronic_acid()",
+        "J:NLRP3(activity='inactive')",
+        "J:SUGT1(activity='inactive')",
+        "J:NADPH()",
+        "J:reactive_oxygen_species(activity='inactive')",
+        "J:TXN(activity='inactive')",
+        "J:calcium_2__(activity='inactive')",
+        "J:heme()",
+        "J:pattern_recognition_receptor_signaling_pathway()",
+        "J:TRAF3(activity='inactive')",
+        "J:NFKB1(activity='inactive')",
+        "J:TXNIP(activity='inactive')",
+        "J:CASP1(activity='inactive')",
+        "J:IL18(activity='inactive')",
+        "J:IL1B(activity='inactive')",
+        "J:PYCARD(activity='inactive')",
+        "J:HMOX1()",
+        "J:p3a()",
+        "J:E()",
+        "J:Orf9b()",
+        "J:Pralnacasan()",
+        "J:parthenolide()",
+        "J:IKBKB(activity='inactive')",
+        "J:_E__3_tosylacrylonitrile()",
+        "J:Proteasome()",
+        "J:water(activity='active')",
+        "J:biliverdin(activity='active')",
+        "J:carbon_monoxide(activity='active')",
+        "J:NADP___(activity='active')",
+        "J:iron_2__(activity='active')",
+        "J:NLRP3(activity='active')",
+        "J:SUGT1(activity='active')",
+        "J:TRAF3(activity='active')",
+        "J:calcium_2__(activity='active')",
+        "J:NFKB1(activity='active')",
+        "J:PYCARD(activity='active')",
+        "J:CASP1(activity='active')",
+        "J:IL18(activity='active')",
+        "J:IL1B(activity='active')",
+        "J:kf_dw_act_1:1",
+        "J:kf_db_act_1:1",
+        "J:kf_dc_act_1:1",
+        "J:kf_dn_act_1:1",
+        "J:kf_di_act_1:1",
+        "J:kf_hn_act_1:1",
+        "J:kf_hs_act_1:1",
+        "J:kf_nw_act_1:1",
+        "J:kf_nb_act_1:1",
+        "J:kf_nc_act_1:1",
+        "J:kf_nn_act_1:1",
+        "J:kf_ni_act_1:1",
+        "J:kf_hw_act_1:1",
+        "J:kf_hb_act_1:1",
+        "J:kf_hc_act_1:1",
+        "J:kf_hn_act_2:1",
+        "J:kf_hi_act_1:1",
+        "J:kf_pn_act_1:1",
+        "J:kf_ps_act_1:1",
+        "J:kf_hw_act_2:1",
+        "J:kf_hb_act_2:1",
+        "J:kf_hc_act_2:1",
+        "J:kf_hn_act_3:1",
+        "J:kf_hi_act_2:1",
+        "J:kf_3t_act_1:1",
+        "J:kf_ec_act_1:1",
+        "J:kf_ot_deg_1:1",
+        "J:kf_cn_act_1:1",
+        "J:kf_cs_act_1:1",
+        "J:kf_tn_act_1:1",
+        "J:kf_np_act_1:1",
+        "J:kf_sn_act_1:1",
+        "J:kf_ot_deg_1:2",
+        "J:kf_pn_act_2:1",
+        "J:kf__n_act_1:1",
+        "J:kf_pt_act_1:1",
+        "J:kf_pc_act_1:1",
+        "J:kf_ni_act_2:1",
+        "J:kf_ni_act_3:1",
+        "J:kf_ci_act_1:1",
+        "J:kf_ci_act_2:1",
+        "J:kf_pc_act_2:1",
+        "J:kf_pc_act_3:1",
+        "J:kf_pi_act_2:1"
+      ],
+      "syntax": "Relation",
+      "type": "PetriNetClassic",
+      "name": "covid19_inflammasome",
+      "metadata": null,
+      "uid": "covid19_inflammasome",
+      "ports": null
+    }
+  ],
+  "variables": null
+}
