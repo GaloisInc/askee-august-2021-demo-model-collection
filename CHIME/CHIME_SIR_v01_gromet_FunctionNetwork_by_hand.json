@@ -1,7 +1,7 @@
 {
   "syntax": "Gromet",
   "type": "FunctionNetwork",
-  "name": "CHIME_SIR",
+  "name": "CHIME_SIR_01",
   "metadata": [
     {
       "metadata_type": "ModelDescription",
@@ -9,9 +9,9 @@
       "provenance": {
         "metadata_type": "Provenance",
         "method": "Manual_claytonm@az",
-        "timestamp": "2021-08-10T16:55:22:926719_MST-0700"
+        "timestamp": "2021-08-18T05:26:03:271178_MST-0700"
       },
-      "name": "CHIME [SIR dynamics only]",
+      "name": "CHIME v01 [SIR dynamics only]",
       "description": "The CHIME (COVID-19 Hospital Impact Model for Epidemics) App is designed to assist hospitals and public health officials understand hospital capacity needs as they relate to the COVID-19 pandemic. CHIME enables capacity planning by providing estimates of total daily (i.e. new) and running totals of (i.e. census) inpatient hospitalizations, ICU admissions, and patients requiring ventilation. These estimates are generated using a SIR (Susceptible, Infected, Recovered) model, a standard epidemiological modeling technique."
     },
     {
@@ -20,7 +20,7 @@
       "provenance": {
         "metadata_type": "Provenance",
         "method": "Manual_claytonm@az",
-        "timestamp": "2021-08-10T16:55:22:926923_MST-0700"
+        "timestamp": "2021-08-18T05:26:03:271302_MST-0700"
       },
       "variables": [
         "V:sir.s_in",
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "uid": "CHIME_SIR",
+  "uid": "CHIME_SIR_01",
   "root": "B:sir",
   "types": null,
   "literals": null,
@@ -818,7 +818,7 @@
               "P:sir_i_n_exp.gamma"
             ]
           },
-          "P:sir_i_n_exp.gamma"
+          "P:sir_i_n_exp.i"
         ]
       }
     },
@@ -1120,7 +1120,7 @@
       "name": "s",
       "metadata": null,
       "uid": "V:sir.s_out",
-      "proxy_state": "P:sir_s_exp.s",
+      "proxy_state": "P:sir.s_out",
       "states": [
         "P:sir_s_exp.s",
         "W:sir_s_exp.s>sir.s_out",
@@ -1133,7 +1133,7 @@
       "name": "i",
       "metadata": null,
       "uid": "V:sir.i_out",
-      "proxy_state": "P:sir_i_exp.i",
+      "proxy_state": "P:sir.i_out",
       "states": [
         "P:sir_i_exp.i",
         "W:sir_i_exp.i>sir.i_out",
@@ -1146,7 +1146,7 @@
       "name": "r",
       "metadata": null,
       "uid": "V:sir.r_out",
-      "proxy_state": "P:sir_r_exp.r",
+      "proxy_state": "P:sir.r_out",
       "states": [
         "P:sir_r_exp.r",
         "W:sir_r_exp.r>sir.r_out",
