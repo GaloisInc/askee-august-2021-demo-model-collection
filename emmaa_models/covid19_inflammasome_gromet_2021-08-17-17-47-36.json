@@ -9,9 +9,11 @@
       "provenance": {
         "metadata_type": "Provenance",
         "method": "from_emmaa_model",
-        "timestamp": "2021-08-17T17:47:36:028879_MST-0700"
+        "timestamp": "2021-08-18T19:49:23:683470_MST-0700"
       },
       "variables": [
+        "J:mitochondrion()",
+        "J:reactive_oxygen_species(activity='inactive')",
         "J:dioxygen()",
         "J:water(activity='inactive')",
         "J:biliverdin(activity='inactive')",
@@ -22,7 +24,6 @@
         "J:NLRP3(activity='inactive')",
         "J:SUGT1(activity='inactive')",
         "J:NADPH()",
-        "J:reactive_oxygen_species(activity='inactive')",
         "J:TXN(activity='inactive')",
         "J:calcium_2__(activity='inactive')",
         "J:heme()",
@@ -43,6 +44,7 @@
         "J:IKBKB(activity='inactive')",
         "J:_E__3_tosylacrylonitrile()",
         "J:Proteasome()",
+        "J:reactive_oxygen_species(activity='active')",
         "J:water(activity='active')",
         "J:biliverdin(activity='active')",
         "J:carbon_monoxide(activity='active')",
@@ -52,11 +54,14 @@
         "J:SUGT1(activity='active')",
         "J:TRAF3(activity='active')",
         "J:calcium_2__(activity='active')",
+        "J:TXN(activity='active')",
         "J:NFKB1(activity='active')",
         "J:PYCARD(activity='active')",
+        "J:TXNIP(activity='active')",
         "J:CASP1(activity='active')",
         "J:IL18(activity='active')",
         "J:IL1B(activity='active')",
+        "J:kf_mr_act_1:1",
         "J:kf_dw_act_1:1",
         "J:kf_db_act_1:1",
         "J:kf_dc_act_1:1",
@@ -84,25 +89,33 @@
         "J:kf_3t_act_1:1",
         "J:kf_ec_act_1:1",
         "J:kf_ot_deg_1:1",
+        "J:kf_rt_act_1:1",
+        "J:kf_rn_act_1:1",
+        "J:kf_rs_act_1:1",
         "J:kf_cn_act_1:1",
         "J:kf_cs_act_1:1",
         "J:kf_tn_act_1:1",
         "J:kf_np_act_1:1",
         "J:kf_sn_act_1:1",
         "J:kf_ot_deg_1:2",
+        "J:kf_cr_act_1:1",
         "J:kf_pn_act_2:1",
         "J:kf__n_act_1:1",
+        "J:kf_tt_act_1:1",
         "J:kf_pt_act_1:1",
         "J:kf_pc_act_1:1",
         "J:kf_ni_act_2:1",
         "J:kf_ni_act_3:1",
         "J:kf_ci_act_1:1",
         "J:kf_ci_act_2:1",
+        "J:kf_tn_act_2:1",
+        "J:kf_ts_act_1:1",
         "J:kf_pc_act_2:1",
         "J:kf_pc_act_3:1",
         "J:kf_pi_act_2:1"
       ],
       "parameters": [
+        "J:kf_mr_act_1:1",
         "J:kf_dw_act_1:1",
         "J:kf_db_act_1:1",
         "J:kf_dc_act_1:1",
@@ -130,25 +143,34 @@
         "J:kf_3t_act_1:1",
         "J:kf_ec_act_1:1",
         "J:kf_ot_deg_1:1",
+        "J:kf_rt_act_1:1",
+        "J:kf_rn_act_1:1",
+        "J:kf_rs_act_1:1",
         "J:kf_cn_act_1:1",
         "J:kf_cs_act_1:1",
         "J:kf_tn_act_1:1",
         "J:kf_np_act_1:1",
         "J:kf_sn_act_1:1",
         "J:kf_ot_deg_1:2",
+        "J:kf_cr_act_1:1",
         "J:kf_pn_act_2:1",
         "J:kf__n_act_1:1",
+        "J:kf_tt_act_1:1",
         "J:kf_pt_act_1:1",
         "J:kf_pc_act_1:1",
         "J:kf_ni_act_2:1",
         "J:kf_ni_act_3:1",
         "J:kf_ci_act_1:1",
         "J:kf_ci_act_2:1",
+        "J:kf_tn_act_2:1",
+        "J:kf_ts_act_1:1",
         "J:kf_pc_act_2:1",
         "J:kf_pc_act_3:1",
         "J:kf_pi_act_2:1"
       ],
       "initial_conditions": [
+        "J:mitochondrion()",
+        "J:reactive_oxygen_species(activity='inactive')",
         "J:dioxygen()",
         "J:water(activity='inactive')",
         "J:biliverdin(activity='inactive')",
@@ -159,7 +181,6 @@
         "J:NLRP3(activity='inactive')",
         "J:SUGT1(activity='inactive')",
         "J:NADPH()",
-        "J:reactive_oxygen_species(activity='inactive')",
         "J:TXN(activity='inactive')",
         "J:calcium_2__(activity='inactive')",
         "J:heme()",
@@ -180,6 +201,7 @@
         "J:IKBKB(activity='inactive')",
         "J:_E__3_tosylacrylonitrile()",
         "J:Proteasome()",
+        "J:reactive_oxygen_species(activity='active')",
         "J:water(activity='active')",
         "J:biliverdin(activity='active')",
         "J:carbon_monoxide(activity='active')",
@@ -189,8 +211,10 @@
         "J:SUGT1(activity='active')",
         "J:TRAF3(activity='active')",
         "J:calcium_2__(activity='active')",
+        "J:TXN(activity='active')",
         "J:NFKB1(activity='active')",
         "J:PYCARD(activity='active')",
+        "J:TXNIP(activity='active')",
         "J:CASP1(activity='active')",
         "J:IL18(activity='active')",
         "J:IL1B(activity='active')"
@@ -205,6 +229,79 @@
     {
       "syntax": "Junction",
       "type": "State",
+      "name": "mitochondrion()",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "mitochondrion()_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-18T19:49:23:676663_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "mitochondrion",
+              "db_refs": {}
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 10
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:mitochondrion()"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
+      "name": "reactive_oxygen_species(activity='inactive')",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "reactive_oxygen_species(activity='inactive')_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-18T19:49:23:676807_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "reactive_oxygen_species",
+              "db_refs": {
+                "MESH": "D017382",
+                "CHEBI": "CHEBI:26523"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 10000.0
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:reactive_oxygen_species(activity='inactive')"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
       "name": "dioxygen()",
       "metadata": [
         {
@@ -213,19 +310,19 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:023163_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:676856_MST-0700"
           },
           "indra_agent_references": [
             {
               "name": "dioxygen",
               "db_refs": {
-                "HMDB": "HMDB0001377",
                 "CHEBI": "CHEBI:15379",
-                "PUBCHEM": "977",
-                "CHEMBL": "CHEMBL1234886",
-                "CAS": "7782-44-7",
                 "MESH": "D010100",
-                "DRUGBANK": "DB09140"
+                "CAS": "7782-44-7",
+                "DRUGBANK": "DB09140",
+                "PUBCHEM": "977",
+                "HMDB": "HMDB0001377",
+                "CHEMBL": "CHEMBL1234886"
               }
             }
           ]
@@ -256,18 +353,18 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:023274_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:676903_MST-0700"
           },
           "indra_agent_references": [
             {
               "name": "water",
               "db_refs": {
-                "PUBCHEM": "962",
-                "DRUGBANK": "DB09145",
-                "HMDB": "HMDB0002111",
                 "CHEBI": "CHEBI:15377",
-                "MESH": "D014867",
-                "CHEMBL": "CHEMBL1098659"
+                "CHEMBL": "CHEMBL1098659",
+                "HMDB": "HMDB0002111",
+                "DRUGBANK": "DB09145",
+                "PUBCHEM": "962",
+                "MESH": "D014867"
               }
             }
           ]
@@ -298,19 +395,19 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:023322_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:676941_MST-0700"
           },
           "indra_agent_references": [
             {
               "name": "biliverdin",
               "db_refs": {
                 "CHEBI": "CHEBI:17033",
-                "DRUGBANK": "DB02073",
                 "CAS": "114-25-0",
-                "MESH": "D001664",
                 "CHEMBL": "CHEMBL455477",
-                "HMDB": "HMDB0001008",
-                "PUBCHEM": "5280353"
+                "PUBCHEM": "5280353",
+                "MESH": "D001664",
+                "DRUGBANK": "DB02073",
+                "HMDB": "HMDB0001008"
               }
             }
           ]
@@ -341,18 +438,18 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:023363_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:677009_MST-0700"
           },
           "indra_agent_references": [
             {
               "name": "carbon_monoxide",
               "db_refs": {
                 "CHEBI": "CHEBI:17245",
-                "CAS": "630-08-0",
                 "HMDB": "HMDB0001361",
-                "CHEMBL": "CHEMBL1231840",
                 "PUBCHEM": "281",
-                "DRUGBANK": "DB11588"
+                "DRUGBANK": "DB11588",
+                "CAS": "630-08-0",
+                "CHEMBL": "CHEMBL1231840"
               }
             }
           ]
@@ -383,7 +480,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:023401_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:677053_MST-0700"
           },
           "indra_agent_references": [
             {
@@ -422,17 +519,17 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:023437_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:677096_MST-0700"
           },
           "indra_agent_references": [
             {
               "name": "iron_2__",
               "db_refs": {
                 "CHEBI": "CHEBI:29033",
-                "DRUGBANK": "DB14510",
-                "CAS": "15438-31-0",
+                "PUBCHEM": "27284",
                 "HMDB": "HMDB0000692",
-                "PUBCHEM": "27284"
+                "CAS": "15438-31-0",
+                "DRUGBANK": "DB14510"
               }
             }
           ]
@@ -463,7 +560,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:023472_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:677131_MST-0700"
           },
           "indra_agent_references": [
             {
@@ -502,7 +599,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:023507_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:677166_MST-0700"
           },
           "indra_agent_references": [
             {
@@ -510,10 +607,10 @@
               "db_refs": {
                 "UP": "Q96P20",
                 "HGNC": "16400",
-                "MESH": "C453881",
                 "REFSEQ_PROT": "NM_004895",
                 "ENSEMBL": "ENSG00000162711",
-                "EGID": "114548"
+                "EGID": "114548",
+                "MESH": "D000071199"
               }
             }
           ]
@@ -544,15 +641,15 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:023542_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:677200_MST-0700"
           },
           "indra_agent_references": [
             {
               "name": "SUGT1",
               "db_refs": {
                 "UP": "Q9Y2Z0",
-                "MESH": "C490164",
                 "HGNC": "16987",
+                "MESH": "C490164",
                 "EGID": "10910"
               }
             }
@@ -584,18 +681,18 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:023576_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:677234_MST-0700"
           },
           "indra_agent_references": [
             {
               "name": "NADPH",
               "db_refs": {
                 "CHEBI": "CHEBI:16474",
-                "CAS": "53-57-6",
                 "CHEMBL": "CHEMBL407009",
+                "CAS": "53-57-6",
                 "PUBCHEM": "5884",
-                "DRUGBANK": "DB02338",
-                "HMDB": "HMDB0000221"
+                "HMDB": "HMDB0000221",
+                "DRUGBANK": "DB02338"
               }
             }
           ]
@@ -618,44 +715,6 @@
     {
       "syntax": "Junction",
       "type": "State",
-      "name": "reactive_oxygen_species(activity='inactive')",
-      "metadata": [
-        {
-          "metadata_type": "IndraAgentReferenceSet",
-          "uid": "reactive_oxygen_species(activity='inactive')_metadata",
-          "provenance": {
-            "metadata_type": "Provenance",
-            "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:023611_MST-0700"
-          },
-          "indra_agent_references": [
-            {
-              "name": "reactive_oxygen_species",
-              "db_refs": {
-                "CHEBI": "CHEBI:26523",
-                "MESH": "D017382"
-              }
-            }
-          ]
-        }
-      ],
-      "value": {
-        "syntax": "Literal",
-        "type": "Integer",
-        "name": null,
-        "metadata": null,
-        "uid": null,
-        "value": {
-          "syntax": "Val",
-          "val": 10000.0
-        }
-      },
-      "value_type": "Integer",
-      "uid": "J:reactive_oxygen_species(activity='inactive')"
-    },
-    {
-      "syntax": "Junction",
-      "type": "State",
       "name": "TXN(activity='inactive')",
       "metadata": [
         {
@@ -664,7 +723,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:023649_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:677268_MST-0700"
           },
           "indra_agent_references": [
             {
@@ -706,15 +765,15 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:023683_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:677305_MST-0700"
           },
           "indra_agent_references": [
             {
               "name": "calcium_2__",
               "db_refs": {
                 "CHEBI": "CHEBI:29108",
-                "CAS": "14127-61-8",
                 "PUBCHEM": "271",
+                "CAS": "14127-61-8",
                 "HMDB": "HMDB0000464"
               }
             }
@@ -746,7 +805,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:023717_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:677342_MST-0700"
           },
           "indra_agent_references": [
             {
@@ -784,7 +843,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:023766_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:677380_MST-0700"
           },
           "indra_agent_references": [
             {
@@ -821,7 +880,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:023805_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:677419_MST-0700"
           },
           "indra_agent_references": [
             {
@@ -829,9 +888,9 @@
               "db_refs": {
                 "UP": "Q13114",
                 "TAXONOMY": "694009",
-                "HGNC": "12033",
                 "EGID": "7187",
                 "MESH": "C090656",
+                "HGNC": "12033",
                 "ENSEMBL": "ENSG00000131323",
                 "REFSEQ_PROT": "NM_145725"
               }
@@ -864,7 +923,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:023841_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:677454_MST-0700"
           },
           "indra_agent_references": [
             {
@@ -904,16 +963,16 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:023876_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:677488_MST-0700"
           },
           "indra_agent_references": [
             {
               "name": "TXNIP",
               "db_refs": {
                 "UP": "Q9H3M7",
+                "MESH": "C486715",
                 "HGNC": "16952",
-                "EGID": "10628",
-                "MESH": "C486715"
+                "EGID": "10628"
               }
             }
           ]
@@ -944,16 +1003,16 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:023910_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:677522_MST-0700"
           },
           "indra_agent_references": [
             {
               "name": "CASP1",
               "db_refs": {
                 "UP": "P29466",
+                "MESH": "D020170",
                 "HGNC": "1499",
                 "EGID": "834",
-                "MESH": "D020170",
                 "ENSEMBL": "ENSG00000137752",
                 "REFSEQ_PROT": "NM_033292"
               }
@@ -986,7 +1045,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:023944_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:677556_MST-0700"
           },
           "indra_agent_references": [
             {
@@ -1026,15 +1085,16 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:023980_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:677590_MST-0700"
           },
           "indra_agent_references": [
             {
               "name": "IL1B",
               "db_refs": {
                 "UP": "P01584",
-                "HGNC": "5992",
-                "MESH": "D053583"
+                "EGID": "3553",
+                "MESH": "D053583",
+                "HGNC": "5992"
               }
             }
           ]
@@ -1065,16 +1125,16 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:024018_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:677624_MST-0700"
           },
           "indra_agent_references": [
             {
               "name": "PYCARD",
               "db_refs": {
-                "HGNC": "16608",
                 "UP": "Q9ULZ3",
-                "MESH": "C402202",
-                "EGID": "29108"
+                "HGNC": "16608",
+                "EGID": "29108",
+                "MESH": "C402202"
               }
             }
           ]
@@ -1105,7 +1165,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:024065_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:677658_MST-0700"
           },
           "indra_agent_references": [
             {
@@ -1147,7 +1207,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:024108_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:677695_MST-0700"
           },
           "indra_agent_references": [
             {
@@ -1186,13 +1246,14 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:024146_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:677730_MST-0700"
           },
           "indra_agent_references": [
             {
               "name": "E",
               "db_refs": {
                 "UP": "P59637",
+                "TAXONOMY": "694009",
                 "EGID": "1489671"
               }
             }
@@ -1224,7 +1285,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:024182_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:677769_MST-0700"
           },
           "indra_agent_references": [
             {
@@ -1261,7 +1322,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:024216_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:677811_MST-0700"
           },
           "indra_agent_references": [
             {
@@ -1296,13 +1357,16 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:024250_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:677847_MST-0700"
           },
           "indra_agent_references": [
             {
               "name": "parthenolide",
               "db_refs": {
-                "CHEBI": "CHEBI:7939"
+                "PUBCHEM": "7251185",
+                "CHEBI": "CHEBI:7939",
+                "CAS": "20554-84-1",
+                "CHEMBL": "CHEMBL388727"
               }
             }
           ]
@@ -1333,12 +1397,13 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:024289_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:677882_MST-0700"
           },
           "indra_agent_references": [
             {
               "name": "IKBKB",
               "db_refs": {
+                "UP": "O14920",
                 "HGNC": "5960"
               }
             }
@@ -1370,7 +1435,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:024324_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:678031_MST-0700"
           },
           "indra_agent_references": [
             {
@@ -1407,7 +1472,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:024358_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:678072_MST-0700"
           },
           "indra_agent_references": [
             {
@@ -1436,6 +1501,44 @@
     {
       "syntax": "Junction",
       "type": "State",
+      "name": "reactive_oxygen_species(activity='active')",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "reactive_oxygen_species(activity='active')_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-18T19:49:23:678112_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "reactive_oxygen_species",
+              "db_refs": {
+                "MESH": "D017382",
+                "CHEBI": "CHEBI:26523"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 0
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:reactive_oxygen_species(activity='active')"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
       "name": "water(activity='active')",
       "metadata": [
         {
@@ -1444,18 +1547,18 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:024430_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:678152_MST-0700"
           },
           "indra_agent_references": [
             {
               "name": "water",
               "db_refs": {
-                "PUBCHEM": "962",
-                "DRUGBANK": "DB09145",
-                "HMDB": "HMDB0002111",
                 "CHEBI": "CHEBI:15377",
-                "MESH": "D014867",
-                "CHEMBL": "CHEMBL1098659"
+                "CHEMBL": "CHEMBL1098659",
+                "HMDB": "HMDB0002111",
+                "DRUGBANK": "DB09145",
+                "PUBCHEM": "962",
+                "MESH": "D014867"
               }
             }
           ]
@@ -1486,19 +1589,19 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:024468_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:678191_MST-0700"
           },
           "indra_agent_references": [
             {
               "name": "biliverdin",
               "db_refs": {
                 "CHEBI": "CHEBI:17033",
-                "DRUGBANK": "DB02073",
                 "CAS": "114-25-0",
-                "MESH": "D001664",
                 "CHEMBL": "CHEMBL455477",
-                "HMDB": "HMDB0001008",
-                "PUBCHEM": "5280353"
+                "PUBCHEM": "5280353",
+                "MESH": "D001664",
+                "DRUGBANK": "DB02073",
+                "HMDB": "HMDB0001008"
               }
             }
           ]
@@ -1529,18 +1632,18 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:024506_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:678228_MST-0700"
           },
           "indra_agent_references": [
             {
               "name": "carbon_monoxide",
               "db_refs": {
                 "CHEBI": "CHEBI:17245",
-                "CAS": "630-08-0",
                 "HMDB": "HMDB0001361",
-                "CHEMBL": "CHEMBL1231840",
                 "PUBCHEM": "281",
-                "DRUGBANK": "DB11588"
+                "DRUGBANK": "DB11588",
+                "CAS": "630-08-0",
+                "CHEMBL": "CHEMBL1231840"
               }
             }
           ]
@@ -1571,7 +1674,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:024543_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:678270_MST-0700"
           },
           "indra_agent_references": [
             {
@@ -1610,17 +1713,17 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:024579_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:678326_MST-0700"
           },
           "indra_agent_references": [
             {
               "name": "iron_2__",
               "db_refs": {
                 "CHEBI": "CHEBI:29033",
-                "DRUGBANK": "DB14510",
-                "CAS": "15438-31-0",
+                "PUBCHEM": "27284",
                 "HMDB": "HMDB0000692",
-                "PUBCHEM": "27284"
+                "CAS": "15438-31-0",
+                "DRUGBANK": "DB14510"
               }
             }
           ]
@@ -1651,7 +1754,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:024614_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:678365_MST-0700"
           },
           "indra_agent_references": [
             {
@@ -1659,10 +1762,10 @@
               "db_refs": {
                 "UP": "Q96P20",
                 "HGNC": "16400",
-                "MESH": "C453881",
                 "REFSEQ_PROT": "NM_004895",
                 "ENSEMBL": "ENSG00000162711",
-                "EGID": "114548"
+                "EGID": "114548",
+                "MESH": "D000071199"
               }
             }
           ]
@@ -1693,15 +1796,15 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:024654_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:678415_MST-0700"
           },
           "indra_agent_references": [
             {
               "name": "SUGT1",
               "db_refs": {
                 "UP": "Q9Y2Z0",
-                "MESH": "C490164",
                 "HGNC": "16987",
+                "MESH": "C490164",
                 "EGID": "10910"
               }
             }
@@ -1733,7 +1836,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:024691_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:678457_MST-0700"
           },
           "indra_agent_references": [
             {
@@ -1741,9 +1844,9 @@
               "db_refs": {
                 "UP": "Q13114",
                 "TAXONOMY": "694009",
-                "HGNC": "12033",
                 "EGID": "7187",
                 "MESH": "C090656",
+                "HGNC": "12033",
                 "ENSEMBL": "ENSG00000131323",
                 "REFSEQ_PROT": "NM_145725"
               }
@@ -1776,15 +1879,15 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:024734_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:678505_MST-0700"
           },
           "indra_agent_references": [
             {
               "name": "calcium_2__",
               "db_refs": {
                 "CHEBI": "CHEBI:29108",
-                "CAS": "14127-61-8",
                 "PUBCHEM": "271",
+                "CAS": "14127-61-8",
                 "HMDB": "HMDB0000464"
               }
             }
@@ -1808,6 +1911,48 @@
     {
       "syntax": "Junction",
       "type": "State",
+      "name": "TXN(activity='active')",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "TXN(activity='active')_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-18T19:49:23:678553_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "TXN",
+              "db_refs": {
+                "EGID": "7295",
+                "UP": "P10599",
+                "HGNC": "12435",
+                "ENSEMBL": "ENSG00000136810",
+                "REFSEQ_PROT": "NM_001244938",
+                "MESH": "C491203"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 0
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:TXN(activity='active')"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
       "name": "NFKB1(activity='active')",
       "metadata": [
         {
@@ -1816,7 +1961,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:024771_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:678593_MST-0700"
           },
           "indra_agent_references": [
             {
@@ -1856,16 +2001,16 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:024810_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:678631_MST-0700"
           },
           "indra_agent_references": [
             {
               "name": "PYCARD",
               "db_refs": {
-                "HGNC": "16608",
                 "UP": "Q9ULZ3",
-                "MESH": "C402202",
-                "EGID": "29108"
+                "HGNC": "16608",
+                "EGID": "29108",
+                "MESH": "C402202"
               }
             }
           ]
@@ -1888,6 +2033,46 @@
     {
       "syntax": "Junction",
       "type": "State",
+      "name": "TXNIP(activity='active')",
+      "metadata": [
+        {
+          "metadata_type": "IndraAgentReferenceSet",
+          "uid": "TXNIP(activity='active')_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-18T19:49:23:678668_MST-0700"
+          },
+          "indra_agent_references": [
+            {
+              "name": "TXNIP",
+              "db_refs": {
+                "UP": "Q9H3M7",
+                "MESH": "C486715",
+                "HGNC": "16952",
+                "EGID": "10628"
+              }
+            }
+          ]
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Integer",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 0
+        }
+      },
+      "value_type": "Integer",
+      "uid": "J:TXNIP(activity='active')"
+    },
+    {
+      "syntax": "Junction",
+      "type": "State",
       "name": "CASP1(activity='active')",
       "metadata": [
         {
@@ -1896,16 +2081,16 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:024848_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:678706_MST-0700"
           },
           "indra_agent_references": [
             {
               "name": "CASP1",
               "db_refs": {
                 "UP": "P29466",
+                "MESH": "D020170",
                 "HGNC": "1499",
                 "EGID": "834",
-                "MESH": "D020170",
                 "ENSEMBL": "ENSG00000137752",
                 "REFSEQ_PROT": "NM_033292"
               }
@@ -1938,7 +2123,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:024891_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:678742_MST-0700"
           },
           "indra_agent_references": [
             {
@@ -1978,15 +2163,16 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:024928_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:678781_MST-0700"
           },
           "indra_agent_references": [
             {
               "name": "IL1B",
               "db_refs": {
                 "UP": "P01584",
-                "HGNC": "5992",
-                "MESH": "D053583"
+                "EGID": "3553",
+                "MESH": "D053583",
+                "HGNC": "5992"
               }
             }
           ]
@@ -2009,6 +2195,38 @@
     {
       "syntax": "Junction",
       "type": "Rate",
+      "name": "kf_mr_act_1",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_mr_act_1:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-18T19:49:23:678863_MST-0700"
+          },
+          "indra_stmt_hash": 12835542771633591,
+          "reaction_rule": "mitochondrion_activates_reactive_oxygen_species_activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_mr_act_1:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
       "name": "kf_dw_act_1",
       "metadata": [
         {
@@ -2017,7 +2235,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:024997_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:679013_MST-0700"
           },
           "indra_stmt_hash": -33791666966162263,
           "reaction_rule": "dioxygen_activates_water_activity",
@@ -2049,7 +2267,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:025086_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:679159_MST-0700"
           },
           "indra_stmt_hash": -23254141572933850,
           "reaction_rule": "dioxygen_activates_biliverdin_activity",
@@ -2081,7 +2299,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:025147_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:679268_MST-0700"
           },
           "indra_stmt_hash": -19358276560732315,
           "reaction_rule": "dioxygen_activates_carbon_monoxide_activity",
@@ -2113,7 +2331,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:025213_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:679365_MST-0700"
           },
           "indra_stmt_hash": -20462194123865485,
           "reaction_rule": "dioxygen_activates_NADP____activity",
@@ -2145,7 +2363,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:025275_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:679434_MST-0700"
           },
           "indra_stmt_hash": -9172999005745561,
           "reaction_rule": "dioxygen_activates_iron_2___activity",
@@ -2177,7 +2395,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:025408_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:679501_MST-0700"
           },
           "indra_stmt_hash": -20108495150093595,
           "reaction_rule": "hyaluronic_acid_activates_NLRP3_activity",
@@ -2209,7 +2427,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:025478_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:679591_MST-0700"
           },
           "indra_stmt_hash": 8423295275635649,
           "reaction_rule": "hyaluronic_acid_activates_SUGT1_activity",
@@ -2241,7 +2459,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:025543_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:679707_MST-0700"
           },
           "indra_stmt_hash": -33615998528389900,
           "reaction_rule": "NADPH_activates_water_activity",
@@ -2273,7 +2491,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:025602_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:679784_MST-0700"
           },
           "indra_stmt_hash": 27449522310373503,
           "reaction_rule": "NADPH_activates_biliverdin_activity",
@@ -2305,7 +2523,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:025665_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:679851_MST-0700"
           },
           "indra_stmt_hash": -27109350041880053,
           "reaction_rule": "NADPH_activates_carbon_monoxide_activity",
@@ -2337,7 +2555,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:025729_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:679924_MST-0700"
           },
           "indra_stmt_hash": -28402272758547468,
           "reaction_rule": "NADPH_activates_NADP____activity",
@@ -2369,7 +2587,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:025792_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:679993_MST-0700"
           },
           "indra_stmt_hash": -2549998563827919,
           "reaction_rule": "NADPH_activates_iron_2___activity",
@@ -2401,7 +2619,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:025856_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:680061_MST-0700"
           },
           "indra_stmt_hash": -18389485349912460,
           "reaction_rule": "heme_activates_water_activity",
@@ -2433,7 +2651,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:025925_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:680125_MST-0700"
           },
           "indra_stmt_hash": -34850584861702653,
           "reaction_rule": "heme_activates_biliverdin_activity",
@@ -2465,7 +2683,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:025992_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:680192_MST-0700"
           },
           "indra_stmt_hash": -20247715615526404,
           "reaction_rule": "heme_activates_carbon_monoxide_activity",
@@ -2497,7 +2715,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:026054_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:680295_MST-0700"
           },
           "indra_stmt_hash": -26807453749483019,
           "reaction_rule": "heme_activates_NADP____activity",
@@ -2529,7 +2747,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:026117_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:680388_MST-0700"
           },
           "indra_stmt_hash": -14335330989363216,
           "reaction_rule": "heme_activates_iron_2___activity",
@@ -2561,7 +2779,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:026183_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:680462_MST-0700"
           },
           "indra_stmt_hash": -7900295090152057,
           "reaction_rule": "pattern_recognition_receptor_signaling_pathway_activates_NLRP3_activity",
@@ -2593,7 +2811,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:026248_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:680535_MST-0700"
           },
           "indra_stmt_hash": -33026345100004448,
           "reaction_rule": "pattern_recognition_receptor_signaling_pathway_activates_SUGT1_activity",
@@ -2625,7 +2843,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:026316_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:680630_MST-0700"
           },
           "indra_stmt_hash": 9482328515580424,
           "reaction_rule": "HMOX1_activates_water_activity",
@@ -2657,7 +2875,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:026386_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:680737_MST-0700"
           },
           "indra_stmt_hash": 4165033709137679,
           "reaction_rule": "HMOX1_activates_biliverdin_activity",
@@ -2689,7 +2907,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:026454_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:680846_MST-0700"
           },
           "indra_stmt_hash": 20810695862211085,
           "reaction_rule": "HMOX1_activates_carbon_monoxide_activity",
@@ -2721,7 +2939,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:026524_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:680933_MST-0700"
           },
           "indra_stmt_hash": -32006360760956236,
           "reaction_rule": "HMOX1_activates_NADP____activity",
@@ -2753,7 +2971,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:026596_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:681017_MST-0700"
           },
           "indra_stmt_hash": -4429435735465789,
           "reaction_rule": "HMOX1_activates_iron_2___activity",
@@ -2785,7 +3003,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:026670_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:681118_MST-0700"
           },
           "indra_stmt_hash": 7825810811169163,
           "reaction_rule": "p3a_activates_TRAF3_activity",
@@ -2817,7 +3035,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:026741_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:681213_MST-0700"
           },
           "indra_stmt_hash": -24735111122940356,
           "reaction_rule": "E_activates_calcium_2___activity",
@@ -2849,7 +3067,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:026810_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:681314_MST-0700"
           },
           "indra_stmt_hash": 3979344232136451,
           "reaction_rule": "Orf9b_degrades_TRAF3",
@@ -2873,6 +3091,102 @@
     {
       "syntax": "Junction",
       "type": "Rate",
+      "name": "kf_rt_act_1",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_rt_act_1:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-18T19:49:23:681389_MST-0700"
+          },
+          "indra_stmt_hash": 23667018272748059,
+          "reaction_rule": "reactive_oxygen_species_act_activates_TXN_activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_rt_act_1:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf_rn_act_1",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_rn_act_1:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-18T19:49:23:681518_MST-0700"
+          },
+          "indra_stmt_hash": -33112545592478985,
+          "reaction_rule": "reactive_oxygen_species_act_activates_NLRP3_activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_rn_act_1:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf_rs_act_1",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_rs_act_1:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-18T19:49:23:681614_MST-0700"
+          },
+          "indra_stmt_hash": 9483031281970413,
+          "reaction_rule": "reactive_oxygen_species_act_activates_SUGT1_activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_rs_act_1:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
       "name": "kf_cn_act_1",
       "metadata": [
         {
@@ -2881,7 +3195,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:026873_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:681693_MST-0700"
           },
           "indra_stmt_hash": -6899295879885749,
           "reaction_rule": "calcium_2___act_activates_NLRP3_activity",
@@ -2913,7 +3227,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:026942_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:681772_MST-0700"
           },
           "indra_stmt_hash": -11523416584483539,
           "reaction_rule": "calcium_2___act_activates_SUGT1_activity",
@@ -2945,7 +3259,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:027006_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:681841_MST-0700"
           },
           "indra_stmt_hash": 18750495497402700,
           "reaction_rule": "TRAF3_act_activates_NFKB1_activity",
@@ -2977,7 +3291,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:027072_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:681931_MST-0700"
           },
           "indra_stmt_hash": 17602490124120765,
           "reaction_rule": "NLRP3_act_activates_PYCARD_activity",
@@ -3009,7 +3323,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:027137_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:682025_MST-0700"
           },
           "indra_stmt_hash": 1380654838385392,
           "reaction_rule": "SUGT1_act_activates_NLRP3_activity",
@@ -3041,7 +3355,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:027209_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:682100_MST-0700"
           },
           "indra_stmt_hash": 3979344232136451,
           "reaction_rule": "Orf9b_degrades_TRAF3",
@@ -3065,6 +3379,38 @@
     {
       "syntax": "Junction",
       "type": "Rate",
+      "name": "kf_cr_act_1",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_cr_act_1:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-18T19:49:23:682179_MST-0700"
+          },
+          "indra_stmt_hash": 29747368600195804,
+          "reaction_rule": "carbon_monoxide_act_deactivates_reactive_oxygen_species_activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_cr_act_1:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
       "name": "kf_pn_act_2",
       "metadata": [
         {
@@ -3073,7 +3419,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:027277_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:682267_MST-0700"
           },
           "indra_stmt_hash": 21689955333705851,
           "reaction_rule": "parthenolide_deactivates_NLRP3_activity",
@@ -3105,7 +3451,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:027347_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:682355_MST-0700"
           },
           "indra_stmt_hash": -19046700989119558,
           "reaction_rule": "_E__3_tosylacrylonitrile_deactivates_NLRP3_activity",
@@ -3129,6 +3475,38 @@
     {
       "syntax": "Junction",
       "type": "Rate",
+      "name": "kf_tt_act_1",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_tt_act_1:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-18T19:49:23:682431_MST-0700"
+          },
+          "indra_stmt_hash": -14607233151538371,
+          "reaction_rule": "TXN_act_activates_TXNIP_activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_tt_act_1:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
       "name": "kf_pt_act_1",
       "metadata": [
         {
@@ -3137,7 +3515,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:027413_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:682504_MST-0700"
           },
           "indra_stmt_hash": 3726856741857303,
           "reaction_rule": "PYCARD_act_activates_TRAF3_activity",
@@ -3169,7 +3547,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:027483_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:682592_MST-0700"
           },
           "indra_stmt_hash": -13187163498274087,
           "reaction_rule": "PYCARD_act_activates_CASP1_activity",
@@ -3201,7 +3579,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:027553_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:682677_MST-0700"
           },
           "indra_stmt_hash": -11050218521189594,
           "reaction_rule": "NFKB1_act_activates_IL18_activity",
@@ -3233,7 +3611,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:027622_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:682763_MST-0700"
           },
           "indra_stmt_hash": 21288829100978592,
           "reaction_rule": "NFKB1_act_activates_IL1B_activity",
@@ -3265,7 +3643,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:027684_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:682853_MST-0700"
           },
           "indra_stmt_hash": -10468666881688478,
           "reaction_rule": "CASP1_act_activates_IL18_activity",
@@ -3297,7 +3675,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:027752_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:682959_MST-0700"
           },
           "indra_stmt_hash": 23836089500517478,
           "reaction_rule": "CASP1_act_activates_IL1B_activity",
@@ -3321,6 +3699,70 @@
     {
       "syntax": "Junction",
       "type": "Rate",
+      "name": "kf_tn_act_2",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_tn_act_2:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-18T19:49:23:683054_MST-0700"
+          },
+          "indra_stmt_hash": 14060996188083641,
+          "reaction_rule": "TXNIP_act_activates_NLRP3_activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_tn_act_2:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
+      "name": "kf_ts_act_1",
+      "metadata": [
+        {
+          "metadata_type": "ReactionReference",
+          "uid": "kf_ts_act_1:1_metadata",
+          "provenance": {
+            "metadata_type": "Provenance",
+            "method": "from_emmaa_model",
+            "timestamp": "2021-08-18T19:49:23:683130_MST-0700"
+          },
+          "indra_stmt_hash": -13383633333682529,
+          "reaction_rule": "TXNIP_act_activates_SUGT1_activity",
+          "is_reverse": false
+        }
+      ],
+      "value": {
+        "syntax": "Literal",
+        "type": "Float",
+        "name": null,
+        "metadata": null,
+        "uid": null,
+        "value": {
+          "syntax": "Val",
+          "val": 1e-06
+        }
+      },
+      "value_type": "Float",
+      "uid": "J:kf_ts_act_1:1"
+    },
+    {
+      "syntax": "Junction",
+      "type": "Rate",
       "name": "kf_pc_act_2",
       "metadata": [
         {
@@ -3329,7 +3771,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:027849_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:683205_MST-0700"
           },
           "indra_stmt_hash": -6092028988306676,
           "reaction_rule": "Pralnacasan_deactivates_CASP1_activity",
@@ -3361,7 +3803,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:027986_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:683278_MST-0700"
           },
           "indra_stmt_hash": -691138474812308,
           "reaction_rule": "parthenolide_deactivates_CASP1_activity",
@@ -3393,7 +3835,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "from_emmaa_model",
-            "timestamp": "2021-08-17T17:47:36:028073_MST-0700"
+            "timestamp": "2021-08-18T19:49:23:683356_MST-0700"
           },
           "indra_stmt_hash": -16803551771535351,
           "reaction_rule": "Proteasome_deactivates_IL18_activity",
@@ -3417,6 +3859,50 @@
   ],
   "ports": null,
   "wires": [
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:mitochondrion()_kf_mr_act_1:1:w1",
+      "src": "J:mitochondrion()",
+      "tgt": "J:kf_mr_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:reactive_oxygen_species(activity='inactive')_kf_mr_act_1:1:w1",
+      "src": "J:reactive_oxygen_species(activity='inactive')",
+      "tgt": "J:kf_mr_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_mr_act_1:1_mitochondrion():w1",
+      "src": "J:kf_mr_act_1:1",
+      "tgt": "J:mitochondrion()"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_mr_act_1:1_reactive_oxygen_species(activity='active'):w1",
+      "src": "J:kf_mr_act_1:1",
+      "tgt": "J:reactive_oxygen_species(activity='active')"
+    },
     {
       "syntax": "Wire",
       "type": null,
@@ -4601,6 +5087,138 @@
       "metadata": null,
       "value": null,
       "value_type": null,
+      "uid": "W:TXN(activity='inactive')_kf_rt_act_1:1:w1",
+      "src": "J:TXN(activity='inactive')",
+      "tgt": "J:kf_rt_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:reactive_oxygen_species(activity='active')_kf_rt_act_1:1:w1",
+      "src": "J:reactive_oxygen_species(activity='active')",
+      "tgt": "J:kf_rt_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_rt_act_1:1_reactive_oxygen_species(activity='active'):w1",
+      "src": "J:kf_rt_act_1:1",
+      "tgt": "J:reactive_oxygen_species(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_rt_act_1:1_TXN(activity='active'):w1",
+      "src": "J:kf_rt_act_1:1",
+      "tgt": "J:TXN(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:NLRP3(activity='inactive')_kf_rn_act_1:1:w1",
+      "src": "J:NLRP3(activity='inactive')",
+      "tgt": "J:kf_rn_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:reactive_oxygen_species(activity='active')_kf_rn_act_1:1:w1",
+      "src": "J:reactive_oxygen_species(activity='active')",
+      "tgt": "J:kf_rn_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_rn_act_1:1_reactive_oxygen_species(activity='active'):w1",
+      "src": "J:kf_rn_act_1:1",
+      "tgt": "J:reactive_oxygen_species(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_rn_act_1:1_NLRP3(activity='active'):w1",
+      "src": "J:kf_rn_act_1:1",
+      "tgt": "J:NLRP3(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:SUGT1(activity='inactive')_kf_rs_act_1:1:w1",
+      "src": "J:SUGT1(activity='inactive')",
+      "tgt": "J:kf_rs_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:reactive_oxygen_species(activity='active')_kf_rs_act_1:1:w1",
+      "src": "J:reactive_oxygen_species(activity='active')",
+      "tgt": "J:kf_rs_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_rs_act_1:1_reactive_oxygen_species(activity='active'):w1",
+      "src": "J:kf_rs_act_1:1",
+      "tgt": "J:reactive_oxygen_species(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_rs_act_1:1_SUGT1(activity='active'):w1",
+      "src": "J:kf_rs_act_1:1",
+      "tgt": "J:SUGT1(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
       "uid": "W:NLRP3(activity='inactive')_kf_cn_act_1:1:w1",
       "src": "J:NLRP3(activity='inactive')",
       "tgt": "J:kf_cn_act_1:1"
@@ -4854,6 +5472,50 @@
       "metadata": null,
       "value": null,
       "value_type": null,
+      "uid": "W:reactive_oxygen_species(activity='active')_kf_cr_act_1:1:w1",
+      "src": "J:reactive_oxygen_species(activity='active')",
+      "tgt": "J:kf_cr_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:carbon_monoxide(activity='active')_kf_cr_act_1:1:w1",
+      "src": "J:carbon_monoxide(activity='active')",
+      "tgt": "J:kf_cr_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_cr_act_1:1_reactive_oxygen_species(activity='inactive'):w1",
+      "src": "J:kf_cr_act_1:1",
+      "tgt": "J:reactive_oxygen_species(activity='inactive')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_cr_act_1:1_carbon_monoxide(activity='active'):w1",
+      "src": "J:kf_cr_act_1:1",
+      "tgt": "J:carbon_monoxide(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
       "uid": "W:parthenolide()_kf_pn_act_2:1:w1",
       "src": "J:parthenolide()",
       "tgt": "J:kf_pn_act_2:1"
@@ -4934,6 +5596,50 @@
       "uid": "W:kf__n_act_1:1__E__3_tosylacrylonitrile():w1",
       "src": "J:kf__n_act_1:1",
       "tgt": "J:_E__3_tosylacrylonitrile()"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:TXNIP(activity='inactive')_kf_tt_act_1:1:w1",
+      "src": "J:TXNIP(activity='inactive')",
+      "tgt": "J:kf_tt_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:TXN(activity='active')_kf_tt_act_1:1:w1",
+      "src": "J:TXN(activity='active')",
+      "tgt": "J:kf_tt_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_tt_act_1:1_TXN(activity='active'):w1",
+      "src": "J:kf_tt_act_1:1",
+      "tgt": "J:TXN(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_tt_act_1:1_TXNIP(activity='active'):w1",
+      "src": "J:kf_tt_act_1:1",
+      "tgt": "J:TXNIP(activity='active')"
     },
     {
       "syntax": "Wire",
@@ -5206,6 +5912,94 @@
       "metadata": null,
       "value": null,
       "value_type": null,
+      "uid": "W:NLRP3(activity='inactive')_kf_tn_act_2:1:w1",
+      "src": "J:NLRP3(activity='inactive')",
+      "tgt": "J:kf_tn_act_2:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:TXNIP(activity='active')_kf_tn_act_2:1:w1",
+      "src": "J:TXNIP(activity='active')",
+      "tgt": "J:kf_tn_act_2:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_tn_act_2:1_NLRP3(activity='active'):w1",
+      "src": "J:kf_tn_act_2:1",
+      "tgt": "J:NLRP3(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_tn_act_2:1_TXNIP(activity='active'):w1",
+      "src": "J:kf_tn_act_2:1",
+      "tgt": "J:TXNIP(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:SUGT1(activity='inactive')_kf_ts_act_1:1:w1",
+      "src": "J:SUGT1(activity='inactive')",
+      "tgt": "J:kf_ts_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:TXNIP(activity='active')_kf_ts_act_1:1:w1",
+      "src": "J:TXNIP(activity='active')",
+      "tgt": "J:kf_ts_act_1:1"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_ts_act_1:1_SUGT1(activity='active'):w1",
+      "src": "J:kf_ts_act_1:1",
+      "tgt": "J:SUGT1(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
+      "uid": "W:kf_ts_act_1:1_TXNIP(activity='active'):w1",
+      "src": "J:kf_ts_act_1:1",
+      "tgt": "J:TXNIP(activity='active')"
+    },
+    {
+      "syntax": "Wire",
+      "type": null,
+      "name": null,
+      "metadata": null,
+      "value": null,
+      "value_type": null,
       "uid": "W:Pralnacasan()_kf_pc_act_2:1:w1",
       "src": "J:Pralnacasan()",
       "tgt": "J:kf_pc_act_2:1"
@@ -5335,6 +6129,10 @@
   "boxes": [
     {
       "wires": [
+        "W:mitochondrion()_kf_mr_act_1:1:w1",
+        "W:reactive_oxygen_species(activity='inactive')_kf_mr_act_1:1:w1",
+        "W:kf_mr_act_1:1_mitochondrion():w1",
+        "W:kf_mr_act_1:1_reactive_oxygen_species(activity='active'):w1",
         "W:dioxygen()_kf_dw_act_1:1:w1",
         "W:water(activity='inactive')_kf_dw_act_1:1:w1",
         "W:kf_dw_act_1:1_dioxygen():w1",
@@ -5442,6 +6240,18 @@
         "W:TRAF3(activity='inactive')_kf_ot_deg_1:1:w1",
         "W:Orf9b()_kf_ot_deg_1:1:w1",
         "W:kf_ot_deg_1:1_Orf9b():w1",
+        "W:TXN(activity='inactive')_kf_rt_act_1:1:w1",
+        "W:reactive_oxygen_species(activity='active')_kf_rt_act_1:1:w1",
+        "W:kf_rt_act_1:1_reactive_oxygen_species(activity='active'):w1",
+        "W:kf_rt_act_1:1_TXN(activity='active'):w1",
+        "W:NLRP3(activity='inactive')_kf_rn_act_1:1:w1",
+        "W:reactive_oxygen_species(activity='active')_kf_rn_act_1:1:w1",
+        "W:kf_rn_act_1:1_reactive_oxygen_species(activity='active'):w1",
+        "W:kf_rn_act_1:1_NLRP3(activity='active'):w1",
+        "W:SUGT1(activity='inactive')_kf_rs_act_1:1:w1",
+        "W:reactive_oxygen_species(activity='active')_kf_rs_act_1:1:w1",
+        "W:kf_rs_act_1:1_reactive_oxygen_species(activity='active'):w1",
+        "W:kf_rs_act_1:1_SUGT1(activity='active'):w1",
         "W:NLRP3(activity='inactive')_kf_cn_act_1:1:w1",
         "W:calcium_2__(activity='active')_kf_cn_act_1:1:w1",
         "W:kf_cn_act_1:1_NLRP3(activity='active'):w1",
@@ -5465,6 +6275,10 @@
         "W:Orf9b()_kf_ot_deg_1:2:w1",
         "W:TRAF3(activity='active')_kf_ot_deg_1:2:w1",
         "W:kf_ot_deg_1:2_Orf9b():w1",
+        "W:reactive_oxygen_species(activity='active')_kf_cr_act_1:1:w1",
+        "W:carbon_monoxide(activity='active')_kf_cr_act_1:1:w1",
+        "W:kf_cr_act_1:1_reactive_oxygen_species(activity='inactive'):w1",
+        "W:kf_cr_act_1:1_carbon_monoxide(activity='active'):w1",
         "W:parthenolide()_kf_pn_act_2:1:w1",
         "W:NLRP3(activity='active')_kf_pn_act_2:1:w1",
         "W:kf_pn_act_2:1_NLRP3(activity='inactive'):w1",
@@ -5473,6 +6287,10 @@
         "W:NLRP3(activity='active')_kf__n_act_1:1:w1",
         "W:kf__n_act_1:1_NLRP3(activity='inactive'):w1",
         "W:kf__n_act_1:1__E__3_tosylacrylonitrile():w1",
+        "W:TXNIP(activity='inactive')_kf_tt_act_1:1:w1",
+        "W:TXN(activity='active')_kf_tt_act_1:1:w1",
+        "W:kf_tt_act_1:1_TXN(activity='active'):w1",
+        "W:kf_tt_act_1:1_TXNIP(activity='active'):w1",
         "W:TRAF3(activity='inactive')_kf_pt_act_1:1:w1",
         "W:PYCARD(activity='active')_kf_pt_act_1:1:w1",
         "W:kf_pt_act_1:1_TRAF3(activity='active'):w1",
@@ -5497,6 +6315,14 @@
         "W:CASP1(activity='active')_kf_ci_act_2:1:w1",
         "W:kf_ci_act_2:1_CASP1(activity='active'):w1",
         "W:kf_ci_act_2:1_IL1B(activity='active'):w1",
+        "W:NLRP3(activity='inactive')_kf_tn_act_2:1:w1",
+        "W:TXNIP(activity='active')_kf_tn_act_2:1:w1",
+        "W:kf_tn_act_2:1_NLRP3(activity='active'):w1",
+        "W:kf_tn_act_2:1_TXNIP(activity='active'):w1",
+        "W:SUGT1(activity='inactive')_kf_ts_act_1:1:w1",
+        "W:TXNIP(activity='active')_kf_ts_act_1:1:w1",
+        "W:kf_ts_act_1:1_SUGT1(activity='active'):w1",
+        "W:kf_ts_act_1:1_TXNIP(activity='active'):w1",
         "W:Pralnacasan()_kf_pc_act_2:1:w1",
         "W:CASP1(activity='active')_kf_pc_act_2:1:w1",
         "W:kf_pc_act_2:1_CASP1(activity='inactive'):w1",
@@ -5512,6 +6338,8 @@
       ],
       "boxes": null,
       "junctions": [
+        "J:mitochondrion()",
+        "J:reactive_oxygen_species(activity='inactive')",
         "J:dioxygen()",
         "J:water(activity='inactive')",
         "J:biliverdin(activity='inactive')",
@@ -5522,7 +6350,6 @@
         "J:NLRP3(activity='inactive')",
         "J:SUGT1(activity='inactive')",
         "J:NADPH()",
-        "J:reactive_oxygen_species(activity='inactive')",
         "J:TXN(activity='inactive')",
         "J:calcium_2__(activity='inactive')",
         "J:heme()",
@@ -5543,6 +6370,7 @@
         "J:IKBKB(activity='inactive')",
         "J:_E__3_tosylacrylonitrile()",
         "J:Proteasome()",
+        "J:reactive_oxygen_species(activity='active')",
         "J:water(activity='active')",
         "J:biliverdin(activity='active')",
         "J:carbon_monoxide(activity='active')",
@@ -5552,11 +6380,14 @@
         "J:SUGT1(activity='active')",
         "J:TRAF3(activity='active')",
         "J:calcium_2__(activity='active')",
+        "J:TXN(activity='active')",
         "J:NFKB1(activity='active')",
         "J:PYCARD(activity='active')",
+        "J:TXNIP(activity='active')",
         "J:CASP1(activity='active')",
         "J:IL18(activity='active')",
         "J:IL1B(activity='active')",
+        "J:kf_mr_act_1:1",
         "J:kf_dw_act_1:1",
         "J:kf_db_act_1:1",
         "J:kf_dc_act_1:1",
@@ -5584,20 +6415,27 @@
         "J:kf_3t_act_1:1",
         "J:kf_ec_act_1:1",
         "J:kf_ot_deg_1:1",
+        "J:kf_rt_act_1:1",
+        "J:kf_rn_act_1:1",
+        "J:kf_rs_act_1:1",
         "J:kf_cn_act_1:1",
         "J:kf_cs_act_1:1",
         "J:kf_tn_act_1:1",
         "J:kf_np_act_1:1",
         "J:kf_sn_act_1:1",
         "J:kf_ot_deg_1:2",
+        "J:kf_cr_act_1:1",
         "J:kf_pn_act_2:1",
         "J:kf__n_act_1:1",
+        "J:kf_tt_act_1:1",
         "J:kf_pt_act_1:1",
         "J:kf_pc_act_1:1",
         "J:kf_ni_act_2:1",
         "J:kf_ni_act_3:1",
         "J:kf_ci_act_1:1",
         "J:kf_ci_act_2:1",
+        "J:kf_tn_act_2:1",
+        "J:kf_ts_act_1:1",
         "J:kf_pc_act_2:1",
         "J:kf_pc_act_3:1",
         "J:kf_pi_act_2:1"
