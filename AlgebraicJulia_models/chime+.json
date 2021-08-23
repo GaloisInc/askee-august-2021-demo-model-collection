@@ -2,109 +2,553 @@
   "junctions": [
     {
       "value_type": "Float",
-      "name": "S",
+      "name": "Susceptible",
       "uid": "J:S",
-      "metadata": null,
-      "value": null,
+      "metadata": [
+        {
+        "uid": "S_md",
+        "metadata_type": "JunctionDescription",
+        "description": "Susceptible unvaccinated population",
+        "units": "Person",
+        "maximum":{
+          "type": "Float",
+          "syntax": "Literal",
+          "value": {
+            "syntax": "Val",
+            "val": "1000000.0"
+          },
+          "metadata": null
+        },
+        "minimum":{
+          "type": "Float",
+          "syntax": "Literal",
+          "value": {
+            "syntax": "Val",
+            "val": "0.0"
+          },
+          "metadata": null
+        },
+        "provenance": {
+          "metadata_type": "Provenance",
+          "method": "Manual_abaas@gt",
+          "timestamp": "2021-08-23T18:27:52_UTC+00:00"
+         }
+        }],
+      "value": {
+        "type": "Float",
+        "syntax": "Literal",
+        "value": {
+          "syntax": "Val",
+          "val": "100000.0"
+        },
+        "metadata": null
+      },
       "type": "State",
       "syntax": "Junction"
     },
     {
       "value_type": "Float",
-      "name": "I_U",
+      "name": "Infected Unvaccinated",
       "uid": "J:I_U",
-      "metadata": null,
-      "value": null,
+      "metadata": [
+        {
+        "uid": "I_U_md",
+        "metadata_type": "JunctionDescription",
+        "description": "Infected unvaccinated population",
+        "units": "Person",
+        "maximum":{
+          "type": "Float",
+          "syntax": "Literal",
+          "value": {
+            "syntax": "Val",
+            "val": "1000000.0"
+          },
+          "metadata": null
+        },
+        "minimum":{
+          "type": "Float",
+          "syntax": "Literal",
+          "value": {
+            "syntax": "Val",
+            "val": "0.0"
+          },
+          "metadata": null
+        },
+        "provenance": {
+          "metadata_type": "Provenance",
+          "method": "Manual_abaas@gt",
+          "timestamp": "2021-08-23T18:27:52_UTC+00:00"
+         }
+        }],
+      "value": {
+        "type": "Float",
+        "syntax": "Literal",
+        "value": {
+          "syntax": "Val",
+          "val": "50.0"
+        },
+        "metadata": null
+      },
       "type": "State",
       "syntax": "Junction"
     },
     {
       "value_type": "Float",
-      "name": "V",
+      "name": "Vaccinated",
       "uid": "J:V",
-      "metadata": null,
-      "value": null,
+      "metadata": [
+        {
+        "uid": "I_V_md",
+        "metadata_type": "JunctionDescription",
+        "description": "Vaccinated susceptible population",
+        "units": "Person",
+        "maximum":{
+          "type": "Float",
+          "syntax": "Literal",
+          "value": {
+            "syntax": "Val",
+            "val": "1000000.0"
+          },
+          "metadata": null
+        },
+        "minimum":{
+          "type": "Float",
+          "syntax": "Literal",
+          "value": {
+            "syntax": "Val",
+            "val": "0.0"
+          },
+          "metadata": null
+        },
+        "provenance": {
+          "metadata_type": "Provenance",
+          "method": "Manual_abaas@gt",
+          "timestamp": "2021-08-23T18:27:52_UTC+00:00"
+         }
+        }],
+      "value": {
+        "type": "Float",
+        "syntax": "Literal",
+        "value": {
+          "syntax": "Val",
+          "val": "0.0"
+        },
+        "metadata": null
+      },
       "type": "State",
       "syntax": "Junction"
     },
     {
       "value_type": "Float",
-      "name": "R",
+      "name": "Recovered",
       "uid": "J:R",
-      "metadata": null,
-      "value": null,
+      "metadata": [
+        {
+        "uid": "R_md",
+        "metadata_type": "JunctionDescription",
+        "description": "Recovered population",
+        "units": "Person",
+        "maximum":{
+          "type": "Float",
+          "syntax": "Literal",
+          "value": {
+            "syntax": "Val",
+            "val": "1000000.0"
+          },
+          "metadata": null
+        },
+        "minimum":{
+          "type": "Float",
+          "syntax": "Literal",
+          "value": {
+            "syntax": "Val",
+            "val": "0.0"
+          },
+          "metadata": null
+        },
+        "provenance": {
+          "metadata_type": "Provenance",
+          "method": "Manual_abaas@gt",
+          "timestamp": "2021-08-23T18:27:52_UTC+00:00"
+         }
+        }],
+      "value": {
+        "type": "Float",
+        "syntax": "Literal",
+        "value": {
+          "syntax": "Val",
+          "val": "5.0"
+        },
+        "metadata": null
+      },
       "type": "State",
       "syntax": "Junction"
     },
     {
       "value_type": "Float",
-      "name": "I_V",
+      "name": "Infected vaccinated",
       "uid": "J:I_V",
-      "metadata": null,
-      "value": null,
+      "metadata": [
+        {
+        "uid": "I_V_md",
+        "metadata_type": "JunctionDescription",
+        "description": "Infected vaccinated population",
+        "units": "Person",
+        "maximum":{
+          "type": "Float",
+          "syntax": "Literal",
+          "value": {
+            "syntax": "Val",
+            "val": "10000000.0"
+          },
+          "metadata": null
+        },
+        "minimum":{
+          "type": "Float",
+          "syntax": "Literal",
+          "value": {
+            "syntax": "Val",
+            "val": "0.0"
+          },
+          "metadata": null
+        },
+        "provenance": {
+          "metadata_type": "Provenance",
+          "method": "Manual_abaas@gt",
+          "timestamp": "2021-08-23T18:27:52_UTC+00:00"
+         }
+        }],
+      "value": {
+        "type": "Float",
+        "syntax": "Literal",
+        "value": {
+          "syntax": "Val",
+          "val": "0.0"
+        },
+        "metadata": null
+      },
       "type": "State",
       "syntax": "Junction"
     },
     {
       "value_type": "Float",
-      "name": "rec_v",
+      "name": "Recovery of vaccinated",
       "uid": "J:rec_v",
-      "metadata": null,
-      "value": null,
+      "metadata": [
+        {
+        "uid": "rec_v_md",
+        "metadata_type": "JunctionDescription",
+        "description": "Recovery rate of vaccinated population",
+        "units": "Persons per Person-days",
+        "maximum":{
+          "type": "Float",
+          "syntax": "Literal",
+          "value": {
+            "syntax": "Val",
+            "val": "1.0"
+          },
+          "metadata": null
+        },
+        "minimum":{
+          "type": "Float",
+          "syntax": "Literal",
+          "value": {
+            "syntax": "Val",
+            "val": "0.0"
+          },
+          "metadata": null
+        },
+        "provenance": {
+          "metadata_type": "Provenance",
+          "method": "Manual_abaas@gt",
+          "timestamp": "2021-08-23T18:27:52_UTC+00:00"
+         }
+        }],
+      "value": {
+        "type": "Float",
+        "syntax": "Literal",
+        "value": {
+          "syntax": "Val",
+          "val": "0.14"
+        },
+        "metadata": null
+      },
       "type": "Rate",
       "syntax": "Junction"
     },
     {
       "value_type": "Float",
-      "name": "inf_vv",
+      "name": "Infection of vaccinated by vaccinated",
       "uid": "J:inf_vv",
-      "metadata": null,
-      "value": null,
+      "metadata": [
+        {
+        "uid": "inf_vv_md",
+        "metadata_type": "JunctionDescription",
+        "description": "Infection of the vaccinated by the vaccinated population",
+        "units": "Persons per Person^2-days",
+        "maximum":{
+          "type": "Float",
+          "syntax": "Literal",
+          "value": {
+            "syntax": "Val",
+            "val": "1.0e-6"
+          },
+          "metadata": null
+        },
+        "minimum":{
+          "type": "Float",
+          "syntax": "Literal",
+          ":value": {
+            "syntax": "Val",
+            "val": "0.0"
+          },
+          "metadata": null
+        },
+        "provenance": {
+          "metadata_type": "Provenance",
+          "method": "Manual_abaas@gt",
+          "timestamp": "2021-08-23T18:27:52_UTC+00:00"
+         }
+        }],
+      "value": {
+        "type": "Float",
+        "syntax": "Literal",
+        "value": {
+          "syntax": "Val",
+          "val": "4.8e-7"
+        },
+        "metadata": null
+      },
       "type": "Rate",
       "syntax": "Junction"
     },
     {
       "value_type": "Float",
-      "name": "inf_vu",
+      "name": "Infection of unvaccinated by vaccinated",
       "uid": "J:inf_vu",
-      "metadata": null,
-      "value": null,
+      "metadata": [
+        {
+        "uid": "inf_vu_md",
+        "metadata_type": "JunctionDescription",
+        "description": "Infection of the unvaccinated by the vaccinated population",
+        "units": "Persons per Person^2-days",
+        "maximum":{
+          "type": "Float",
+          "syntax": "Literal",
+          "value": {
+            "syntax": "Val",
+            "val": "0.00001"
+          },
+          "metadata": null
+        },
+        "minimum":{
+          "type": "Float",
+          "syntax": "Literal",
+          "value": {
+            "syntax": "Val",
+            "val": "0.0"
+          },
+          "metadata": null
+        },
+        "provenance": {
+          "metadata_type": "Provenance",
+          "method": "Manual_abaas@gt",
+          "timestamp": "2021-08-23T18:27:52_UTC+00:00"
+         }
+        }],
+      "value": {
+        "type": "Float",
+        "syntax": "Literal",
+        "value": {
+          "syntax": "Val",
+          "val": "0.0000032"
+        },
+        "metadata": null
+      },
       "type": "Rate",
       "syntax": "Junction"
     },
     {
       "value_type": "Float",
-      "name": "inf_uu",
+      "name": "Infection of unvaccinated by unvaccinated",
       "uid": "J:inf_uu",
-      "metadata": null,
-      "value": null,
+      "metadata": [
+        {
+        "uid": "inf_uu_md",
+        "metadata_type": "JunctionDescription",
+        "description": "Infection of the unvaccinated by the unvaccinated population",
+        "units": "Persons per Person^2-days",
+        "maximum":{
+          "type": "Float",
+          "syntax": "Literal",
+          "value": {
+            "syntax": "Val",
+            "val": "0.00001"
+          },
+          "metadata": null
+        },
+        "minimum":{
+          "type": "Float",
+          "syntax": "Literal",
+          "value": {
+            "syntax": "Val",
+            "val": "0.0"
+          },
+          "metadata": null
+        },
+        "provenance": {
+          "metadata_type": "Provenance",
+          "method": "Manual_abaas@gt",
+          "timestamp": "2021-08-23T18:27:52_UTC+00:00"
+         }
+        }],
+      "value": {
+        "type": "Float",
+        "syntax": "Literal",
+        "value": {
+          "syntax": "Val",
+          "val": "0.0000032"
+        },
+        "metadata": null
+      },
       "type": "Rate",
       "syntax": "Junction"
     },
     {
       "value_type": "Float",
-      "name": "inf_uv",
+      "name": "Infection of vaccinated by unvaccinated",
       "uid": "J:inf_uv",
-      "metadata": null,
-      "value": null,
+      "metadata": [
+        {
+        "uid": "inf_uv_md",
+        "metadata_type": "JunctionDescription",
+        "description": "Infection of the vaccinated by the unvaccinated population",
+        "units": "Persons per Person^2-days",
+        "maximum":{
+          "type": "Float",
+          "syntax": "Literal",
+          "value": {
+            "syntax": "Val",
+            "val": "1.0e-6"
+          },
+          "metadata": null
+        },
+        "minimum":{
+          "type": "Float",
+          "syntax": "Literal",
+          "value": {
+            "syntax": "Val",
+            "val": "0.0"
+          },
+          "metadata": null
+        },
+        "provenance": {
+          "metadata_type": "Provenance",
+          "method": "Manual_abaas@gt",
+          "timestamp": "2021-08-23T18:27:52_UTC+00:00"
+         }
+        }],
+      "value": {
+        "type": "Float",
+        "syntax": "Literal",
+        "value": {
+          "syntax": "Val",
+          "val": "4.8e-7"
+        },
+        "metadata": null
+      },
       "type": "Rate",
       "syntax": "Junction"
     },
     {
       "value_type": "Float",
-      "name": "vax",
+      "name": "Vaccination",
       "uid": "J:vax",
-      "metadata": null,
-      "value": null,
+      "metadata": [
+        {
+        "uid": "vax_md",
+        "metadata_type": "JunctionDescription",
+        "description": "Vaccination rate of susceptible, unvaccinated population",
+        "units": "Persons per Person-days",
+        "maximum":{
+          "type": "Float",
+          "syntax": "Literal",
+          "value": {
+            "syntax": "Val",
+            "val": "0.01"
+          },
+          "metadata": null
+        },
+        "minimum":{
+          "type": "Float",
+          "syntax": "Literal",
+          "value": {
+            "syntax": "Val",
+            "val": "0.0"
+          },
+          "metadata": null
+        },
+        "provenance": {
+          "metadata_type": "Provenance",
+          "method": "Manual_abaas@gt",
+          "timestamp": "2021-08-23T18:27:52_UTC+00:00"
+         }
+        }],
+      "value": {
+        "type": "Float",
+        "syntax": "Literal",
+        "value": {
+          "syntax": "Val",
+          "val": "0.005"
+        },
+        "metadata": null
+      },
       "type": "Rate",
       "syntax": "Junction"
     },
     {
       "value_type": "Float",
-      "name": "rec_u",
+      "name": "Recovery of unvaccinated",
       "uid": "J:rec_u",
-      "metadata": null,
-      "value": null,
+      "metadata": [
+        {
+        "uid": "rec_u_md",
+        "metadata_type": "JunctionDescription",
+        "description": "Recovery rate of unvaccinated population",
+        "units": "Persons per Person-days",
+        "maximum":{
+          "type": "Float",
+          "syntax": "Literal",
+          "value": {
+            "syntax": "Val",
+            "val": "1.0"
+          },
+          "metadata": null
+        },
+        "minimum":{
+          "type": "Float",
+          "syntax": "Literal",
+          "value": {
+            "syntax": "Val",
+            "val": "0.0"
+          },
+          "metadata": null
+        },
+        "provenance": {
+          "metadata_type": "Provenance",
+          "method": "Manual_abaas@gt",
+          "timestamp": "2021-08-23T18:27:52_UTC+00:00"
+         }
+        }],
+      "value": {
+        "type": "Float",
+        "syntax": "Literal",
+        "value": {
+          "syntax": "Val",
+          "val": "0.07"
+        },
+        "metadata": null
+      },
       "type": "Rate",
       "syntax": "Junction"
     }
@@ -410,6 +854,18 @@
   ],
   "ports": null,
   "metadata": [
+		{
+      "metadata_type": "ModelDescription",
+      "uid": "chime+_model_description",
+      "provenance": {
+        "metadata_type": "Provenance",
+        "method": "Manual_abaas@gt",
+        "timestamp": "2021-08-19T17:45:47:889515_MST-0700"
+      },
+      "name": "CHIME+ PNC Model",
+      "description": "The CHIME+ model includes both vaccination and cross-infection between vaccinated and unvaccinated populations. This model also allows for breakthrough infections."
+    },
+
     {
       "provenance": {
         "method": "FromPNC_baas@gt",

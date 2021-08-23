@@ -9,6 +9,25 @@
         "uid": "S_md",
         "metadata_type": "JunctionDescription",
         "description": "Susceptible population",
+        "units": "Person",
+        "maximum":{
+          "type": "Float",
+          "syntax": "Literal",
+          "value": {
+            "syntax": "Val",
+            "val": "1000000.0"
+          },
+          "metadata": null
+        },
+        "minimum":{
+          "type": "Float",
+          "syntax": "Literal",
+          "value": {
+            "syntax": "Val",
+            "val": "0.0"
+          },
+          "metadata": null
+        },
         "provenance": {
           "metadata_type": "Provenance",
           "method": "Manual_abaas@gt",
@@ -20,7 +39,7 @@
         "syntax": "Literal",
         "value": {
           "syntax": "Val",
-          "val": "997.0"
+          "val": "100000.0"
         },
         "metadata": null
       },
@@ -36,6 +55,25 @@
         "uid": "I_md",
         "metadata_type": "JunctionDescription",
         "description": "Infected population",
+        "units": "Person",
+        "maximum":{
+          "type": "Float",
+          "syntax": "Literal",
+          "value": {
+            "syntax": "Val",
+            "val": "1000000.0"
+          },
+          "metadata": null
+        },
+        "minimum":{
+          "type": "Float",
+          "syntax": "Literal",
+          "value": {
+            "syntax": "Val",
+            "val": "0.0"
+          },
+          "metadata": null
+        },
         "provenance": {
           "metadata_type": "Provenance",
           "method": "Manual_abaas@gt",
@@ -47,7 +85,7 @@
         "syntax": "Literal",
         "value": {
           "syntax": "Val",
-          "val": "3.0"
+          "val": "50.0"
         },
         "metadata": null
       },
@@ -63,6 +101,25 @@
         "uid": "R_md",
         "metadata_type": "JunctionDescription",
         "description": "Recovered population",
+        "units": "Person",
+        "maximum":{
+          "type": "Float",
+          "syntax": "Literal",
+          "value": {
+            "syntax": "Val",
+            "val": "1000000.0"
+          },
+          "metadata": null
+        },
+        "minimum":{
+          "type": "Float",
+          "syntax": "Literal",
+          "value": {
+            "syntax": "Val",
+            "val": "0.0"
+          },
+          "metadata": null
+        },
         "provenance": {
           "metadata_type": "Provenance",
           "method": "Manual_abaas@gt",
@@ -74,7 +131,7 @@
         "syntax": "Literal",
         "value": {
           "syntax": "Val",
-          "val": "0.0"
+          "val": "5.0"
         },
         "metadata": null
       },
@@ -117,6 +174,25 @@
         "uid": "inf_md",
         "metadata_type": "JunctionDescription",
         "description": "Infection process",
+        "units": "Persons per Person^2-days",
+        "maximum":{
+          "type": "Float",
+          "syntax": "Literal",
+          "value": {
+            "syntax": "Val",
+            "val": "0.00001"
+          },
+          "metadata": null
+        },
+        "minimum":{
+          "type": "Float",
+          "syntax": "Literal",
+          "value": {
+            "syntax": "Val",
+            "val": "0.0"
+          },
+          "metadata": null
+        },
         "provenance": {
           "metadata_type": "Provenance",
           "method": "Manual_abaas@gt",
@@ -128,7 +204,7 @@
         "syntax": "Literal",
         "value": {
           "syntax": "Val",
-          "val": "0.0004"
+          "val": "0.0000032"
         },
         "metadata": null
       },
@@ -144,6 +220,25 @@
         "uid": "rec_md",
         "metadata_type": "JunctionDescription",
         "description": "Recovery process",
+        "units": "Persons per Person-days",
+        "maximum":{
+          "type": "Float",
+          "syntax": "Literal",
+          "value": {
+            "syntax": "Val",
+            "val": "1.0"
+          },
+          "metadata": null
+        },
+        "minimum":{
+          "type": "Float",
+          "syntax": "Literal",
+          "value": {
+            "syntax": "Val",
+            "val": "0.0"
+          },
+          "metadata": null
+        },
         "provenance": {
           "metadata_type": "Provenance",
           "method": "Manual_abaas@gt",
@@ -155,7 +250,7 @@
         "syntax": "Literal",
         "value": {
           "syntax": "Val",
-          "val": "0.04"
+          "val": "0.07"
         },
         "metadata": null
       },
@@ -171,6 +266,25 @@
         "uid": "death_md",
         "metadata_type": "JunctionDescription",
         "description": "Death process",
+        "units": "Persons per Person-days",
+        "maximum":{
+          "type": "Float",
+          "syntax": "Literal",
+          "value": {
+            "syntax": "Val",
+            "val": "1.0"
+          },
+          "metadata": null
+        },
+        "minimum":{
+          "type": "Float",
+          "syntax": "Literal",
+          "value": {
+            "syntax": "Val",
+            "val": "0.0"
+          },
+          "metadata": null
+        },
         "provenance": {
           "metadata_type": "Provenance",
           "method": "Manual_abaas@gt",
@@ -182,7 +296,7 @@
         "syntax": "Literal",
         "value": {
           "syntax": "Val",
-          "val": "0.02"
+          "val": "0.01"
         },
         "metadata": null
       },
@@ -318,6 +432,17 @@
   ],
   "ports": null,
   "metadata": [
+    {
+      "metadata_type": "ModelDescription",
+      "uid": "sird_model_description",
+      "provenance": {
+        "metadata_type": "Provenance",
+        "method": "Manual_abaas@gt",
+        "timestamp": "2021-08-19T17:45:47:889515_MST-0700"
+      },
+      "name": "SIRD PNC Model",
+      "description": "The SIRD model is an extension of the SIR model by adding a Dead state as well as a death transition to that state."
+    },
     {
       "provenance": {
         "method": "FromPNC_baas@gt",
