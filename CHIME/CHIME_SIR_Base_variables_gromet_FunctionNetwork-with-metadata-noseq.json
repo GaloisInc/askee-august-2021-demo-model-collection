@@ -346,7 +346,7 @@
       "name": "S",
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "P:main.out.S",
       "box": "B:main"
     },
@@ -356,7 +356,7 @@
       "name": "I",
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "P:main.out.I",
       "box": "B:main"
     },
@@ -366,7 +366,7 @@
       "name": "R",
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "P:main.out.R",
       "box": "B:main"
     },
@@ -376,7 +376,7 @@
       "name": "E",
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "P:main.out.E",
       "box": "B:main"
     },
@@ -406,7 +406,7 @@
       "name": "E",
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "P:main_ever_infected_exp.out.E",
       "box": "B:main_ever_infected_exp"
     },
@@ -466,7 +466,7 @@
       "name": "policys_betas",
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "P:main_pbetas_seq.out.policys_betas",
       "box": "B:main_pbetas_seq"
     },
@@ -506,7 +506,7 @@
       "name": "policy_days",
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "P:main_pdays_seq.out.policy_days",
       "box": "B:main_pdays_seq"
     },
@@ -549,7 +549,7 @@
       "name": "betas",
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "PC:main_call_simsir.in.betas",
       "box": "B:main_call_simsir",
       "call": "P:simsir.in.betas"
@@ -571,7 +571,7 @@
       "name": "days",
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "PC:main_call_simsir.in.days",
       "box": "B:main_call_simsir",
       "call": "P:simsir.in.days"
@@ -656,7 +656,7 @@
       "name": "policys_betas",
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "P:main_loop_1.in.policys_betas",
       "box": "B:main_loop_1"
     },
@@ -666,7 +666,7 @@
       "name": "policy_days",
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "P:main_loop_1.in.policy_days",
       "box": "B:main_loop_1"
     },
@@ -739,7 +739,7 @@
       "name": "policys_betas",
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "PC:main_loop_1.out.policys_betas",
       "box": "B:main_loop_1",
       "call": "P:main_loop_1.in.policys_betas"
@@ -750,7 +750,7 @@
       "name": "policy_days",
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "PC:main_loop_1.out.policy_days",
       "box": "B:main_loop_1",
       "call": "P:main_loop_1.in.policy_days"
@@ -941,7 +941,7 @@
       "name": "policys_betas",
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "P:main_loop_1_pbetas_exp.in.policys_betas",
       "box": "B:main_loop_1_pbetas_exp"
     },
@@ -971,7 +971,7 @@
       "name": "policys_betas",
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "P:main_loop_1_pbetas_exp.out.policys_betas",
       "box": "B:main_loop_1_pbetas_exp"
     },
@@ -981,7 +981,7 @@
       "name": "policy_days",
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "P:main_loop_1_pdays_exp.in.policy_days",
       "box": "B:main_loop_1_pdays_exp"
     },
@@ -1011,7 +1011,7 @@
       "name": "policy_days",
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "P:main_loop_1_pdays_exp.out.policy_days",
       "box": "B:main_loop_1_pdays_exp"
     },
@@ -1221,7 +1221,7 @@
       "name": "betas",
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "P:simsir.in.betas",
       "box": "B:simsir"
     },
@@ -1231,7 +1231,7 @@
       "name": "days",
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "P:simsir.in.days",
       "box": "B:simsir"
     },
@@ -1291,7 +1291,7 @@
       "name": "loop_1_seq",
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "P:simsir_loop_1_range_init_exp.out.loop_1_seq",
       "box": "B:simsir_loop_1_range_init_exp"
     },
@@ -1301,7 +1301,7 @@
       "name": "loop_1_seq",
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "P:simsir_loop_1_get_p_idx_init_exp.in.loop_1_seq",
       "box": "B:simsir_loop_1_get_p_idx_init_exp"
     },
@@ -1381,7 +1381,7 @@
       "name": "loop_1_seq",
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "P:simsir_loop_1.in.loop_1_seq",
       "box": "B:simsir_loop_1"
     },
@@ -1391,7 +1391,7 @@
       "name": "loop_1_i",
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "P:simsir_loop_1.in.loop_1_i",
       "box": "B:simsir_loop_1"
     },
@@ -1412,7 +1412,7 @@
       "name": "loop_1_seq",
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "PC:simsir_loop_1.out.loop_1_seq",
       "box": "B:simsir_loop_1",
       "call": "P:simsir_loop_1.in.loop_1_seq"
@@ -1434,7 +1434,7 @@
       "name": "days",
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "P:simsir_loop_1.in.days",
       "box": "B:simsir_loop_1"
     },
@@ -1444,7 +1444,7 @@
       "name": "betas",
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "P:simsir_loop_1.in.betas",
       "box": "B:simsir_loop_1"
     },
@@ -1504,7 +1504,7 @@
       "name": "days",
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "PC:simsir_loop_1.out.days",
       "box": "B:simsir_loop_1",
       "call": "P:simsir_loop_1.in.days"
@@ -1515,7 +1515,7 @@
       "name": "betas",
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "PC:simsir_loop_1.out.betas",
       "box": "B:simsir_loop_1",
       "call": "P:simsir_loop_1.in.betas"
@@ -1601,7 +1601,7 @@
       "name": "loop_1_seq",
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "P:simsir_loop_1_get_p_idx_exp.in.loop_1_seq",
       "box": "B:simsir_loop_1_get_p_idx_exp"
     },
@@ -1611,7 +1611,7 @@
       "name": "loop_1_i",
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "P:simsir_loop_1_get_p_idx_exp.in.loop_1_i",
       "box": "B:simsir_loop_1_get_p_idx_exp"
     },
@@ -1641,7 +1641,7 @@
       "name": "loop_1_seq",
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "P:simsir_loop_1_cond.in.loop_1_seq",
       "box": "B:simsir_loop_1_cond"
     },
@@ -1661,7 +1661,7 @@
       "name": "days",
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "P:simsir_loop_1_n_days_exp.in.days",
       "box": "B:simsir_loop_1_n_days_exp"
     },
@@ -1691,7 +1691,7 @@
       "name": "betas",
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "P:simsir_loop_1_get_beta_exp.in.betas",
       "box": "B:simsir_loop_1_get_beta_exp"
     },
@@ -1731,7 +1731,7 @@
       "name": "loop_1_1_seq",
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "P:simsir_loop_1_1_range_init_exp.out.loop_1_1_seq",
       "box": "B:simsir_loop_1_1_range_init_exp"
     },
@@ -1741,7 +1741,7 @@
       "name": "loop_1_1_seq",
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "P:simsir_loop_1_1_get_d_idx_init_exp.in.loop_1_1_seq",
       "box": "B:simsir_loop_1_1_get_d_idx_init_exp"
     },
@@ -1781,7 +1781,7 @@
       "name": "loop_1_1_seq",
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "P:simsir_loop_1_1.in.loop_1_1_seq",
       "box": "B:simsir_loop_1_1"
     },
@@ -1812,7 +1812,7 @@
       "name": "loop_1_1_seq",
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "PC:simsir_loop_1_1.out.loop_1_1_seq",
       "box": "B:simsir_loop_1_1",
       "call": "P:simsir_loop_1_1.in.loop_1_1_seq"
@@ -2010,7 +2010,7 @@
       "name": "loop_1_1_seq",
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "P:simsir_loop_1_1_get_d_idx_exp.in.loop_1_1_seq",
       "box": "B:simsir_loop_1_1_get_d_idx_exp"
     },
@@ -2501,7 +2501,7 @@
       "name": null,
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "W:main_call_simsir.out.s_n>main.out.S",
       "src": "PC:main_call_simsir.out.s_n",
       "tgt": "P:main.out.S"
@@ -2512,7 +2512,7 @@
       "name": null,
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "W:main_call_simsir.out.i_n>main.out.I",
       "src": "PC:main_call_simsir.out.i_n",
       "tgt": "P:main.out.I"
@@ -2523,7 +2523,7 @@
       "name": null,
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "W:main_call_simsir.out.r_n>main.out.R",
       "src": "PC:main_call_simsir.out.r_n",
       "tgt": "P:main.out.R"
@@ -2534,7 +2534,7 @@
       "name": null,
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "W:main_call_simsir.out.i_n>main_ever_infected_exp.in.i",
       "src": "PC:main_call_simsir.out.i_n",
       "tgt": "P:main_ever_infected_exp.in.i"
@@ -2545,7 +2545,7 @@
       "name": null,
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "W:main_call_simsir.out.r_n>main_ever_infected_exp.in.r",
       "src": "PC:main_call_simsir.out.r_n",
       "tgt": "P:main_ever_infected_exp.in.r"
@@ -2556,7 +2556,7 @@
       "name": null,
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "W:main_ever_infected_exp.out.E>main.out.E",
       "src": "P:main_ever_infected_exp.out.E",
       "tgt": "P:main.out.E"
@@ -2655,7 +2655,7 @@
       "name": null,
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "W:main_pbetas_seq.out.policys_betas>main_loop_1.in.policys_betas",
       "src": "P:main_pbetas_seq.out.policys_betas",
       "tgt": "P:main_loop_1.in.policys_betas"
@@ -2666,7 +2666,7 @@
       "name": null,
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "W:main_loop_1.out.policys_betas>main_call_simsir.in.betas",
       "src": "PC:main_loop_1.out.policys_betas",
       "tgt": "PC:main_call_simsir.in.betas"
@@ -2875,7 +2875,7 @@
       "name": null,
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "W:main_loop_1.in.policys_betas>main_loop_1_pbetas_exp.in.policys_betas",
       "src": "P:main_loop_1.in.policys_betas",
       "tgt": "P:main_loop_1_pbetas_exp.in.policys_betas"
@@ -2908,7 +2908,7 @@
       "name": null,
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "W:main_loop_1_pbetas_exp.out.policys_betas>main_loop_1.out.policys_betas",
       "src": "P:main_loop_1_pbetas_exp.out.policys_betas",
       "tgt": "PC:main_loop_1.out.policys_betas"
@@ -2919,7 +2919,7 @@
       "name": null,
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "W:main_loop_1.in.policy_days>main_loop_1_pdays_exp.in.policy_days",
       "src": "P:main_loop_1.in.policy_days",
       "tgt": "P:main_loop_1_pdays_exp.in.policy_days"
@@ -3062,7 +3062,7 @@
       "name": null,
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "W:simsir_loop_1_range_init_exp.out.loop_1_seq>simsir_loop_1_get_p_idx_init_exp.in.loop_1_seq",
       "src": "P:simsir_loop_1_range_init_exp.out.loop_1_seq",
       "tgt": "P:simsir_loop_1_get_p_idx_init_exp.in.loop_1_seq"
@@ -3073,7 +3073,7 @@
       "name": null,
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "W:simsir_loop_1_range_init_exp.out.loop_1_seq>simsir_loop_1.in.loop_1_seq",
       "src": "P:simsir_loop_1_range_init_exp.out.loop_1_seq",
       "tgt": "P:simsir_loop_1.in.loop_1_seq"
@@ -3117,7 +3117,7 @@
       "name": null,
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "W:simsir.in.days>simsir_loop_1.in.days",
       "src": "P:simsir.in.days",
       "tgt": "P:simsir_loop_1.in.days"
@@ -3128,7 +3128,7 @@
       "name": null,
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "W:simsir.in.betas>simsir_loop_1.in.betas",
       "src": "P:simsir.in.betas",
       "tgt": "P:simsir_loop_1.in.betas"
@@ -3315,7 +3315,7 @@
       "name": null,
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "W:simsir_loop_1.in.days>simsir_loop_1_n_days_exp.in.days",
       "src": "P:simsir_loop_1.in.days",
       "tgt": "P:simsir_loop_1_n_days_exp.in.days"
@@ -3480,7 +3480,7 @@
       "name": null,
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "W:simsir_loop_1.in.loop_1_seq>simsir_loop_1_cond.in.loop_1_seq",
       "src": "P:simsir_loop_1.in.loop_1_seq",
       "tgt": "P:simsir_loop_1_cond.in.loop_1_seq"
@@ -3557,7 +3557,7 @@
       "name": null,
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "W:simsir_loop_1_1.in.loop_1_1_seq>simsir_loop_1_1_cond.in.loop_1_1_seq",
       "src": "P:simsir_loop_1_1.in.loop_1_1_seq",
       "tgt": "P:simsir_loop_1_1_cond.in.loop_1_1_seq"
@@ -3568,7 +3568,7 @@
       "name": null,
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "W:simsir_loop_1_1.in.loop_1_1_i>simsir_loop_1_1_i_exp.in.loop_1_1_i",
       "src": "P:simsir_loop_1_1.in.loop_1_1_i",
       "tgt": "P:simsir_loop_1_1_i_exp.in.loop_1_1_i"
@@ -3579,7 +3579,7 @@
       "name": null,
       "metadata": null,
       "value": null,
-      "value_type": "Sequence",
+      "value_type": "Float",
       "uid": "W:simsir_loop_1_1.in.loop_1_1_seq>simsir_loop_1_1_get_d_idx_exp.in.loop_1_1_seq",
       "src": "P:simsir_loop_1_1.in.loop_1_1_seq",
       "tgt": "P:simsir_loop_1_1_get_d_idx_exp.in.loop_1_1_seq"
@@ -5370,7 +5370,7 @@
       "uid": "V:S",
       "proxy_state": "P:main.out.S",
       "name": "S",
-      "type": "Sequence",
+      "type": "Float",
       "states": [
         "PC:main_call_simsir.out.s_n",
         "W:main_call_simsir.out.s_n>main.out.S",
@@ -5384,7 +5384,7 @@
       "uid": "V:I",
       "proxy_state": "P:main.out.I",
       "name": "I",
-      "type": "Sequence",
+      "type": "Float",
       "states": [
         "PC:main_call_simsir.out.i_n",
         "W:main_call_simsir.out.i_n>main.out.I",
@@ -5400,7 +5400,7 @@
       "uid": "V:R",
       "proxy_state": "P:main.out.R",
       "name": "R",
-      "type": "Sequence",
+      "type": "Float",
       "states": [
         "PC:main_call_simsir.out.r_n",
         "W:main_call_simsir.out.r_n>main.out.R",
@@ -5416,7 +5416,7 @@
       "uid": "V:E",
       "proxy_state": "P:main.out.E",
       "name": "E",
-      "type": "Sequence",
+      "type": "Float",
       "states": [
         "P:main_ever_infected_exp.out.E",
         "W:main_ever_infected_exp.out.E>main.out.E",
@@ -6110,7 +6110,7 @@
       "uid": "V:policys_betas",
       "proxy_state": "P:main_pbetas_seq.out.policys_betas",
       "name": "policys_betas",
-      "type": "Sequence",
+      "type": "Float",
       "states": [
         "P:main_pbetas_seq.out.policys_betas",
         "W:main_pbetas_seq.out.policys_betas>main_loop_1.in.policys_betas",
@@ -6232,7 +6232,7 @@
       "uid": "V:policys_betas_1",
       "proxy_state": "PC:main_loop_1.out.policys_betas",
       "name": "policys_betas",
-      "type": "Sequence",
+      "type": "Float",
       "states": [
         "PC:main_loop_1.out.policys_betas",
         "W:main_loop_1.out.policys_betas>main_call_simsir.in.betas",
@@ -6246,7 +6246,7 @@
       "uid": "V:policy_days",
       "proxy_state": "P:main_pdays_seq.out.policy_days",
       "name": "policy_days",
-      "type": "Sequence",
+      "type": "Float",
       "states": [
         "P:main_pdays_seq.out.policy_days",
         "W:main_pdays_seq.out.policy_days>main_loop_1.in.policy_days",
@@ -7280,7 +7280,7 @@
       "uid": "V:policys_betas_2",
       "proxy_state": "P:main_loop_1.in.policys_betas",
       "name": "policys_betas",
-      "type": "Sequence",
+      "type": "Float",
       "states": [
         "P:main_loop_1.in.policys_betas",
         "W:main_loop_1.in.policys_betas>main_loop_1_pbetas_exp.in.policys_betas",
@@ -7510,7 +7510,7 @@
       "uid": "V:policys_betas_3",
       "proxy_state": "PC:main_loop_1.out.policys_betas",
       "name": "policys_betas",
-      "type": "Sequence",
+      "type": "Float",
       "states": [
         "P:main_loop_1_pbetas_exp.out.policys_betas",
         "W:main_loop_1_pbetas_exp.out.policys_betas>main_loop_1.out.policys_betas",
@@ -7632,7 +7632,7 @@
       "uid": "V:policy_days_1",
       "proxy_state": "P:main_loop_1.in.policy_days",
       "name": "policy_days",
-      "type": "Sequence",
+      "type": "Float",
       "states": [
         "P:main_loop_1.in.policy_days",
         "W:main_loop_1.in.policy_days>main_loop_1_pdays_exp.in.policy_days",
@@ -7904,7 +7904,7 @@
       "uid": "V:policy_days_2",
       "proxy_state": "PC:main_loop_1.out.policy_days",
       "name": "policy_days",
-      "type": "Sequence",
+      "type": "Float",
       "states": [
         "P:main_loop_1_pdays_exp.out.policy_days",
         "W:main_loop_1_pdays_exp.out.policy_days>main_loop_1.out.policy_days",
@@ -9063,7 +9063,7 @@
       "uid": "V:loop_1_seq",
       "proxy_state": "P:simsir_loop_1_range_init_exp.out.loop_1_seq",
       "name": "loop_1_seq",
-      "type": "Sequence",
+      "type": "Float",
       "states": [
         "P:simsir_loop_1_range_init_exp.out.loop_1_seq",
         "W:simsir_loop_1_range_init_exp.out.loop_1_seq>simsir_loop_1_get_p_idx_init_exp.in.loop_1_seq",
@@ -9109,7 +9109,7 @@
       "uid": "V:days",
       "proxy_state": "P:simsir.in.days",
       "name": "days",
-      "type": "Sequence",
+      "type": "Float",
       "states": [
         "P:simsir.in.days",
         "W:simsir.in.days>simsir_loop_1.in.days",
@@ -9245,7 +9245,7 @@
       "uid": "V:betas",
       "proxy_state": "P:simsir.in.betas",
       "name": "betas",
-      "type": "Sequence",
+      "type": "Float",
       "states": [
         "P:simsir.in.betas",
         "W:simsir.in.betas>simsir_loop_1.in.betas",
@@ -10227,7 +10227,7 @@
       "uid": "V:loop_1_i_1",
       "proxy_state": "P:simsir_loop_1.in.loop_1_i",
       "name": "loop_1_i",
-      "type": "Sequence",
+      "type": "Float",
       "states": [
         "P:simsir_loop_1.in.loop_1_i",
         "W:simsir_loop_1.in.loop_1_i>simsir_loop_1_i_exp.in.loop_1_i",
@@ -10241,7 +10241,7 @@
       "uid": "V:loop_1_seq_1",
       "proxy_state": "P:simsir_loop_1.in.loop_1_seq",
       "name": "loop_1_seq",
-      "type": "Sequence",
+      "type": "Float",
       "states": [
         "P:simsir_loop_1.in.loop_1_seq",
         "W:simsir_loop_1.in.loop_1_seq>simsir_loop_1_get_p_idx_exp.in.loop_1_seq",
@@ -10291,7 +10291,7 @@
       "uid": "V:days_1",
       "proxy_state": "P:simsir_loop_1.in.days",
       "name": "days",
-      "type": "Sequence",
+      "type": "Float",
       "states": [
         "P:simsir_loop_1.in.days",
         "W:simsir_loop_1.in.days>simsir_loop_1_n_days_exp.in.days",
@@ -10563,7 +10563,7 @@
       "uid": "V:betas_1",
       "proxy_state": "P:simsir_loop_1.in.betas",
       "name": "betas",
-      "type": "Sequence",
+      "type": "Float",
       "states": [
         "P:simsir_loop_1.in.betas",
         "W:simsir_loop_1.in.betas>simsir_loop_1_get_beta_exp.in.betas",
@@ -11785,7 +11785,7 @@
       "uid": "V:loop_1_1_seq",
       "proxy_state": "P:simsir_loop_1_1_range_init_exp.out.loop_1_1_seq",
       "name": "loop_1_1_seq",
-      "type": "Sequence",
+      "type": "Float",
       "states": [
         "P:simsir_loop_1_1_range_init_exp.out.loop_1_1_seq",
         "W:simsir_loop_1_1_range_init_exp.out.loop_1_1_seq>simsir_loop_1_1_get_d_idx_init_exp.in.loop_1_1_seq",
@@ -11815,7 +11815,7 @@
       "uid": "V:loop_1_1_seq_1",
       "proxy_state": "P:simsir_loop_1_1.in.loop_1_1_seq",
       "name": "loop_1_1_seq",
-      "type": "Sequence",
+      "type": "Float",
       "states": [
         "P:simsir_loop_1_1.in.loop_1_1_seq",
         "W:simsir_loop_1_1.in.loop_1_1_seq>simsir_loop_1_1_cond.in.loop_1_1_seq",
