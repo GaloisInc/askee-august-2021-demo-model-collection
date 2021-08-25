@@ -9,7 +9,7 @@
       "provenance": {
         "metadata_type": "Provenance",
         "method": "Manual_claytonm@az",
-        "timestamp": "2021-08-25T14:28:50:315874_MST-0700"
+        "timestamp": "2021-08-25T17:25:04:075069_MST-0700"
       },
       "name": "CHIME SIR Base",
       "description": "The CHIME model including the core SIR dynamics and pre-computation of simple policy affecting relative contact rate and its impact on infection rate (beta)."
@@ -20,7 +20,7 @@
       "provenance": {
         "metadata_type": "Provenance",
         "method": "Manual_claytonm@az",
-        "timestamp": "2021-08-25T14:28:50:315968_MST-0700"
+        "timestamp": "2021-08-25T17:25:04:075213_MST-0700"
       },
       "variables": [
         "V:i_day",
@@ -55,7 +55,7 @@
       "provenance": {
         "metadata_type": "Provenance",
         "method": "Manual_claytonm@az",
-        "timestamp": "2021-08-25T14:28:50:316012_MST-0700"
+        "timestamp": "2021-08-25T17:25:04:075262_MST-0700"
       },
       "global_reference_id": {
         "type": "aske_id",
@@ -75,7 +75,7 @@
       "provenance": {
         "metadata_type": "Provenance",
         "method": "Manual_claytonm@az",
-        "timestamp": "2021-08-25T14:28:50:316056_MST-0700"
+        "timestamp": "2021-08-25T17:25:04:075312_MST-0700"
       },
       "documents": [
         {
@@ -5120,7 +5120,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "Manual_claytonm@az",
-            "timestamp": "2021-08-25T14:28:50:316086_MST-0700"
+            "timestamp": "2021-08-25T17:25:04:075347_MST-0700"
           },
           "equation_extraction": {
             "document_reference_uid": "chime_webdocs_as_pdf",
@@ -5182,7 +5182,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "Manual_claytonm@az",
-            "timestamp": "2021-08-25T14:28:50:316114_MST-0700"
+            "timestamp": "2021-08-25T17:25:04:075378_MST-0700"
           },
           "equation_extraction": {
             "document_reference_uid": "chime_webdocs_as_pdf",
@@ -5256,7 +5256,7 @@
           "provenance": {
             "metadata_type": "Provenance",
             "method": "Manual_claytonm@az",
-            "timestamp": "2021-08-25T14:28:50:316140_MST-0700"
+            "timestamp": "2021-08-25T17:25:04:075407_MST-0700"
           },
           "equation_extraction": {
             "document_reference_uid": "chime_webdocs_as_pdf",
@@ -5403,6 +5403,17 @@
     }
   ],
   "variables": [
+    {
+      "syntax": "Variable",
+      "type": "Float",
+      "name": "i_day",
+      "metadata": null,
+      "uid": "V:i_day",
+      "proxy_state": "J:main.i_day",
+      "states": [
+        "J:main.i_day"
+      ]
+    },
     {
       "uid": "V:S",
       "proxy_state": "P:main.out.S",
