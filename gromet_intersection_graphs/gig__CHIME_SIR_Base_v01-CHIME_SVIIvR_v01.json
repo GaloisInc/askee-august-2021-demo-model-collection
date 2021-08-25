@@ -10,46 +10,46 @@
     {
       "uid": "S_in",
       "g1_variable": [
-        "V:s_6"
+        "V:s"
       ],
       "g2_variable": [
-        "V:s_6"
+        "V:s"
       ]
     },
     {
       "uid": "I_in",
       "g1_variable": [
-        "V:i_6"
+        "V:i"
       ],
       "g2_variable": [
-        "V:i_6"
+        "V:i"
       ]
     },
     {
       "uid": "R_in",
       "g1_variable": [
-        "V:r_7"
+        "V:r"
       ],
       "g2_variable": [
-        "V:r_7"
+        "V:r"
       ]
     },
     {
       "uid": "beta",
       "g1_variable": [
-        "V:beta_4"
+        "V:beta"
       ],
       "g2_variable": [
-        "V:beta_4"
+        "V:beta"
       ]
     },
     {
       "uid": "n",
       "g1_variable": [
-        "V:n_2"
+        "V:n"
       ],
       "g2_variable": [
-        "V:n_2"
+        "V:n"
       ]
     },
     {
@@ -64,55 +64,55 @@
     {
       "uid": "S_n",
       "g1_variable": [
-        "V:s_n_2"
+        "V:s_n"
       ],
       "g2_variable": [
-        "V:s_n_2"
+        "V:s_n"
       ]
     },
     {
       "uid": "I_n",
       "g1_variable": [
-        "V:i_n_1"
+        "V:i_n"
       ],
       "g2_variable": [
-        "V:i_n_1"
+        "V:i_n"
       ]
     },
     {
       "uid": "R_n",
       "g1_variable": [
-        "V:r_n_1"
+        "V:r_n"
       ],
       "g2_variable": [
-        "V:r_n_1"
+        "V:r_n"
       ]
     },
     {
       "uid": "S_out",
       "g1_variable": [
-        "V:s_7"
+        "V:s_1"
       ],
       "g2_variable": [
-        "V:s_7"
+        "V:s_1"
       ]
     },
     {
       "uid": "I_out",
       "g1_variable": [
-        "V:i_7"
+        "V:i_1"
       ],
       "g2_variable": [
-        "V:i_7"
+        "V:i_1"
       ]
     },
     {
       "uid": "R_out",
       "g1_variable": [
-        "V:r_8"
+        "V:r_1"
       ],
       "g2_variable": [
-        "V:r_8"
+        "V:r_1"
       ]
     }
   ],
@@ -122,35 +122,35 @@
       "uid": "NOAP_1",
       "gromet_name": "CHIME_SIR_Base_v01",
       "variables": [
-        "V:gamma_6"
+        "V:gamma"
       ]
     },
     {
       "uid": "NOAP_2",
       "gromet_name": "CHIME_SVIIvR_v01",
       "variables": [
-        "V:vaccination_rate_4",
+        "V:vaccination_rate",
         "V:vaccination_efficacy",
-        "V:v_6",
-        "V:i_v_6",
-        "V:gamma_vaccinated_4",
-        "V:gamma_unvaccinated_5"
+        "V:v",
+        "V:i_v",
+        "V:gamma_vaccinated",
+        "V:gamma_unvaccinated"
       ]
     },
     {
       "uid": "NOAP_3",
       "gromet_name": "CHIME_SVIIvR_v01",
       "variables": [
-        "V:v_n_1",
-        "V:i_v_n_1"
+        "V:v_n",
+        "V:i_v_n"
       ]
     },
     {
       "uid": "NOAP_4",
       "gromet_name": "CHIME_SVIIvR_v01",
       "variables": [
-        "V:v_7",
-        "V:i_v_7"
+        "V:v_1",
+        "V:i_v_1"
       ]
     }
   ],
